@@ -94,8 +94,8 @@
     "chairman_speechless" : "...",
     "lenna_bleedsCash" : "S'il y a une chose dans ce monde qui saigne de l'argent, #{wave:3,9,0.1}c'est votre banque#{reset} !",
     "lenna_fineLine" : "La banque de guilde tient à un fil si fin que le moindre choc cause son effondrement total.",
-    "lenna_bailYouOut" : "And this time, the prince can't bail you out.",
-    "lenna_simplyCantPay" : "The truth is that I simply can't pay.",
+    "lenna_bailYouOut" : "Et cette fois, le prince ne peut pas vous tirer d'affaire",
+    "lenna_simplyCantPay" : "La vérité, c'est que je ne peux tout simplement pas payer.",
     "lenna_bleedMoney" : "Unfortunately, humans just #{wave:3,9,0.1}don't#{reset} bleed money.",
     "chairman_nooooo" : "#{font:bold}#{wave:3,9,0.1}NOOOOO!"
   },
@@ -170,7 +170,7 @@
   "delvinPhase2" : ["Vous savez déjà comment ça doit se terminer, ${player.name}."],
   "delvinPhase3" : ["#{glitch:true}Vous savez déjà comment ça doit se terminer, ${player.name}."],
   "delvinDeath" : {
-    "delvin_surelyLost" : "If you #{glitch:true}d#{glitch:false}on't #{glitch:true}die#{glitch:false}, ${world.name} #{glitch:true}i#{glitch:false}s surely lost..#{glitch:true}.",
+    "delvin_surelyLost" : "Si tu ne #{glitch:true}meurs#{glitch:false} #{glitch:true}p#{glitch:false}as, ${world.name} #{glitch:true}e#{glitch:false}st perdu..#{glitch:true}.",
     "lenna_attention" : [
       "Vous n'êtes pas un héros, Delvin !",
       "Tout cela est arrivé à cause de votre pathétique besoin de reconnaissance.",
@@ -216,7 +216,7 @@
   },
 
   "finalEnding" : {
-    "prince" : ["I hereby decree...", "Pizza shall be available to all, regardless of how many limbs they have!"],
+    "prince" : ["Je décrète...", "...que les pizzas doivent être accessibles à chacun, quelque soit le nombre de membres qu'il possède."],
     "everyone" : "#{wave:3,9,0.1}Hourra !",
     "lenna1" : "On a réussi, Tentaluchus!",
     "tentaluchus" : "#{wave:3,9,0.1}PIZZAAAAAAAA !",
