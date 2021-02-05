@@ -1,10 +1,10 @@
 {
   "default" : [
-    "Help me, Lance... Please help me...",
-    "I am imprisoned in the palace dungeon.",
-    "The chairman of the Banker's Guild has foreclosed on my kingdom.",
-    "I fear for the safety of my subjects!",
-    "Please help me..."
+    "Aide moi, Lance... S'il te plait aide moi...",
+    "Je suis enfermé dans le donjon du palais.",
+    "Le chef de la Guilde des Banquiers m'a pris mon royaume",
+    "J'ai peur que mes sujets ne soient plus en sécurité.",
+    "S'il te plait, aide moi..."
   ],
 
   "telephoneSameRoom" : [
@@ -26,7 +26,7 @@
       "Please hurry! This cell is... not what I'm used to!"
     ]
   },
-  
+
   "compassionHint": [
     "Lance... I hope you truly understand the #{font:bold}Power of Compassion#{reset}.",
     "It is said that with it, #{font:bold}any#{reset} conflict can be resolved without bloodshed. Hearts don't have to be broken.",
