@@ -1,0 +1,4 @@
+{
+  "pressWarpButton" : "Appuyez sur ${key.confirm1} - ",
+  "warpDisabled" : "Impossible de s'échapper !"
+}

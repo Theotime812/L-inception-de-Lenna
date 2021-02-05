@@ -1,0 +1,11 @@
+{
+  "base": "overworld",
+  "name": "plains",
+  "music": null,
+  "plainslike": true,
+  "replacedByMountain": true,
+  "tilesheet": "overworld1",
+  "hasRoads": true,
+
+  "mapIconColor": ["0x000", "0x130", "0x340", "0x555"]
+}

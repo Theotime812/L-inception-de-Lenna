@@ -1,0 +1,86 @@
+{
+  "books": [
+    {
+      "title": "${world.name} Historia",
+      "author": "Elder Jesse",
+      "content": "/books/historia.txt"
+    },
+    {
+      "title": "Ultimatum",
+      "author": "Penny Chase",
+      "content": "/books/ultimatum.txt"
+    },
+    {
+      "title": "Bank With The Guild",
+      "author": "Chairman Mammon",
+      "content": "/books/guild.txt"
+    },
+    {
+      "title": "The 'Flawless' City",
+      "author": "C. Cooley",
+      "content": "/books/flawless.txt"
+    },
+    {
+      "title": "101 Uses for Hearts",
+      "author": "Rachel Erwin",
+      "content": "/books/recipe.txt"
+    },
+    {
+      "title": "DRAM Error Rate Analysis",
+      "author": "S. Mancini",
+      "content": "/books/dram.txt"
+    },
+    {
+      "title": "devchat-1992-05-12.log",
+      "author": "smIRC",
+      "content": "/books/devchat.txt"
+    },
+    {
+      "title": "The World Rap",
+      "author": "Dr. Bones",
+      "content": "/books/worldrap.txt"
+    },
+    {
+      "title": "Doctor Bones",
+      "author": "Dr. Bones",
+      "content": "/books/drbones.txt"
+    },
+    {
+      "title": "The Lusty Archangel Maid",
+      "author": "Paige",
+      "content": "/books/lusty.txt"
+    },
+    {
+      "title": "Clay Series vol. 7",
+      "author": "J. K. Rollinginit",
+      "content": "/books/clay.txt"
+    },
+    {
+      "title": "Beasts of ${world.name}",
+      "author": "Prof. Bellua",
+      "content": "/books/bestiary.txt"
+    },
+    {
+      "title": "The Lemon Pages",
+      "author": "Y. P. Lemmon",
+      "content": "/books/lemon.txt"
+    },
+    {
+      "title": "Tombs & Tentacles",
+      "author": "P. H. Craftlove, G. G. Ernest",
+      "content": "/books/tombs.txt"
+    },
+    {
+      "title": "#{glitch:true}SOS#{reset}",
+      "author": "???",
+      "contentURL": "http://bytten-studio.com/downloads/lenna/books/15-femursos.txt",
+      "content": "/books/unknown.txt"
+    },
+    {
+      "title": "#{glitch:true}Diary#{reset}",
+      "author": "???",
+      "contentURL": "https://bytten-studio.com/downloads/lenna/books/16-occipitaldiary.txt",
+      "content": "/books/unknown.txt"
+    }
+  ]
+}

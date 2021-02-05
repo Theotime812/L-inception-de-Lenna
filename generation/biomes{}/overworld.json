@@ -1,0 +1,11 @@
+{
+  "base": "default",
+  "ledgesJumpable": true,
+  "enableBinoculars": true,
+  "dropPools": ["overworld"],
+  "chaotic": true,
+
+  "monsterSpawners": {
+    "wallhugger": false
+  }
+}

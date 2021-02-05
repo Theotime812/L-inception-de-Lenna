@@ -1,0 +1,223 @@
+{
+  "primary": "COFFEE",
+  "secondary": "DAILY",
+  "values": [
+    {
+      "id": "DAILY",
+      "name": "Daily Seed",
+      "hashtag": "Daily Seed",
+      "boardId": "daily",
+      "description": "Play the same seed as everyone else, once a day.",
+      "options": ["-no-retry"],
+      "exgen": [
+        "startRandomPet=0.1",
+        "singleDungeon=1",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/wideitems",
+      "spriteRow": 6,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "manualSeed": false,
+      "randomRuleSeed": "date"
+    },
+    {
+      "id": "COFFEE",
+      "name": "1 Dungeon",
+      "hashtag": "1 Dungeon",
+      "boardId": "coffee",
+      "description": "Play a random dungeon with a random ruleset.",
+      "options": null,
+      "exgen": [
+        "startRandomPotions=2",
+        "startRandomTunics=2",
+        "startRandomPet=0.1",
+        "singleDungeon=1",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "npcs/lance",
+      "spriteRow": 0,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "manualSeed": true,
+      "randomRuleSeed": "random"
+    },
+    {
+      "id": "DUNGEONS",
+      "name": "All Dungeons",
+      "hashtag": "'All Dungeons'",
+      "boardId": "justthedungeons",
+      "description": "Beat eight consecutive dungeons with only one life.",
+      "options": null,
+      "exgen": [
+        "equip=BICYCLE"
+      ],
+      "spriteName": "player",
+      "spriteRow": 0,
+      "spriteColors": ["0x000", "0x400", "0x530", "0x555"],
+      "hasLeaderboard": true,
+      "randomWeight": 1,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "THREE_HEARTS",
+      "name": "3 Hearts",
+      "hashtag": "3 Hearts",
+      "boardId": "threehearts",
+      "description": "Beat eight consecutive dungeons with only three hearts.",
+      "options": ["-no-heart-containers"],
+      "exgen": [
+        "disableHeartContainers=1",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/heart-container",
+      "spriteRow": 5,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 1,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "ZERO_HEARTS",
+      "name": "0 Hearts",
+      "hashtag": "0 Hearts",
+      "boardId": "zerohearts",
+      "description": "Beat eight consecutive dungeons without taking a single hit.",
+      "options": ["-no-heart-containers"],
+      "exgen": [
+        "startHeartContainers=0",
+        "disableHeartContainers=1",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/heart-container",
+      "spriteRow": 8,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 1,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "ARSONIST",
+      "name": "Arsonist",
+      "hashtag": "Arsonist",
+      "boardId": "arsonist",
+      "description": "Beat a slightly shorter game without a sword.",
+      "options": null,
+      "exgen": [
+        "dequip=PLANK",
+        "equip=LIGHTER",
+        "initialHas=LIGHTER",
+        "levels=6",
+        "skip-equip=STEEL_SWORD",
+        "skip-equip=SILVER_SWORD",
+        "skip-equip=DAMASCUS_KATANA",
+        "skip-equip=TUNGSTEN_SWORD",
+        "skip-equip=LIGHTER",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/items",
+      "spriteRow": 24,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 0.3,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "BOMBER",
+      "name": "Bomber",
+      "hashtag": "Bomber",
+      "boardId": "bomber",
+      "description": "Beat a slightly shorter game without a sword.",
+      "options": null,
+      "exgen": [
+        "dequip=PLANK",
+        "equipInf=BOMBS",
+        "initialHas=BOMBS",
+        "levels=6",
+        "skip-equip=STEEL_SWORD",
+        "skip-equip=SILVER_SWORD",
+        "skip-equip=DAMASCUS_KATANA",
+        "skip-equip=TUNGSTEN_SWORD",
+        "skip-equip=BOMBS",
+        "skip-boss=GAMMONPORK_BOSS",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "bombs",
+      "spriteRow": 0,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 0.3,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "SNIPER",
+      "name": "Sniper",
+      "hashtag": "Sniper",
+      "boardId": "sniper",
+      "description": "Beat a slightly shorter game without a sword.",
+      "options": null,
+      "exgen": [
+        "dequip=PLANK",
+        "equipInf=BOW",
+        "initialHas=BOW",
+        "levels=6",
+        "skip-equip=STEEL_SWORD",
+        "skip-equip=SILVER_SWORD",
+        "skip-equip=DAMASCUS_KATANA",
+        "skip-equip=TUNGSTEN_SWORD",
+        "skip-equip=BOW",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/bows",
+      "spriteRow": 0,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 0.3,
+      "manualSeed": true,
+      "includeInRandom" : true
+    },
+    {
+      "id": "I_AM_ERROR",
+      "name": "I AM ERROR",
+      "hashtag": "I AM ERROR",
+      "boardId": "iamerror",
+      "description": "You might need to blow on the cartridge...",
+      "options": ["-glitch"],
+      "exgen": [
+        "levels=7",
+        "skip-equip=MISSINGLASSES",
+        "equip=BICYCLE"
+      ],
+      "spriteName": "items/wideitems",
+      "spriteRow": 11,
+      "spriteColors": ["0x000", "0x420", "0x444", "0x555"],
+      "hasLeaderboard": true,
+      "randomWeight": 1,
+      "manualSeed": true,
+      "includeInRandom" : false
+    },
+    {
+      "id": "SPEED",
+      "name": "Reflex Mode",
+      "hashtag": "Reflex",
+      "boardId": "speedrun",
+      "description": "The whole game is sped up. Are you quick enough?",
+      "options": ["-targettps", "60"],
+      "exgen": [
+        "equip=BICYCLE"
+      ],
+      "spriteName": "arrow",
+      "spriteRow": 0,
+      "spriteColors": null,
+      "hasLeaderboard": true,
+      "randomWeight": 1,
+      "manualSeed": true,
+      "includeInRandom" : true
+    }
+  ]
+}

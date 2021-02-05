@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Guard",
+    "nameFormat" : "#{color:p211}",
+    "portrait" : {
+      "sheet" : "portraits/guard",
+      "index" : 0
+    },
+    "font" : "default"
+  }
+}

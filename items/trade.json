@@ -1,0 +1,126 @@
+{
+  "categories": {
+    "key": [
+      {
+        "id": "RED_PAPERCLIP",
+        "name": "Red Paperclip",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "A nice red paperclip! Someone might need this.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 0,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP"]
+      },
+      {
+        "id": "FISH_PEN",
+        "name": "Fish-Shaped Pen",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "There's something fishy about this...",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 1,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN"]
+      },
+      {
+        "id": "FORGED_DEED",
+        "name": "Forged Deed",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "An illegitimate property! Someone might still want this, I guess...",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 2,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED"]
+      },
+      {
+        "id": "BRIEFCASE",
+        "name": "Briefcase",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "It's an empty briefcase. Someone might need this.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE"]
+      },
+      {
+        "id": "SWEATY_SHIRT",
+        "name": "Sweaty Shirt",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "It's slightly damp and smelly. Someone might want this...?",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 4,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE", "SWEATY_SHIRT"]
+      },
+      {
+        "id": "BEAR_CLAW",
+        "name": "Bear Claw",
+        "sortOrder": 1,
+        "charge": 1,
+        "description": "It's sharp and pointy. Someone might want this.",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/tradeitems",
+          "row": 5,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "replaces": ["RED_PAPERCLIP", "FISH_PEN", "FORGED_DEED", "BRIEFCASE", "SWEATY_SHIRT", "BEAR_CLAW"]
+      },
+    ]
+  }
+}

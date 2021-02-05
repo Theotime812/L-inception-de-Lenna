@@ -1,0 +1,15 @@
+{
+  "base": "overworld",
+  "name": "winter forest",
+  "music": null,
+  "plainslike": true,
+  "replacedByMountain": false,
+  "tilesheet": "overworld-winter",
+  "hasRoads": true,
+
+  "mapIconColor": ["0x000", "0x355", "0x455", "0x555"],
+  
+  "monsterSpawners" : {
+    "snowman": true
+  }
+}

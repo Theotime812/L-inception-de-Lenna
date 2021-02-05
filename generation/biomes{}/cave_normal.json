@@ -1,0 +1,33 @@
+{
+  "base": "default",
+  "name": "Cave",
+  "music": "cave",
+  "coverScreenEdges": true,
+  "cave": true,
+  "repeatObjectChoice": true,
+  "tilesheet": "cave0",
+
+  "dropPools": ["cave1","cave2"],
+
+  "corridorWeightMultiplier" : 10.0,
+  
+  "monsterSpawners": {
+    "dolphin": false,
+    "skullbeak": false
+  },
+  
+  "colorSchemeGen": {
+    "primary": 0,
+    "boostGreen": false,
+    "primaryAmount": [2,1],
+    "baseRed": [1,2],
+    "baseGreen": [1,2],
+    "baseBlue": [0,1]
+  },
+  
+  "minibosses": [
+    [1.0, "scripts.boss.MinibossSmore"],
+    [1.0, "scripts.boss.MinibossButterslime"],
+    [1.0, "scripts.boss.MinibossMallowMarrow"]
+  ]
+}

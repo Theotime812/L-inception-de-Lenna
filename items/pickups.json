@@ -1,0 +1,337 @@
+{
+  "categories": {
+    "pickups": [
+      {
+        "id": "HEART",
+        "name": "Heart",
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "health",
+          "row": 4,
+          "colors": ["0x000", "0x200", "0x400", "0x522"],
+        },
+        "pickUpSound": "pickup_heart"
+      },
+      {
+        "id": "COIN",
+        "name": "Coin",
+        "charge": -1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "coin",
+          "row": 0,
+          "colors": ["0x000", "0x420", "0x541", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 1
+        }
+      },
+      {
+        "id": "MONEY10",
+        "name": "$10",
+        "charge": -1,
+        "important": true,
+        "description": "Not bad!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 10
+        }
+      },
+      {
+        "id": "MONEY20",
+        "name": "$20",
+        "charge": -1,
+        "important": true,
+        "description": "Nice!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 20
+        }
+      },
+      {
+        "id": "MONEY50",
+        "name": "$50",
+        "charge": -1,
+        "important": true,
+        "description": "Way to go!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 29,
+          "colors": ["0x000", "0x210", "0x321", "0x555"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 50
+        }
+      },
+      {
+        "id": "MONEY100",
+        "name": "$100",
+        "charge": -1,
+        "important": true,
+        "description": "Hooray!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 30,
+          "colors": ["0x000", "0x010", "0x120", "0x342"]
+        },
+        "pickUpSound": "pickup_coin",
+        "config": {
+          "value": 100
+        }
+      },
+      {
+        "id": "HEART_CONTAINER",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "This heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 0,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER0",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "This heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 0,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER1",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "This monster heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 1,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER2",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Eating this heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 2,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER3",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Taking this monster's heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 3,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER4",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Eating the monster's heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 4,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER5",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Eating the monster's beating heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 5,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER6",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Consuming the monster's still-beating heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 6,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "HEART_CONTAINER7",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "Devouring the angel's warm, #{glitch:true}pulsing#{glitch:false} heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 7,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "DELVIN_HEART",
+        "name": "Delvin's Heart",
+        "charge": 1,
+        "description": "Eating Delvin's corrupted heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 8,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "VENTRICLE_HEART",
+        "name": "Archangel Heart",
+        "charge": 1,
+        "description": "The patchwork heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
+        "important": true,
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/heart-container",
+          "row": 9,
+          "colors": ["0x000", "0x020", "0x300", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart_container"
+      },
+      {
+        "id": "CHARCOAL_HEART",
+        "name": "Chairman's Heart",
+        "description": "Eating the chairman's rotten heart permanently increases your #{font:bold}disdain#{font:reset}.",
+        "important": true,
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "health",
+          "row": 4,
+          "colors": ["0x000", "0x000", "0x111", "0x222"]
+        }
+      },
+      {
+        "id": "PIZZA",
+        "name": "Pizza",
+        "description": "Eating this pizza has fully restored your health!",
+        "important": true,
+        "charge": 1,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_heart",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/items",
+          "row": 42,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "config" : {
+          "healthValue" : 100
+        }
+      },
+      {
+        "id": "SWORD_PIZZA",
+        "name": "Stone",
+        "description": "It was a #{glitch:true}stone!",
+        "important": true,
+        "charge": 0,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
+        "pickUpSound": "pickup_heart",
+        "pickUpMusic": "8fridge",
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/items",
+          "row": 42,
+          "colors": ["0x000", "0x111", "0x222", "0x555"]
+        },
+        "config" : {
+          "healthValue" : 0.5
+        }
+      }
+    ]
+  }
+}

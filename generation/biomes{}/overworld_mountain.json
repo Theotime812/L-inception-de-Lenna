@@ -1,0 +1,8 @@
+{
+  "base": "overworld",
+  "name": "mountains",
+  "music": null,
+  "tilesheet": "overworld0",
+
+  "mapIconColor": ["0x000", "0x430", "0x542", "0x555"]
+}

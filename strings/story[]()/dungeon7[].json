@@ -1,0 +1,33 @@
+{
+  "monologue": {
+    "lenna_notMonster" : "Ca ne peut pas être vrai ! #{shake:2,0}Je ne peux pas être un monstre !",
+    "lenna_notLikeThat" : "Je ne suis pas une mauvaise...",
+    "lenna_butIWas" : "Mais... je l'étais.",
+    "lenna_hurtPeople" : "J'ai blessé des gens. Je m'en souviens... ça faisait du bien.",
+    "lenna_sick" : "...",
+    "lenna_pupa" : "Mes élèves...",
+    "lenna_noSaving" : "Je les ai tués. Impossible de les sauver, maintenant.",
+    "lenna_coup" : "#{shake:2,0}Et le coup d'État du président est de ma faute !",
+    "lenna_fixThis" : "Je dois être meilleure. Je dois arranger ça."
+  },
+  "call": {
+    "delvin_doneWell": "Tu t'en sors bien pour être allé aussi loin, Lance...",
+    "lenna_truth": "Ca suffit. J'ai le Pouvoir de Vérité maintenant.",
+    "lenna_memory": "Ca suffit. Je me souviens de ce qu'il s'est passé maintenant.",
+    "lenna_delvin": "#{font:bold}#{shake:3,0}Je sais que c'est votre voix, Delvin.",
+    "delvin_iWontDeceive": "Très bien, je ne vous dup...",
+    "lenna_diedToGlitch": "#{shake:3,0}Vous avez causé ce bordel !#{reset} Combien de gens sont morts à cause de votre soif de pouvoir ?",
+    "lenna_killStudents": "Et en plus, vous m'avez fait tuer mes propres élèves !",
+    "lenna_chairman": "Premièrement, je vais détrôner le président.",
+    "lenna_heartlessError": "J'admets que j'ai fait une impitoyable erreur en l'utilisant.",
+    "lenna_putAStop": "Mais je compte mettre fin à ça maintenant.",
+    "delvin_palace": "Il sera au pala...",
+    "lenna_fixTheGlitch": "Une fois que je l'aurai vaincu, vous et moi allons trouver un moyen de corriger les glitchs que vous avez provoqué.",
+    "paige_hungUp": "#{wave:3,9,0.1}Hung up#{reset} on something, ${player.name}?",
+    "lenna_dialBack": "#{wave:3,9,0.1}Dial#{reset} it back a bit, Paige!"
+  },
+  "glitchCityIntro": [
+    ["#{shake:3,3}Oh punaise !", "Qu'est-ce qui est arrivé à cet endroit ?"],
+    "Delvin, vous allez devoir des comptes..."
+  ]
+}

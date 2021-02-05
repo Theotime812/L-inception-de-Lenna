@@ -1,0 +1,32 @@
+{
+  "queueSign": "< Please queue this way",
+  "investmentCenterSign": "< Investment Center",
+  "basementSign": "Customer Support >\nVault >",
+  "vaultSign": "< Vault",
+  "customerSupportSign": "Customer Support >",
+  "poolSign": "_ Liquid Assets",
+  "officeSign1": "NO ENTRY",
+  "officeSign2": "Chairman's Office",
+  
+  "noService": "Nobody's serving customers right now. Maybe they'll be back later...",
+  "bookcase1": "An endless series of boring books covering such topics as triple-entry bookkeeping, and mathematical trickery.",
+  "bookcase2": "An endless series of boring books covering such topics as triple-entry bookkeeping, and mathematical trickery.",
+  "bookcaseVault1": "The books on this shelf are damaged.",
+  "bookcaseVault2": "The books on this shelf are damaged.",
+  "ledger": [
+    "There's an old-fashioned paper ledger here.",
+    "You're not sure you understand it fully, but certain numbers appear to come out of nowhere."
+  ],
+  "computer": [
+    "It looks like this computer is monitoring the slot machines upstairs.",
+    "It's adjusting the payout ratios live, to ensure the Guild makes profit."
+  ],
+  "coffee": "This coffee is cold...",
+  
+  "eviljar": "The jar's contents seem to swell whenever you have a dark thought.",
+  
+  "officeComputer": ["It's the chairman's computer.", "Its contents are not appropriate for the workplace."],
+  "officeBook": "It's a ledger... written in an undecipherable code.",
+  "officeBookcase": "The chairman has an eclectic taste in books. Accounting, tax dodging, archangel biology...",
+  "secretLedger": ["It's the chairman's #{font:bold}real#{reset} ledger.", "There's a lot of red ink here!"]
+}

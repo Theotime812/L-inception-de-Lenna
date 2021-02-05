@@ -1,0 +1,22 @@
+{
+  "delvin_studyingThe8Fridge": "J'ai étudié 8Fridge. Ça ressemble beaucoup à un glitch d'exécution de code arbitraire !",
+  "maxwell_anyEffect": "C'est une sorte de bug dans le logiciel qui permet d'obtenir l'effet que l'on veut, si on s'en sert bien, c'est ça ?",
+  "delvin_yes": "Oui !",
+  "maxwell_reprogramReality": "Donc, tu penses que tu peux utiliser ça pour \"reprogrammer\" la réalité ?",
+  "delvin_illShowYou": "Je l'ai dé! Regarde, je vais te montrer.",
+  "fridge_title" : "8Fridge",
+  "fridge_junk" : [
+    "",
+    "",
+    "",
+    "#{glitch:true}PA : Ding-dong!"
+  ],
+  "delvin_itsOriginalForm": "Maintenant, redonnons à cette poule sa forme initiale...",
+  "maxwell_goodLord": "Mon dieu, c'est réel !",
+  "delvin_wellYeah": "Eh bien... Ouais.",
+  "maxwell_stopYourResearch": "Il faut que tu arrêtes tes recherches en attendant que je trouve un moyen de me débarasser de ça sûrement.",
+  "delvin_but": "De te débarasser de ça !?",
+  "maxwell_theWrongHands": "Réfléchis-y ! Si ça tombait entre de mauvaises mains, n'importe quoi pourrait arriver !",
+  "maxwell_notEquipped": "Nous n'avons pas l'équipement pour stocker quelque chose d'aussi dangereux ici !",
+  "delvin_henrietta": "Viens, Henrietta !"
+}

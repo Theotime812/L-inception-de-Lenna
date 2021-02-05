@@ -1,0 +1,386 @@
+<hexagrams>
+  <hexagram>
+    <code>0</code>
+    <page>2</page>
+    <name>The Receptive</name>
+    <text>Be open to change. Going with the flow brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>1</code>
+    <page>24</page>
+    <name>Return</name>
+    <text>Coming and going. Having somewhere to be.</text>
+  </hexagram>
+  <hexagram>
+    <code>2</code>
+    <page>7</page>
+    <name>The Army</name>
+    <text>The team requires patience and fortitude. Bringing people together.</text>
+  </hexagram>
+  <hexagram>
+    <code>3</code>
+    <page>19</page>
+    <name>Approach</name>
+    <text>The goal is approaching. Patience and tolerance.</text>
+  </hexagram>
+  <hexagram>
+    <code>4</code>
+    <page>15</page>
+    <name>Modesty</name>
+    <text>Being reserved brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>5</code>
+    <page>36</page>
+    <name>Darkening of the Light</name>
+    <text>Fortitude and persistence are required for what's coming.</text>
+  </hexagram>
+  <hexagram>
+    <code>6</code>
+    <page>46</page>
+    <name>Pushing Upward</name>
+    <text>Continue building up small things.</text>
+  </hexagram>
+  <hexagram>
+    <code>7</code>
+    <page>11</page>
+    <name>Peace</name>
+    <text>Good fortune approaches.</text>
+  </hexagram>
+  <hexagram>
+    <code>8</code>
+    <page>16</page>
+    <name>Enthusiasm</name>
+    <text>Good change comes to those who encourage it.</text>
+  </hexagram>
+  <hexagram>
+    <code>9</code>
+    <page>51</page>
+    <name>The Arousing</name>
+    <text>A surprise is coming. Prepare.</text>
+  </hexagram>
+  <hexagram>
+    <code>10</code>
+    <page>40</page>
+    <name>Deliverance</name>
+    <text>Forgive past mistakes. Liberation is the solution.</text>
+  </hexagram>
+  <hexagram>
+    <code>11</code>
+    <page>54</page>
+    <name>The Marrying Maiden</name>
+    <text>Promises bring bad luck.</text>
+  </hexagram>
+  <hexagram>
+    <code>12</code>
+    <page>62</page>
+    <name>Preponderance of the Small</name>
+    <text>Small things are important. Large things are not.</text>
+  </hexagram>
+  <hexagram>
+    <code>13</code>
+    <page>55</page>
+    <name>Abundance</name>
+    <text>The goal is reached. Rejoice.</text>
+  </hexagram>
+  <hexagram>
+    <code>14</code>
+    <page>32</page>
+    <name>Duration</name>
+    <text>Perseverance will bring success. Do not budge.</text>
+  </hexagram>
+  <hexagram>
+    <code>15</code>
+    <page>34</page>
+    <name>The Power of the Great</name>
+    <text>Perseverance will bring success. Be bold.</text>
+  </hexagram>
+  <hexagram>
+    <code>16</code>
+    <page>8</page>
+    <name>Holding Together</name>
+    <text>Union brings success. Consult the oracle again.</text>
+  </hexagram>
+  <hexagram>
+    <code>17</code>
+    <page>3</page>
+    <name>Difficulty at the Beginning</name>
+    <text>Persistence and fortitude bring good fortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>18</code>
+    <page>29</page>
+    <name>The Abysmal</name>
+    <text>Sincerity brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>19</code>
+    <page>60</page>
+    <name>Limitation</name>
+    <text>Persisting within confounding constraints brings misfortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>20</code>
+    <page>39</page>
+    <name>Obstruction</name>
+    <text>Hardship comes. Persistence and fortitude bring success.</text>
+  </hexagram>
+  <hexagram>
+    <code>21</code>
+    <page>63</page>
+    <name>After Completion</name>
+    <text>Prepare to defend from misfortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>22</code>
+    <page>48</page>
+    <name>The Well</name>
+    <text>A renewal is coming.</text>
+  </hexagram>
+  <hexagram>
+    <code>23</code>
+    <page>5</page>
+    <name>Waiting</name>
+    <text>Remain uninvolved.</text>
+  </hexagram>
+  <hexagram>
+    <code>24</code>
+    <page>45</page>
+    <name>Gathering Together</name>
+    <text>Companionship bring good fortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>25</code>
+    <page>17</page>
+    <name>Following</name>
+    <text>Following brings superb fortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>26</code>
+    <page>47</page>
+    <name>Oppression</name>
+    <text>Hold your ground. Stake your life. Be not exhausted.</text>
+  </hexagram>
+  <hexagram>
+    <code>27</code>
+    <page>58</page>
+    <name>The Joyous</name>
+    <text>Exert influence openly.</text>
+  </hexagram>
+  <hexagram>
+    <code>28</code>
+    <page>31</page>
+    <name>Influence</name>
+    <text>Attraction brings good fortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>29</code>
+    <page>49</page>
+    <name>Revolution</name>
+    <text>Abolish the old ways. Fortitude brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>30</code>
+    <page>28</page>
+    <name>Preponderance of the Great</name>
+    <text>Be not concerned when you surpass your peers.</text>
+  </hexagram>
+  <hexagram>
+    <code>31</code>
+    <page>43</page>
+    <name>Break</name>
+    <text>Danger. Separation.</text>
+  </hexagram>
+  <hexagram>
+    <code>32</code>
+    <page>23</page>
+    <name>Splitting Apart</name>
+    <text>Misfortune comes to the uncharitable.</text>
+  </hexagram>
+  <hexagram>
+    <code>33</code>
+    <page>27</page>
+    <name>The Corners of the Mouth</name>
+    <text>Fortitude brings luck. Seek nourishment, but be careful with words.</text>
+  </hexagram>
+  <hexagram>
+    <code>34</code>
+    <page>4</page>
+    <name>Youthful Folly</name>
+    <text>Inexperience. Fortitude can be bolstered through thoroughness.</text>
+  </hexagram>
+  <hexagram>
+    <code>35</code>
+    <page>41</page>
+    <name>Decrease</name>
+    <text>Control temper and instincts.</text>
+  </hexagram>
+  <hexagram>
+    <code>36</code>
+    <page>52</page>
+    <name>Keeping Still</name>
+    <text>The situation cannot be changed yet.</text>
+  </hexagram>
+  <hexagram>
+    <code>37</code>
+    <page>22</page>
+    <name>Grace</name>
+    <text>Embellishment leads to success. But not on controversial matters.</text>
+  </hexagram>
+  <hexagram>
+    <code>38</code>
+    <page>18</page>
+    <name>Work on the Decayed</name>
+    <text>Repairing the broken. Crossing a boundary advances one.</text>
+  </hexagram>
+  <hexagram>
+    <code>39</code>
+    <page>26</page>
+    <name>The Taming Power of the Great</name>
+    <text>Accumulate wisdom. It advances one to enter the unknown.</text>
+  </hexagram>
+  <hexagram>
+    <code>40</code>
+    <page>35</page>
+    <name>Progress</name>
+    <text>Self-improvement and self-promotion bring success.</text>
+  </hexagram>
+  <hexagram>
+    <code>41</code>
+    <page>21</page>
+    <name>Biting Through</name>
+    <text>A good time for hard decisions.</text>
+  </hexagram>
+  <hexagram>
+    <code>42</code>
+    <page>64</page>
+    <name>Before Completion</name>
+    <text>Allow everything to fall into place.</text>
+  </hexagram>
+  <hexagram>
+    <code>43</code>
+    <page>38</page>
+    <name>Opposition</name>
+    <text>Retain one's own individuality. Division. Diverging views.</text>
+  </hexagram>
+  <hexagram>
+    <code>44</code>
+    <page>56</page>
+    <name>The Wanderer</name>
+    <text>Travel brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>45</code>
+    <page>30</page>
+    <name>The Clinging</name>
+    <text>Cherish one's dependents. Attachment.</text>
+  </hexagram>
+  <hexagram>
+    <code>46</code>
+    <page>50</page>
+    <name>The Cauldron</name>
+    <text>Establish a new position.</text>
+  </hexagram>
+  <hexagram>
+    <code>47</code>
+    <page>14</page>
+    <name>Great Possession</name>
+    <text>Success in independence. Freedom advances one.</text>
+  </hexagram>
+  <hexagram>
+    <code>48</code>
+    <page>20</page>
+    <name>Contemplation</name>
+    <text>Withholding and contemplating brings success.</text>
+  </hexagram>
+  <hexagram>
+    <code>49</code>
+    <page>42</page>
+    <name>Increase</name>
+    <text>Undertake something. Time to take action.</text>
+  </hexagram>
+  <hexagram>
+    <code>50</code>
+    <page>59</page>
+    <name>Dispersion</name>
+    <text>The spread of ideas.</text>
+  </hexagram>
+  <hexagram>
+    <code>51</code>
+    <page>61</page>
+    <name>Inner Truth</name>
+    <text>Remain focused. Do not allow misinterpretation.</text>
+  </hexagram>
+  <hexagram>
+    <code>52</code>
+    <page>53</page>
+    <name>Development</name>
+    <text>Favorable outlook. Act in accordance with virtue.</text>
+  </hexagram>
+  <hexagram>
+    <code>53</code>
+    <page>37</page>
+    <name>The Family</name>
+    <text>Fortitude brings good fortune.</text>
+  </hexagram>
+  <hexagram>
+    <code>54</code>
+    <page>57</page>
+    <name>The Gentle</name>
+    <text>Exert subtle influence.</text>
+  </hexagram>
+  <hexagram>
+    <code>55</code>
+    <page>9</page>
+    <name>Small Taming</name>
+    <text>Time to accumulate resources.</text>
+  </hexagram>
+  <hexagram>
+    <code>56</code>
+    <page>12</page>
+    <name>Standstill</name>
+    <text>Persevere through stagnation.</text>
+  </hexagram>
+  <hexagram>
+    <code>57</code>
+    <page>25</page>
+    <name>Innocence</name>
+    <text>Misfortune comes to those who act rashly.</text>
+  </hexagram>
+  <hexagram>
+    <code>58</code>
+    <page>6</page>
+    <name>Conflict</name>
+    <text>It does not advance one to enter the unknown.</text>
+  </hexagram>
+  <hexagram>
+    <code>59</code>
+    <page>10</page>
+    <name>Treading</name>
+    <text>Continue with alertness.</text>
+  </hexagram>
+  <hexagram>
+    <code>60</code>
+    <page>33</page>
+    <name>Retreat</name>
+    <text>Withdraw. Remain at a safe distance.</text>
+  </hexagram>
+  <hexagram>
+    <code>61</code>
+    <page>13</page>
+    <name>Fellowship</name>
+    <text>Partnership advances one.</text>
+  </hexagram>
+  <hexagram>
+    <code>62</code>
+    <page>44</page>
+    <name>Coming to Meet</name>
+    <text>An auspicious encounter. But do not linger.</text>
+  </hexagram>
+  <hexagram>
+    <code>63</code>
+    <page>1</page>
+    <name>The Creative</name>
+    <text>Absolute success. One will achieve advancement through fortitude.</text>
+  </hexagram>
+</hexagrams>

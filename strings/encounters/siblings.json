@@ -1,0 +1,54 @@
+{
+  "introducePotter" : [
+    "H-hello! My name's Potter.",
+    "I c-concoct potions for a living."
+  ],
+  "introduceTunley" : [
+    "And I'm Tunley, Potter's younger brother.",
+    "I design fashionable tunics! My works are always in high demand among discerning adventurers!"
+  ],
+  "startQuest" : [
+    "We just moved into this place to open a store, except...",
+    "Our sister, Tressa, is essential to our business plan and she's just wandered off!",
+    "Please help us find her again!"
+  ],
+  "firstHint" : [
+    "Last I heard, she was helping some shady fellow run a hallucination-based game in a cave.",
+    "Do you know anyone like that?"
+  ],
+  "thanksForFindingTressa" : [
+    "Thanks for finding our sister! We're hopeless without her business smarts."
+  ],
+  "tressaThanks" : [
+    "What do you want ${player.name}?"
+  ],
+
+  "tressaDungeon": {
+    "intro": [
+      "You're the one my brothers sent to find me, aren't you?",
+      "Well, I've got everything I need to open the store now.",
+      "Do you want to know our secret?",
+      "Potions and tunics work by the same rules, at a fundamental level.",
+      "That's how I'm able to craft tunics from potions.",
+      "Here's a copy of our patent, if you're curious."
+    ],
+    "comeWith": [
+      "I'm heading back to the store. Want to come with me?"
+    ],
+    "comeWithConfirm": "Return to the Status Effect Store?"
+  },
+
+  "buyPotions" : "What can I d-do for you, ${player.name}?",
+  "buyTunics" : "Come to check out our latest works?",
+
+  "crafting" : {
+    "intro" : [
+      "I can make you a new tunic that has the same effect as one of your potions.",
+      "It costs $100, and I'll need one potion, and a tunic that you don't want any more."
+    ],
+    "chooseTunic" : "Choose tunic to give up",
+    "choosePotion" : "Choose potion to apply",
+    "confirm" : "This will make a ${0} Tunic. Proceed?",
+    "alreadyHave" : "You already have the tunic this would make."
+  }
+}

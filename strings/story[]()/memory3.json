@@ -1,0 +1,11 @@
+{
+  "aalenna_seeWhatLearned": "Très bien, Crabaddon, voyons ce que tu as appris.",
+  "crabaddon_weakSpots": "Point faible c'est dans les pinces et c'est dans la bouche !",
+  "aalenna_good": "Bien, donc...",
+  "crabaddon_innaFight1": "Donc je me bats...",
+  "aalenna_notDo": "Que ne dois-tu #{wave:3,9,0.1}pas#{reset} faire lorsque tu combattras le héros ?",
+  "crabaddon_innaFight2": "Je me bats...",
+  "crabaddon_openClawsMouth": "#{shake:2,2}Je me bats avec les pinces et la bouche grandes ouvertes !",
+  "crabaddon_tasty": "#{shake:3,3}Méchantes flèches ! Je les manges ! Miam !",
+  "aalenna_sigh": "*Soupir*"
+}

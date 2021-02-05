@@ -1,0 +1,7 @@
+{
+  "image" : "/images/bosstitle-bg.png",
+  "text" :  "#{color:p500}#{font:gothiccaps}8Fridge#{reset}\n#{font:smallcaps}Deus Hex Machina",
+  "duration" : 5,
+  "fadeIn" : 0.75,
+  "fadeOut" : 0.75
+}

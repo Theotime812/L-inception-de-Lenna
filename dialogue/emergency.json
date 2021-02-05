@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Emergency Services",
+    "nameFormat" : "#{color:p310}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "default"
+  }
+}

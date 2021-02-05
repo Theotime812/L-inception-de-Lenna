@@ -28,6 +28,12 @@ de contenu à traduire.
 Suivez [ce lien (en anglais)](https://github.com/EntranceJew/LennasMods/blob/master/docs/getting_started.md)
 pour savoir comment charger un mod. N'oubliez pas de modifier les noms des dossiers et des fichiers.
 
+### Comment contribuer
+
+Utilisez **absolument** l'encodage ISO 8859-15. Quand vous commencez à modifier
+un fichier que personne d'autre n'a modifié avant, merci de sauvegarder
+en utilisant l'encodage ISO 8859-15.
+
 ## English
 
 An attempt at translating the game Lenna's Inception into French.
@@ -52,3 +58,8 @@ Files and folder potentially useless to translate the game contain `{}` in their
 
 Follow [this link](https://github.com/EntranceJew/LennasMods/blob/master/docs/getting_started.md)
 to learn how to load a mod. Don't forget to change the file and folder names.
+
+### How to contribute
+
+You **must** use the ISO 8859-15 encoding. When editing a file nobody has
+edited before, please save using the ISO 8859-15 encoding.

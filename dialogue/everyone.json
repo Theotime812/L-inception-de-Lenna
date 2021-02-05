@@ -1,0 +1,7 @@
+{
+  "default" : {
+    "name" : "Everyone",
+    "nameFormat" : "#{color:p520}",
+    "font" : "default"
+  }
+}

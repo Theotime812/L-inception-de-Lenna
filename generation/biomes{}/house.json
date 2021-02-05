@@ -1,0 +1,7 @@
+{
+  "base": "default",
+  "name": "House",
+  "music": "town",
+
+  "enableAxe": false
+}

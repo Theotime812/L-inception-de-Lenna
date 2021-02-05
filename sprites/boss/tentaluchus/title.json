@@ -1,0 +1,7 @@
+{
+  "image" : "/images/bosstitle-bg.png",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Tentaluchus#{reset}\n#{font:smallcaps}Subterranean Squid",
+  "duration" : 5,
+  "fadeIn" : 0.75,
+  "fadeOut" : 0.75
+}

@@ -1,0 +1,575 @@
+<tw-storydata name="Testing" startnode="1" creator="Twine" creator-version="2.0.11" ifid="9E03D406-1DE1-4799-B0DB-CDC0EF7B3D4C" format="Harlowe" options="" ><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="626,462">foobar</tw-passagedata>
+</tw-storydata>
+
+
+<tw-storydata name="Tombs &amp; Tentacles" startnode="1" creator="Twine" creator-version="2.0.11" ifid="95FE8E16-3777-455E-BE0B-0DAD04506AF0" format="Harlowe" options="" ><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="824,385">```#{font:bold}TOMBS &amp; TENTACLES#{font:default}```
+P. H. Craftlove, G. G. Ernest
+
+You&#39;re lying down under a desk between two bookcases, in the middle of a huge library. You&#39;re not sure how you got here, but you should probably look for a way out.
+
+Get up?
+
+[[Yes-&gt;Character]]
+[[No-&gt;Sleep]]
+</tw-passagedata>
+<tw-passagedata pid="2" name="Desk" tags="" position="851,915">As you get from under the desk and begin to stand, you feel the ground tremble. You can hear the books shift from side to side in the shelves around you.
+
+[[Roll for Speed (d3)-&gt;DeskSpeed]]
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;Desk&quot;)\
+	[[Stack a plate-&gt;StackPlate]]
+]</tw-passagedata>
+<tw-passagedata pid="3" name="Sleep" tags="" position="550,600">You go back to sleep under the desk, and never wake up. Something ate you as you lay prone.</tw-passagedata>
+<tw-passagedata pid="4" name="Character" tags="" position="824,597">You&#39;ll get up in a second. First you need to remember who you are.
+
+Who are you...?
+
+[[Jerry the Waiter-&gt;character_waiter]]
+[[Sally the Telemarketer-&gt;character_call]]
+[[James the Janitor-&gt;character_janitor]]
+[[Tamsyn the Unspeakable-&gt;character_sports]]</tw-passagedata>
+<tw-passagedata pid="5" name="character_waiter" tags="" position="700,750">(set: $player_name to &quot;Jerry&quot;)\
+(set: $might to 1)\
+(set: $speed to 1)\
+(set: $sanity to 10)\
+(set: $intelligence to 5)\
+\
+Oh that&#39;s right, you&#39;re Jerry! Your best stat is Sanity, which is super useful for stacking plates. Which you do a lot as a waiter.
+
+(display: &quot;Desk&quot;)</tw-passagedata>
+<tw-passagedata pid="6" name="character_call" tags="" position="800,750">(set: $player_name to &quot;Sally&quot;)\
+(set: $might to 3)\
+(set: $speed to 3)\
+(set: $sanity to 5)\
+(set: $intelligence to 10)\
+\
+Oh that&#39;s right, you&#39;re Sally! Your best stat is Intelligence, which is sadly underappreciated in your current occupation. Maybe you&#39;ll get a chance to do something about that in this library though!
+
+(display: &quot;Desk&quot;)</tw-passagedata>
+<tw-passagedata pid="7" name="character_janitor" tags="" position="900,750">(set: $player_name to &quot;James&quot;)\
+(set: $might to 10)\
+(set: $speed to 1)\
+(set: $sanity to 3)\
+(set: $intelligence to 3)\
+\
+Oh that&#39;s right, you&#39;re James the janitor! Your best stat is Might. All those years spent pushing your broom have certainly paid off. Unfortunately your advanced age negatively affects your speed, sanity and intelligence. Especially all three of them.
+
+(display: &quot;Desk&quot;)</tw-passagedata>
+<tw-passagedata pid="8" name="character_sports" tags="" position="1000,750">(set: $player_name to &quot;Tamsyn&quot;)\
+(set: $might to 5)\
+(set: $speed to 10)\
+(set: $sanity to 5)\
+(set: $intelligence to 1)\
+\
+Oh that&#39;s right, you&#39;re Tamsyn the Unspeakable! You&#39;re the world-famous squidwoman sportsball player! Having eight tentacles helps with moving around quickly, so Speed is your best stat!
+
+(display: &quot;Desk&quot;)</tw-passagedata>
+<tw-passagedata pid="9" name="DeskSpeed" tags="" position="851,1065">(set: $roll to Math.floor(Math.random()*3)+1)\
+(set: $check_total to $roll + $speed)\
+\
+You roll a $roll, for $check_total Speed total. Imagine that!
+
+(if: $check_total &gt;= 4)[You narrowly avoid a toppling bookcase and skid into the aisle.](else:)[Unfortunately you weren&#39;t fast enough and a nearby bookcase crashes down on your lower appendages. You lose 1 Speed!(set: $speed to $speed - 1)]
+
+(if: $speed &lt;= 0)[You find you can&#39;t move any more. You&#39;re paralyzed! The elderhounds will soon find you! You&#39;re as good as dead.](else:)[The rumbling stops for now.
+
+There are two ways to go here:
+
+[[Left-&gt;Aisle]]
+[[Right-&gt;Aisle]]]</tw-passagedata>
+<tw-passagedata pid="10" name="StackPlate" tags="" position="726,1065">(set: $might to $might + 1)\
+(set: $speed to $speed + 1)\
+(set: $sanity to $sanity - 1)\
+\
+You pile another plate onto the stack you&#39;re carrying with one hand. (if: $sanity &lt;= 0)[Oops, you drop them all and they smash on the ground. If your boss catches you, you&#39;re as good as dead.](else:)[You gain +1 Might, +1 Speed, -1 Sanity.
+
+(display: $return)]</tw-passagedata>
+<tw-passagedata pid="11" name="Aisle" tags="" position="851,1214">```As you jog down the aisle, the far wall comes up over the horizon (it is a #{font:bold}very#{font:default} large library). You notice something strange about the ground up ahead.```
+
+[[Take a gander-&gt;Hole]]
+[[Turn the other way-&gt;Aisle2]]</tw-passagedata>
+<tw-passagedata pid="12" name="Hole" tags="" position="851,1365">You sneak up to the mysterious thing on the ground.
+
+It is in fact nothing supernatural at all, and you wonder why you even thought it might be.
+
+It&#39;s just a plain old dirty hole in the ground. With a tentacle coming out of it.
+
+Wait, what?
+
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;Hole&quot;)\
+	[[Stack a plate-&gt;StackPlate]]]
+[[Roll for Sanity (d7.5)-&gt;HoleSanity]]</tw-passagedata>
+<tw-passagedata pid="13" name="Aisle2" tags="" position="1200,1200">Are you sure? It did seem very strange, that thing in the ground.
+
+[[Take a gander-&gt;Hole]]
+[[No, turn the other way-&gt;Aisle3]]</tw-passagedata>
+<tw-passagedata pid="14" name="Aisle3" tags="" position="1200,1350">This might be your only chance to see something truly supernatural. Are you sure you can live without investigating it?
+
+[[Take a gander-&gt;Hole]]
+[[I&#39;m sure, let me leave-&gt;Aisle4]]</tw-passagedata>
+<tw-passagedata pid="15" name="Aisle4" tags="" position="1200,1500">I&#39;m beginning to doubt your commitment to this game. Come on, the story hasn&#39;t even started yet!
+
+[[Take a gander-&gt;Hole]]
+[[Let me go!-&gt;Aisle5]]</tw-passagedata>
+<tw-passagedata pid="16" name="Aisle5" tags="" position="1200,1650">I mean it, you&#39;re going to miss out. Please.
+
+[[Take a gander-&gt;Hole]]
+[[NO, GET LOST-&gt;Aisle6]]</tw-passagedata>
+<tw-passagedata pid="17" name="Aisle6" tags="" position="1200,1800">Do it just for me.
+
+[[Oh, fine-&gt;Hole]]
+[[Screw you!-&gt;Aisle7]]</tw-passagedata>
+<tw-passagedata pid="18" name="Aisle7" tags="" position="1200,1950">Please... I don&#39;t get to play this game very often. Nobody knows this telephone number any more...
+
+[[Oh, fine-&gt;Hole]]
+[[Ugh-&gt;Hole]]</tw-passagedata>
+<tw-passagedata pid="19" name="HoleSanity" tags="" position="851,1515">(set: $roll to Math.floor(Math.random()*75)/10.0+1)\
+(set: $check_total to $roll + $sanity)\
+\
+You roll a $roll, for $check_total Sanity total. Whoa!
+
+(if: $check_total &gt;= 14)[Tentacle? What tentacle? That&#39;s just a rope, snaking down into the chasm!](else:)[Your eyes lock onto the slimy tentacle -- you can&#39;t look away, or even move! It seems to call to you with its shimmying movements. You shiver and break out in a cold sweat.
+
+&quot;Come hither,&quot; you hear it say in your mind.
+
+It doesn&#39;t move...
+
+Oh wait, it&#39;s just a rope. You feel so stupid that you lose 1 Sanity.(set: $sanity to $sanity - 1)]
+
+(if: $sanity &lt;= 0)[Your sanity bottoms out and you scream incoherently. You needed that stat to live, and now your mourn its loss. You&#39;re beside yourself.
+
+Wait, does that mean there are two of you? You&#39;re losing your mind. And soon the elderhounds find your body. But not your mind. Because you are dead.](else:)[(display: &quot;HoleOK&quot;)]</tw-passagedata>
+<tw-passagedata pid="20" name="HoleOK" tags="" position="851,1665">The library hole is in front of you. Torn books and broken bookcases line its depths. A rope hanging from the ceiling appears to go all the way down inside it. You could climb down, you think...
+
+On the other hand, there are lots of books around here. You could try looking for some WORDS. WORDS are sometimes useful to know. You know that because you read it once, using WORDS.
+
+And you know it must be true, because WORDS know all sorts of things. They&#39;re good like that.
+
+[[WORDS]]
+[[Climb down-&gt;DownHole]]
+[[Look for a way out-&gt;SmartAss]]</tw-passagedata>
+<tw-passagedata pid="21" name="WORDS" tags="" position="851,1815">WORDS are good, but you&#39;re gonna have to prove you&#39;re worthy of them first. Can you READ?
+
+[[Roll for Intelligence (d?)-&gt;WORDSIntelligence]]
+[[Um, I&#39;ve changed my mind-&gt;HoleOK]]</tw-passagedata>
+<tw-passagedata pid="22" name="DownHole" tags="" position="720,1812">Curiosity gets the better of you. Why did this hole appear. Just why was this rope so conveniently placed as to allow someone to rappel down into it?
+
+You grab the rope and start to abseil down into the darkness. You can&#39;t see anything, which could be a blessing.
+
+In the depths, you lose all sense of distance and time. The opening of the hole is a distant point of light above you, and you&#39;re certain that the walls are closing in on you...
+
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;DownHole&quot;)\
+	[[Stack a plate-&gt;StackPlate]]]
+[[Roll for Might (d2)-&gt;DownHoleMight]]</tw-passagedata>
+<tw-passagedata pid="23" name="SmartAss" tags="" position="2150,1550">Listen, I&#39;m the GM and you have to do what I say. Get down the hole.
+
+[[Alright, fine-&gt;HoleOK]]
+[[No-&gt;SmartAss2]]</tw-passagedata>
+<tw-passagedata pid="24" name="WORDSIntelligence" tags="" position="851,1965">(set: $roll to Math.random()*10)\
+(set: $check_total to $roll + $intelligence)\
+\
+You roll a $roll, for $check_total Intelligence total. Oh yeah, nice! You knew this was a good idea!
+
+(if: $check_total &lt; 5)[You stare at the pages in the books and immediately realize it was a mistake. You&#39;re thick as two short planks, and get even dumber the longer you look at them.](else:)[Your eyes lock onto the books&#39; pages. There&#39;s a fierce battle between you and the WORDS, but it&#39;s over in short order, because you&#39;re actually not so dumb after all.
+
+```The books thank you for your trouble and graciously offer a WORD. Your WORD is #{font:bold}(either:&quot;CATERPILLAR&quot;,&quot;HUNGRY&quot;,&quot;MOM&quot;,&quot;SMACK&quot;,&quot;JUICE&quot;,&quot;QUIXOTIC&quot;)#{font:default}. Nice!```] You lose 1 Intelligence in the process.(set: $intelligence to $intelligence - 1)
+
+(if: $intelligence &lt;= 0)[Your intelligence reaches depths never-before-seen. You&#39;re so dumb you forget to keep breathing. Who knew books could kill? You are so dead.](else:)[[[Next-&gt;HoleOK]]]</tw-passagedata>
+<tw-passagedata pid="25" name="SmartAss2" tags="" position="2150,1700">I have full control over this game&#39;s universe. I can make anything happen. You should do as I say and get down the HOLE.
+
+[[Alright, fine-&gt;HoleOK]]
+[[No-&gt;SmartAss3]]</tw-passagedata>
+<tw-passagedata pid="26" name="SmartAss3" tags="" position="2150,1850">Alright, prepare yourself. I&#39;m going to attack. You&#39;ve got one last chance.
+
+[[Alright, fine-&gt;HoleOK]]
+[[No-&gt;SmartAss4]]</tw-passagedata>
+<tw-passagedata pid="27" name="SmartAss4" tags="" position="2150,2000">This is it. For reals. Your character is going to die in the lamest possible way if you don&#39;t engage in the story RIGHT NOW.
+
+[[Fine, I give up-&gt;HoleOK]]
+[[No-&gt;SmartAss5]]</tw-passagedata>
+<tw-passagedata pid="28" name="SmartAss5" tags="" position="2150,2150">(set: $repeat to $repeat + 1)\
+I&#39;m just going to repeat this until you agree to go down the hole.
+
+[[Alright, fine-&gt;HoleOK]]
+(if: $repeat &gt;= 3)[[[No-&gt;SmartAss6]]](else:)[[[No-&gt;SmartAss5]]]</tw-passagedata>
+<tw-passagedata pid="29" name="SmartAss6" tags="" position="2150,2300">You&#39;re really not going to give up are you? Fine, look. I&#39;ll give you a chance. Gird your loins.
+
+[[Next-&gt;SmartAss7]]</tw-passagedata>
+<tw-passagedata pid="30" name="SmartAss7" tags="" position="2150,2450">A wild GM appears!
+
+(display: &quot;GMFight&quot;)</tw-passagedata>
+<tw-passagedata pid="31" name="GMFight" tags="" position="2150,2600">GM Lv.100
+HP: 255/255
+
+$player_name Lv.1
+HP: 5/5
+
+What will $player_name do?
+
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;GMFight&quot;)\
+	[[Stack a plate-&gt;StackPlate]]]
+[[Fight-&gt;GMFightFight]]
+[[Use WORDS-&gt;GMFightWORDS]]
+[[Run-&gt;HoleOK]]</tw-passagedata>
+<tw-passagedata pid="32" name="GMFightFight" tags="" position="2400,2750">Use which attack?
+
+[[MIGHT PP: 1/$might-&gt;GMFightFightMight]]
+[[SPEED PP: 1/$speed-&gt;GMFightFightSpeed]]
+[[SANITY PP: 1/$sanity-&gt;GMFightFightSanity]]
+[[INTELLIGENCE PP: 1/$intelligence-&gt;GMFightFightIntelligence]]</tw-passagedata>
+<tw-passagedata pid="33" name="GMFightWORDS" tags="" position="1900,2750">If you have a WORD, choose it now.
+
+(text-input:)
+[[CATERPILLAR-&gt;GMFightWORDSDefault]]
+[[HUNGRY-&gt;GMFightWORDSHungry]]
+[[MOM-&gt;GMFightWORDSMom]]
+[[SMACK-&gt;GMFightWORDSSmack]]
+[[JUICE-&gt;GMFightWORDSJuice]]
+[[QUIXOTIC-&gt;GMFightWORDSQuixotic]]
+[[default-&gt;GMFightWORDSDefault]]</tw-passagedata>
+<tw-passagedata pid="34" name="GMFightFightMight" tags="" position="2250,2950">(set: $stat_name to &quot;Might&quot;)\
+(set: $stat_value to $might)\
+(display: &quot;GMFightFightAttack&quot;)</tw-passagedata>
+<tw-passagedata pid="35" name="GMFightFightSpeed" tags="" position="2350,2950">(set: $stat_name to &quot;Speed&quot;)\
+(set: $stat_value to $speed)\
+(display: &quot;GMFightFightAttack&quot;)</tw-passagedata>
+<tw-passagedata pid="36" name="GMFightFightSanity" tags="" position="2450,2950">(set: $stat_name to &quot;Sanity&quot;)\
+(set: $stat_value to $sanity)\
+(display: &quot;GMFightFightAttack&quot;)</tw-passagedata>
+<tw-passagedata pid="37" name="GMFightFightIntelligence" tags="" position="2550,2950">(set: $stat_name to &quot;Intelligence&quot;)\
+(set: $stat_value to $intelligence)\
+(display: &quot;GMFightFightAttack&quot;)</tw-passagedata>
+<tw-passagedata pid="38" name="GMFightWORDSHungry" tags="" position="1350,2950">Why don&#39;t you take a break to go eat then?
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="39" name="GMFightWORDSMom" tags="" position="1650,2950">You shout the word, and the GM laughs at you. That&#39;s the first time I&#39;ve ever been called mom!
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="40" name="GMFightWORDSSmack" tags="" position="1800,2950">You shout the word. A stranger pokes his head through the window offering an illicit substance in a little plastic baggy.
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="41" name="GMFightWORDSJuice" tags="" position="1950,2950">You shout the word, and the GM passes you a fresh juice box.
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="42" name="GMFightWORDSQuixotic" tags="" position="2100,2950">I bet you don&#39;t even know what that means.
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="43" name="GMFightFightAttack" tags="" position="2450,3100">(set: $roll to Math.floor(Math.random()*$stat_value)+1)\
+(set: $check_total to $roll + $stat_value)\
+\
+You roll a d$stat_value and get $roll, for $check_total $stat_name total. Oops!
+
+The GM rolls for $stat_name to defend with his d100, and gets...
+
+You scoop the die off the table before it finishes rolling and throw it through the open window.
+
+[[Punch GM in the face-&gt;GMDie]]</tw-passagedata>
+<tw-passagedata pid="44" name="GMDie" tags="" position="2450,3250">Ow, jeez.
+
+Why did you have to do that. Damn.
+
+Look, have it your way.
+
+You, the incredible smartass known as $player_name, find the fire exit and leave the library. Once outside, you call for a taxi and get home at about 10.30pm.
+
+The next day, a Saturday, your roommate tells you about a cool new game called Tombs &amp; Tentacles. You both sit down to play it; he&#39;s the GM, you&#39;re the player. It starts in a library...
+
+[[Next-&gt;Start]]
+[[Punch GM again-&gt;GMDie2]]</tw-passagedata>
+<tw-passagedata pid="45" name="GMFightGMTurn" tags="" position="1650,3100">Alright, my turn. I roll to attack with my Quixoticity -- with a d100.
+
+I get a... 100, for a total of 1100 Quixoticity.
+
+What&#39;s your Quixoticity stat? Oh, you don&#39;t have one. Well, I guess you&#39;re dead then.</tw-passagedata>
+<tw-passagedata pid="46" name="GMDie2" tags="" position="2450,3400">Alright, alright. I give up.
+
+You find the man/woman/squid of your dreams and settle down on a farm, raise a bunch of children and live happily ever after.
+
+The end. Damn you.</tw-passagedata>
+<tw-passagedata pid="47" name="DownHoleMight" tags="" position="720,1966">(set: $roll to Math.floor(Math.random()*20)+1)\
+(set: $check_total to $roll + $might)\
+\
+You flip a coin and it lands on its edge. This seems inconclusive so you try again. The coin turns into a d20 and you get a $roll, for $check_total Might total. Nice! Right?
+
+(if: $check_total &gt;= 14)[Your palms are dry and grip tightly onto the rope as it sways side-to-side in the updraft from below.
+
+You continue down the rope, more rapidly this time, until your feet touch the bottom.](else:)[Your slippery palms lose their grip on the rope and you fall all the way down. Luckily, it&#39;s not far, but the rope burn in your palms hurts like hell. You lose 1 Might.(set: $might to $might - 1)]
+
+(if: $might &lt;= 0)[```The rope burn is #{font:bold}really#{font:default} bad though. It stings, and it bleeds, and it never stops bleeding. Until you&#39;re dead, that is.```](else:)[(display: &quot;DownHoleOK&quot;)]</tw-passagedata>
+<tw-passagedata pid="48" name="DownHoleOK" tags="" position="720,2110">You&#39;re at the bottom of the hole. You can hear movement and rustling all around you, scurrying around you. It&#39;s all muted whispers and footsteps. Or is it wind turning the pages of a thousand books? Or the far-off sound of an alarm clock, as heard through the filter of a dream?
+
+Whatever it is, it&#39;s quite a din. But you can&#39;t see anything.
+
+You start to regret coming down the hole, but now you can&#39;t find the rope to climb back up.
+
+What do you do?
+
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;DownHoleOK&quot;)\
+	[[Stack a plate-&gt;StackPlate]]]
+[[Attack blindly-&gt;TempleAttackBlind]]
+[[Use WORDS-&gt;TempleWORDSBlind]]
+[[Stand very still-&gt;TempleStandStill]]</tw-passagedata>
+<tw-passagedata pid="49" name="TempleAttackBlind" tags="" position="595,2265">(set: $roll to Math.floor(Math.random()*6)+1)\
+(set: $check_total to $roll + $might)\
+\
+You roll a d20 and you get a $roll, for $check_total Might total. That&#39;s OK, you guess.
+
+(set: $might to $might - $roll)\
+You attack blindly with your fists and strike a wall. It hurts like hell and you lose $roll Might. Ouch!
+
+(if: $might &lt;= 0)[The damage to your fist is incredible. That was a powerful roll...
+
+You think there&#39;s a broken bone in your palm, and attempt to move it back into position. In fact, it wasn&#39;t broken, but it is now, and it&#39;s poking through the skin.
+
+It irritates you, and you just have to pick at it.
+
+Eventually you work the broken bone out through the hole in your palm...
+
+And then all the other bones fall out of there. Including all the bones elsewhere in your body. You&#39;re now just a bag of skin and mushy organs, lying in a puddle on the ground. Without the ribcage to protect them, your lungs struggle against the weight of your body, and eventually give up.
+
+Your heart follows soon after.
+
+But somehow you do not die. Perhaps it is this place that you&#39;re in. Perhaps nothing can die here.
+
+But you so wish you could.
+
+You spend an eternity in this temple of the Undying Lord of Eternity paralyzed and broken. Every second of it you spend wishing you were dead.](else:)[(display: &quot;DownHoleOK&quot;)]</tw-passagedata>
+<tw-passagedata pid="50" name="TempleWORDSBlind" tags="" position="745,2266">You start shouting into the darkness, and immediately you regret it.
+
+(display: &quot;TempleAshDeath&quot;)</tw-passagedata>
+<tw-passagedata pid="51" name="TempleStandStill" tags="" position="895,2266">You stand very still.
+
+Eventually your eyes adjust and you start to discern your surroundings. You&#39;re standing in a temple, from a long-forgotten, undocumented culture native to these lands.
+
+The walls appear black. Well, everything does, it&#39;s dark. But the walls seem even more black, perhaps as if they&#39;re made of volcanic glass.
+
+Statues and other frivolities adorn the walls, and the pillars as well, which you&#39;ve just noticed now.
+
+You appear to be between two rows of black, volcanic glass pews before an altar of solid steel construction.
+
+And then you notice them...
+
+All around you, scurrying and very much busy with activity are hundreds of low, hobbling beasts, approximately one meter tall, all dressed in black spaghetti... Or tentacles, or worms, or something. The word &quot;elderhound&quot; enters into your mind unbidden.
+
+They don&#39;t appear to notice you, perhaps because they can only see movement. But you&#39;re not sure.
+
+What now?
+
+[[Standing very still-&gt;TempleStandStill2]]
+[[Climb up the rope-&gt;TempleEscape]]
+[[Creep towards the altar-&gt;TempleAltar]]</tw-passagedata>
+<tw-passagedata pid="52" name="TempleStandStill2" tags="" position="850,2400">You stand very still and wait. For eternity.
+
+These creatures never go away, and you&#39;re too frightened to move and let them know you&#39;re here. Days go by, and you get hungry. Then weeks go by, and you&#39;re so dehydrated you literally cannot move your eyelids without tearing the outer layer off your eyes.
+
+By all rights, you should be dead... But you&#39;re not.
+
+Perhaps that&#39;s the curse of this place.
+
+You wait.
+
+And wait.
+
+Forever.</tw-passagedata>
+<tw-passagedata pid="53" name="TempleEscape" tags="" position="1150,2250">Yes! Now that your eyes have adjusted, you can see the rope hanging from the hole in the ceiling!
+
+You make a dash for it.
+
+(if: $player_name is &quot;Jerry&quot;)[\
+	(set: $return to &quot;TempleEscape&quot;)\
+	[[Stack a plate-&gt;StackPlate]]]
+[[Roll for Speed (dOHNO)-&gt;TempleEscapeSpeed]]</tw-passagedata>
+<tw-passagedata pid="54" name="TempleAltar" tags="" position="1000,2400">You move very very slowly towards the altar...
+
+The creatures here do not seem to notice your very gradual footsteps.
+
+(display: &quot;TempleAltarOpen&quot;)</tw-passagedata>
+<tw-passagedata pid="55" name="TempleEscapeSpeed" tags="" position="1150,2400">(set: $roll to Math.floor(Math.random()*20)+1)\
+(set: $check_total to $roll + $speed)\
+\
+You roll a $roll, for $check_total Speed total. I hope that&#39;s enough!
+
+(if: $check_total &gt;= 14)[You make it to the rope just quickly enough to grab it and begin climbing up.
+
+The creatures are right behind you. They seem to be scampering up the walls of the hole, without any need for rope. Some are already well ahead of you.
+
+As you approach the top, you see several of them waiting for you there, peering over the edge of the pit.
+
+One of them rears up. You can see the light from above just illuminating the shape of its face. It&#39;s definitely dog-like. The name &quot;elderhound&quot; is well-deserved.
+
+&quot;JOIN US IN ETERNAL DEATH,&quot; it speaks, in a mimiced human voice. From out of nowhere, it produces a knife and cuts the rope.
+
+Before you know it, you&#39;re plumetting all the way back down the pit. You lose all your Might, Speed and Sanity, but for some reason, you don&#39;t die.(set: $speed to 1)(set: $might to 1)(set: $sanity to 1)
+
+With both legs and your spine broken, you cry out in pain. The creatures take no notice.
+
+[[The altar...-&gt;TempleAltarOpen]]](else:)[(display: &quot;TempleAshDeath&quot;)]</tw-passagedata>
+<tw-passagedata pid="56" name="TempleAshDeath" tags="" position="700,2400">You&#39;re stabbed with a thousand blades from every angle. You could roll for Might, but I don&#39;t think we have a die with enough faces on it.
+
+Your eyes are gouged out, not that you need them in the darkness down here anyway.
+
+You&#39;re methodically drained of blood. From the sound of it, the creatures here are collecting your blood in a trough. You don&#39;t know whether that&#39;s because they have some purpose for it, or whether it&#39;s because they want to protect the carpet underneath. You spend several days pondering that subject.
+
+After a week, you feel the caress of tentacles on your body. You&#39;ve long been empty of blood. But you&#39;re not dead.
+
+Death will not come to you here, but you so wish it would.
+
+```The tentacles probe every inch of your body, paying #{font:bold}very#{font:default} special attention to the newly-vacant eye sockets.```
+
+Then one day, several years later, the tentacles tire of you. You begin to feel very warm shortly after, and you think you might be on a pyre.
+
+When the fire touches you, you scream. You scream louder and harder than you ever knew you could. Not because of the pain, but because you knew what would come afterwards.
+
+```The screaming stopped. The fire had burned through your lungs, and pretty much everything else. The pain had all but gone, too. In fact, you couldn&#39;t feel anything, or #{font:bold}sense#{font:default} anything.```
+
+You knew what had happened. You are now a thinking, conscious pile of ash. Ash has no senses with which to perceive the outside world, nor any muscles with which to affect the outside world. You&#39;re trapped in a solipsistic nightmare, a dark dream with no end.
+
+Maybe one day... One day one of these creatures will sneeze and blow your ashes up the hole and out of the tunnel. Then you will simply be dead.</tw-passagedata>
+<tw-passagedata pid="57" name="TempleAltarOpen" tags="" position="1000,2550">You stop moving. Something is wrong with the altar.
+
+You suddenly realize it&#39;s not an altar at all. It&#39;s a gap, a void in the air, revealing another space altogether, like an optical illusion.
+
+The ground begins to rumble again. You hear the grinding of stone against stone as the hole in the ceiling closes back up. You&#39;re trapped now.
+
+It goes quiet suddenly. All you can hear is the rapid beating of your own pulse.
+
+Then, gradually, there comes a rhythmic squelching through the void. It&#39;s getting louder. Something is approaching, but you can&#39;t see it.
+
+[[Next-&gt;TempleAltarOpen2]]</tw-passagedata>
+<tw-passagedata pid="58" name="TempleAltarOpen2" tags="" position="1000,2700">Something resembling a melting human face splattered onto the front end of a slug, with a nest of writhing tentacles on its back materializes in front of you.
+
+You&#39;re not sure if it notices you.
+
+Its eyes scan the room, and grow and shrink in size.
+
+The tentacles, you realize, sometimes connect and then tear apart. Some appear to pass through solid objects in the temple.
+
+You wonder if you&#39;re witnessing a three-dimensional projection of a much larger, higher-dimensional beast. What lies before you is merely a shadow of the true horror you&#39;re about to face.
+
+To this creature, you must appear as a flat, two-dimensional sheet of paper, on end. Maybe that&#39;s why it hasn&#39;t noticed you...
+
+Oops, I spoke too soon!
+
+[[Roll for Sanity (d?)-&gt;TempleAltarOpenSanity]]</tw-passagedata>
+<tw-passagedata pid="59" name="TempleAltarOpenSanity" tags="" position="1000,2850">(set: $roll to Math.floor(Math.random()*50)/10-2.5)\
+(set: $check_total to $roll + $sanity)\
+\
+You roll a $roll, for $check_total Sanity total. Oh!
+
+(if: $check_total &gt;= 3)[The beast&#39;s many eyes lock onto you, but you manage to keep your wits, just about.
+
+This is the Undying Lord of Eternity, you know it. You don&#39;t know how, but you know it.
+
+The tentacles from its back (or tubes, or capillaries, or whatever they are) begin to thrash. Then the beast grows in size.
+
+You back up into a corner, while the elderhounds queue up to be consumed by the many mouths of the Undying Lord. Soon its vast, imposing bulk is pressing against all four walls.
+
+As the pressure on your skull and chest increases, you hear the first wall begin to crumble. There&#39;s a crack as the second wall yields, and then the third.
+
+Finally, the fourth wall breaks.
+
+The GM throws back his head, as the Undying Lord of Eternity climbs out through his mouth. This is not a game any more.
+
+CHOOSE YOUR FATE MORTAL.
+
+You have no stats. You&#39;re pretty sure the character you were just playing is dead, or worse. All you have is the knowledge you acquired in that game. You can use your WORDS.
+
+(text-input:)
+[[CATERPILLAR-&gt;EndCaterpillar]]
+[[HUNGRY-&gt;EndHungry]]
+[[MOM-&gt;EndMom]]
+[[SMACK-&gt;EndSmack]]
+[[JUICE-&gt;EndJuice]]
+[[QUIXOTIC-&gt;EndQuixotic]]
+[[default-&gt;EndDefaultWord]]](else:)[You&#39;re a gibbering wreck. No mere mortal is meant to see this.
+
+Is it even real? Is any of this real? Is it all a dream, or a game or some story you&#39;re telling yourself? Are you insane?
+
+Here in the tomb of the Undying Lord of Eternity, nothing dies. You&#39;re insane, your body derelict, yet you live forever.
+
+This is not a good thing, though. Although the Undying Lord ignores you, the elderhounds appear to enjoy tormenting you.
+
+Over years, you&#39;re eaten by the elderhounds dozens of times. You lie on the floor of the tomb in several pieces for centuries before anything new happens.
+
+And all that time you spend wishing you were dead.]</tw-passagedata>
+<tw-passagedata pid="60" name="EndCaterpillar" tags="" position="400,3100">The Undying Lord nods. He understands your wish.
+
+You realize this whole time you&#39;ve actually been dreaming the whole encounter. You&#39;re finally awake. There&#39;s a sort of mush around you, and beyond that, a tough skin.
+
+You push against the skin, and break through. Ah, fresh air!
+
+Now you&#39;re free, you unfurl your wings and fly off.
+
+A few days later, you&#39;re dead. But it could have been worse.</tw-passagedata>
+<tw-passagedata pid="61" name="EndHungry" tags="" position="550,3100">You speak the word.
+
+The Undying Lord nods its vast slimy head. It resembles a hypertorus more than a human face now.
+
+It allows you to leave, and you go home.
+
+Over the next few days, you regularly check the news for reports of a strange monster on the loose, but you find none.
+
+You feel more hungry with every passing day, but nothing you eat seems to satisfy you.
+
+A few months later, you&#39;re hit by a car. As you pass out, you&#39;re certain that you won&#39;t make it, because you&#39;re incredibly messed up. But to your surprise, you wake up again, in hospital. You cannot die.
+
+Your hunger gets more intense every day. Within a few weeks, you&#39;re eating anything you can think of, just to see if it will help, but nothing does.
+
+Within a few months, you&#39;re killing and eating other people. The hunger is driving you crazy.
+
+In three hundred years time, the remaining humans take their last stand against you. They hit you with everything, rockets, nukes, death rays, but nothing works. It only makes you hungrier.
+
+Then at last, everyone is dead, and the only thing left to eat is the Earth itself.</tw-passagedata>
+<tw-passagedata pid="62" name="EndMom" tags="" position="700,3100">You call for your mother. Nothing happens. Perhaps that&#39;s for the best.
+
+The Undying Lord turns around, revealing yet another mouth. This one is between two of his massive legs.
+
+You&#39;re picked up and pushed inside this grotesque mouth. You&#39;re too stunned to do anything about it, and now you&#39;re drowning in blood and mucus.
+
+Nine months later, you&#39;re reborn as an elderhound. In your new life, you take delight in serving your new mother, the Undying Lord. Which you do for all eternity.</tw-passagedata>
+<tw-passagedata pid="63" name="EndSmack" tags="" position="850,3100">The Undying Lord fulfills your wish, and smacks you with a tentacle. You die instantly, and painlessly. It could have been much worse.
+
+You are dead.</tw-passagedata>
+<tw-passagedata pid="64" name="EndJuice" tags="" position="1000,3100">The air begins to smell of apples. Then a black viscous fluid begins to drip from the ceiling.
+
+You open your mouth to take some of it in. It tastes like milk, and purple beginnings. You&#39;re having a stroke.
+
+And now you&#39;re dead. It could have been much worse.</tw-passagedata>
+<tw-passagedata pid="65" name="EndQuixotic" tags="" position="1150,3100">DO YOU EVEN KNOW WHAT THAT MEANS, MORTAL?
+
+You&#39;re so embarrassed that you don&#39;t know what &quot;quixotic&quot; means, that you wish you were dead.</tw-passagedata>
+<tw-passagedata pid="66" name="GMFightWORDSDefault" tags="" position="1500,2950">You shout the word, but nothing happens. The GM looks at you strangely.
+
+(display: &quot;GMFightGMTurn&quot;)</tw-passagedata>
+<tw-passagedata pid="67" name="EndDefaultWord" tags="" position="250,3100">As you say your word, the Undying Lord picks you up with his tentacles, and sits you down on his newly materialized knee.
+
+The mass of writhing, twisting, white fur that the horror now sports on its face reminds you of your childhood... Of the time you went to see a mall Santa.
+
+Back then, you had asked for a puppy, but what you got was instead a yo-yo. It was as much a disappointment then as it is now. This time you asked for $input, but what you&#39;re getting is ETERNAL TORTURE.
+
+The pain you experience outlasts the burning of the sun&#39;s hydrogen. It outlasts the creation of the pan-galactic human-trogoradon empire. It outlasts the black holes at the end of the universe. It outlasts entropy.
+
+That&#39;s what you get for guessing WORDS.</tw-passagedata>
+</tw-storydata>

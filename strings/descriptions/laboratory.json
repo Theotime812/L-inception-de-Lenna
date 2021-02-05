@@ -1,0 +1,75 @@
+{
+  "comeBackLater" : "Try again later.",
+
+  "foodSource" : [
+    "It's some kind of potato-based food.",
+    "It looks like it hasn't been touched for a very long time."
+  ],
+
+  "cafeteriaSign" : [
+    "\"Please take a plate and serve yourself from our wide variety of indulgent foodstuffs from around the continent.\"",
+    "\"Menu:\nPotato - $10\nPatata - $10\nPotatis - $10\n\u008e\u008f\u0090 - $11\""
+  ],
+
+  "warmMug" : [
+    "It's a warm mug of coffee. Yum!"
+  ],
+
+  "coldMug" : [
+    "It's a cold mug of... something brown? Yuck!"
+  ],
+
+  "powers" : {
+    "fortitude" : [
+      "The Power of Fortitude: the symbol of each generation's chosen hero."
+    ],
+    "compassion" : [
+      "The Power of Compassion: protected by the royal family and handed down to each new monarch."
+    ],
+    "wealth" : [
+      "The Power of Wealth: kept as capital by the world's largest financial services corporation, The Guild LLC."
+    ],
+    "truth" : [
+      "The Power o. #{glitch:true}....h: th. m..t p..#{reset}e.... o. #{glitch:true}... f... #{reset}..... t.e .llu....s .a.. .y #{glitch:true}t.. ..r.upt a.d ...ke#{reset}.."
+    ],
+    "realTruth" : [
+      "The Power of Truth: the most powerful of the four lifts the illusions cast by the corrupt and wicked."
+    ],
+    "allfour" : [
+      "The first four arrivals on this island brought with them unique powers.",
+      "Upon death, their abilities passed on to the next generation...",
+      "This inheritance became known collectively as the Four Powers."
+    ]
+  },
+
+  "lobbyLabSign" : [
+    "#{font:bold}WARNING: UNSTABLE EXPERIMENTS#{reset}",
+    "Access restricted to authorized personnel #{font:bold}only#{reset}."
+  ],
+
+  "lobbyCafeteriaSign" : [
+    "< Cafeteria"
+  ],
+
+  "lobbyStudySign" : [
+    "Study >"
+  ],
+
+  "blackboard" : [
+    "A diagram on the board depicts the layout of ROM memory banks."
+  ],
+
+  "bookshelves" : [
+    "A bookcase containing a long series of books on geology.",
+    "A bookcase filled with arcane tomes about video game development.",
+    "There are a few books here describing the dungeons you've been to.",
+    "The books here aren't real, they're just wood carvings."
+  ],
+
+  "studyPoster" : ["It's a tasteless poster.","KEEP CALM\n   #{font:tiny}AND#{reset}\nQUAKE ON"],
+
+  "studyComputer" : "The screen is black and dusty.",
+
+  "studyCoffee" : "This coffee has been sitting here for a while."
+
+}

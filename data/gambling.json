@@ -1,0 +1,101 @@
+{
+  "withdrawalLimit" : 999,
+
+  "symbols": {
+    "PALC": {
+      "initialPrice": 1,
+      "totalShares": 10000
+    },
+    "MRCH": {
+      "initialPrice": 20,
+      "totalShares": 10000
+    },
+    "SHOP": {
+      "initialPrice": 50,
+      "totalShares": 10000
+    },
+    "LBRY": {
+      "initialPrice": 100,
+      "totalShares": 10000
+    },
+    "TELC": {
+      "initialPrice": 1000,
+      "totalShares": 10000
+    },
+
+    "GILD": {
+      "bank": true,
+      "initialPrice": 2000,
+      "totalShares": 10000
+    }
+  },
+
+  "#disabledSymbols": {
+    "BSOU": {
+      "bank": true,
+      "initialPrice": 503,
+      "totalShares": 10000
+    },
+    "QYPR": {
+      "bank": true,
+      "initialPrice": 778,
+      "totalShares": 10000
+    },
+    "NOMC": {
+      "bank": true,
+      "initialPrice": 1190,
+      "totalShares": 10000
+    }
+  },
+
+  "headlines": [
+    {
+      "text": "${bank} puts restrictions on cash payments.",
+      "bias": "down"
+    },
+    {
+      "text": "${bank} puts restrictions on cash withdrawals.",
+      "bias": "down"
+    },
+    {
+      "text": "${symbol1} shares end up, helped by cyclical stocks.",
+      "bias": "down"
+    },
+    {
+      "text": "${symbol1} shares fall on ${symbol2} worries.",
+      "bias": "up"
+    },
+    {
+      "text": "${symbol1} shares rebound, ${symbol2} under pressure in weak GILD open.",
+      "bias": "up"
+    },
+    {
+      "text": "${symbol1} shares close lower as ${symbol2} strength hits ${symbol3}.",
+      "bias": "up"
+    },
+    {
+      "text": "${symbol1} shares propped up by ${symbol2}, ${symbol3} fall.",
+      "bias": "down"
+    },
+    {
+      "text": "${symbol1} shares lag ${symbol2} rebound as jitters hit banks.",
+      "bias": "up"
+    },
+    {
+      "text": "${symbol1} shares edge higher, focus on ${symbol2}.",
+      "bias": "down"
+    },
+    {
+      "text": "${symbol1} shares edge lower, as banks extend losses.",
+      "bias": "down"
+    },
+    {
+      "text": "${symbol1} shares weighed down by weaker banks.",
+      "bias": "up"
+    },
+    {
+      "text": "${bank} reduces interest rates.",
+      "bias": "up"
+    }
+  ]
+}

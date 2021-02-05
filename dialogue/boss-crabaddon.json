@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Archangel Crabaddon",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/crabaddon",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

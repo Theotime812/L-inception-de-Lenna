@@ -1,0 +1,23 @@
+{
+  "base": "dungeon",
+  "name": "Dark Dungeon",
+  "music": "alt_dungeon_2",
+  
+  "colorSchemeGen": {
+    "primary": [0,2,2],
+    "boostGreen": false,
+    "primaryAmount": [3,1],
+    "baseRed": [0,1],
+    "baseGreen": [0,1],
+    "baseBlue": [0,1]
+  },
+  
+  "dungeonEntranceTiles": [
+    "dungeons_2_min+0",
+    "dungeons_2_min+1",
+    "dungeons_2_min+2",
+    "dungeons_3_min+0",
+    "dungeons_3_min+1",
+    "dungeons_3_min+2"
+  ]
+}

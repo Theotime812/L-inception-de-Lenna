@@ -1,0 +1,23 @@
+{
+  "intro" : [
+    "Triominos Pizza, bonjour."
+  ],
+
+  "statusUpdate" : {
+    "imminent" : "Votre commande arrive bientôt !",
+    "later" : "Votre commande arrive dans ${0} minutes."
+  },
+
+  "takeOrder" : [
+    "Puis-je prendre votre commande ?",
+    "Il y a une offre spéciale aujourd'hui. Commandez n'importe quelle pizza pour ${0}$ !"
+  ],
+
+  "confirmOrder" : [
+    "Merci, votre commande arrivera dans ${0} minutes."
+  ],
+
+  "signOff" : [
+    "Rappelez-nous vite !"
+  ]
+}

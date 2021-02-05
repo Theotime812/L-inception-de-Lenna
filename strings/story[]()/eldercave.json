@@ -1,0 +1,51 @@
+{
+  "delvinEncounter" : {
+    "lenna" : [
+      "Que... qu'est-ce que c'était ?"
+    ]
+  },
+  "wrappedParcel" : {
+    "dialogue": "Hmm... Je me demande ce qu'il y a à l'intérieur...",
+    "question": "Qu'y a-t-il dans le colis ?",
+    "STEEL_SWORD": "Épée normale",
+    "LANCE_SWORD": "Arme d'hast",
+    "CLAYMORE_SWORD": "Épée à 2 mains",
+    "STILETTO_SWORD": "Dague"
+  },
+  "elderCorpse" : {
+    "lenna" : [
+      [
+        "C'est... l'ancien du village ?"
+      ],
+      [
+        "Il ne respire plus..."
+      ],
+      [
+        "Tu trouves ça drôle ?"
+      ],
+      [
+        "Quel humour macabre, ça me donne la chair de poule !"
+      ]
+    ]
+  },
+  "lanceEncounter" : {
+    "lance0" : "...?",
+    "lenna0" : [
+      "Ces vêtements... tu dois être le héros !",
+      "Je... j'ai l'impression que l'ancien voulait que vous ayez ça."
+    ],
+    "lenna1" : "Qu'est-ce que vous faites !",
+    "lenna2" : "Vous pourriez vous blesser !",
+    "lance1" : "...",
+    "lenna3" : "*Soupir* Bien.",
+    "lenna3.1" : "Je vous montre comment utiliser cette arme si vous faites une quête pour moi.",
+    "lenna3.2" : "J'ai besoin que vous secouriez mes élèves.",
+    "lance2" : "...!",
+    "lenna4" : "Laissez-moi m'occuper des monstres pour l'instant.",
+
+    "lance3" : "...?",
+    "lenna5" : "Ne faites pas attention à elle, elle essaye juste de me voler dans les plumes.",
+
+    "lenna6" : "Suivez-moi, je vous emmène à la zone du tutoriel."
+  }
+}

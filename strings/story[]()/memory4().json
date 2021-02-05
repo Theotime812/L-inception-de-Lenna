@@ -1,0 +1,16 @@
+{
+  "aalenna_shallIAssume": "Dois-je supposer que vous savez qui je suis ?",
+  "chairman_yes": "#{shake:2,2}O-oui.",
+  "chairman_angelInvestor": "Vous êtes #{wave:3,9,0.1}l'ange investisseuse#{reset} de ma banque !",
+  "aalenna_goodImImpressed": "Bien. Je suis impressionnée que vous soyez tout de même venu.",
+  "chairman_revenueStream": "#{shake:2,2}Vous aviez mentionné une nouvelle source de revenus...?",
+  "aalenna_correct": "Correct.",
+  "aalenna_solelyPossess": "Nous autres monstres sommes les seuls à avoir la capacité de créer de novelles pièces.",
+  "aalenna_iHaveHarnessed": "J'ai maîtrisé ce pouvoir.",
+  "chairman_excl": "#{shake:1,3}!!!",
+  "aalenna_advancePayment": "Considérez cela comme une avance, avec encore plus à venir si vous accomplissez tout ce que je vais vous dire.",
+  "chairman_oBounteousOne": "Que voulez-vous de moi, Ô généreuse ?",
+  "aalenna_princesDebts": "Servez-vous des dettes du prince. Entrez dans son palais et renvoyez les gardes.",
+  "aalenna_marchOnThePalace": "Je marcherai ainsi sur le palais, sans obstacles...",
+  "aalenna_rightfulPlace": "#{shake:2,2}Et je prendrai ma place légitime de chef sur ces pathétiques terres !"
+}

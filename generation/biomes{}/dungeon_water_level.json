@@ -1,0 +1,22 @@
+{
+  "base": "dungeon",
+  "name": "Water Dungeon",
+  "music": "dungeon",
+  
+  "colorSchemeGen": {
+    "primary": 2,
+    "boostGreen": false,
+    "primaryAmount": 5,
+    "baseRed": [0,1],
+    "baseGreen": [1,3],
+    "baseBlue": [1,3]
+  },
+  "dungeonEntranceTiles": [
+    "dungeons_0_min+6",
+    "dungeons_0_min+7",
+    "dungeons_0_min+8",
+    "dungeons_1_min+6",
+    "dungeons_1_min+7",
+    "dungeons_1_min+8"
+  ]
+}

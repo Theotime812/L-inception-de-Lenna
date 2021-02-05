@@ -1,0 +1,15 @@
+{
+  "base": "cave_normal",
+  "name": "Ice Cave",
+  "music": "cave",
+  "tilesheet": "cave1",
+  
+  "colorSchemeGen": {
+    "primary": 2,
+    "boostGreen": false,
+    "primaryAmount": 5,
+    "baseRed": [0,1],
+    "baseGreen": [3,1],
+    "baseBlue": [1,3]
+  }
+}

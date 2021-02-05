@@ -1,0 +1,144 @@
+{
+  "test": {
+    "title": "Test clue",
+    "description": "I need to do the thing.",
+    "sceneId": "scene:*-overworld-west:school-exit"
+  },
+  
+  "find-books": {
+    "title": "Paige's missing books",
+    "description": "Paige has asked me to help find her missing books.",
+    "sceneId": "scene:*-overworld-west:library-exit"
+  },
+  "marshmallow": {
+    "title": "Kill 10 marshmallows",
+    "description": "Paige has suggested celebrating the return of her final missing book. Her idea requires 10 marshmallow corpses.",
+    "sceneId": null
+  },
+  "trade1": {
+    "title": "Red paperclip",
+    "description": "A thirsty man gave me a paperclip in exchange for some water. What could it be used for?",
+    "sceneId": "scene:*-overworld-west:trader0-exit"
+  },
+  "trade2": {
+    "title": "Fish-shaped pen",
+    "description": "A disorganized office worker gave me a fish-shaped pen in exchange for a paperclip. What could it be used for?",
+    "sceneId": "scene:*-overworld-west:office-exit"
+  },
+  "trade3": {
+    "title": "Forged deed",
+    "description": "A shady businessman gave me a fake-looking house deed in exchange for a pen. What could it be used for?",
+    "sceneId": "scene:*-overworld-west:trader2-exit"
+  },
+  "trade4": {
+    "title": "Briefcase",
+    "description": "A bankrupt investor gave me an empty briefcase in exchange for a fake house deed. What could it be used for?",
+    "sceneId": "scene:*-overworld-west:guildbank-exit"
+  },
+  "trade5": {
+    "title": "Sweaty shirt",
+    "description": "A traveling merchant gave me a used shirt in exchange for a briefcase. What could it be used for?",
+    "sceneId": "scene:*-overworld-east:travellingmerchant0-exit"
+  },
+  "trade6": {
+    "title": "Bear claw",
+    "description": "A naked bear gave me a claw in exchange for a shirt. What could it be used for?",
+    "sceneId": "scene:*-overworld-east:trader5-exit"
+  },
+  "merchant1": {
+    "title": "Traveling merchant",
+    "description": "A mysterious merchant has said I will next run into him here.",
+    "sceneId": "scene:*-overworld-east:travellingmerchant1-exit"
+  },
+  "merchant2": {
+    "title": "Traveling merchant",
+    "description": "A mysterious merchant has said I will next run into him here.",
+    "sceneId": "scene:*-overworld-east:travellingmerchant2-exit"
+  },
+  "merchant3": {
+    "title": "Traveling merchant",
+    "description": "A mysterious merchant has said I will next run into him here.",
+    "sceneId": "scene:*-overworld-east:travellingmerchant3-exit"
+  },
+  "beta-test" : {
+    "title" : "Beta test a new game",
+    "description" : "A strange cloaked man has asked me to try out his new game. There's a reward for beating all the monsters.",
+    "sceneId" : "scene:*-overworld-east:battle-arena-exit"
+  },
+  "find-tressa" : {
+    "title" : "The missing sister",
+    "description" : "Two brothers need help finding their sister, Tressa, so that they can open a new store.",
+    "sceneId" : "scene:*-overworld-east:statuseffectstore-exit"
+  },
+  "goldilocks" : {
+    "title" : "Home invader",
+    "description" : "A family of three bears report having their home invaded regularly.",
+    "sceneId" : "scene:*-overworld-west:bear-cottage-exit"
+  },
+  "withdrawal-limit" : {
+    "title" : "Withdrawal limit",
+    "description" : "The bank's investment casino has a withdrawal limit. What happens if I exceed it?",
+    "sceneId" : "scene:*-overworld-west:guildbank-exit"
+  },
+  "woodcutter" : {
+    "title" : "Woodcutter",
+    "description" : "A lumberjack told me something about secrets in the trees...",
+    "sceneId" : "scene:*-overworld-east:woodcutter-exit"
+  },
+  "power1" : {
+    "title" : "Power of Compassion",
+    "description" : "I have the Power of Compassion now, but how do I use it? Is there something else I need?",
+    "sceneId" : null
+  },
+  
+  "school": {
+    "title": "School",
+    "description": "Some kind of graphical #{glitch:true}glitch#{glitch:false} has affected my school. My students are trapped inside!",
+    "sceneId": "scene:*-overworld-west:school-exit"
+  },
+  "chicken": {
+    "title": "A chicken...?",
+    "description": "When I said I needed help, the chicken seemed to understand. Where will it take me?",
+    "sceneId": "scene:*-overworld-west:elder-cave-exit"
+  },
+  "tutorial": {
+    "title": "Lance, Hero of Fortitude",
+    "description": "Lance may be able to rescue my class, but he needs training. I'll take him to the local dungeon for a quick lesson on sword safety.",
+    "sceneId": "scene:*-overworld-west:dungeon0-exit"
+  },
+  "find-librarian": {
+    "title": "The librarian",
+    "description": "The librarian is said to know of four dungeons that may be my last hope for rescuing my trapped students.",
+    "sceneId": "scene:*-overworld-west:library-exit"
+  },
+  "dungeons-west": {
+    "title": "Dungeons",
+    "description": "Whoever was pretending to be the elder seemed to think conquering these dungeons would help resolve the evil affecting my school.",
+    "sceneId": null
+  },
+  "rescue-prince": {
+    "title": "The prince",
+    "description": "The prince has been imprisoned by the evil chairman. I'll visit the bank to make a complaint.",
+    "sceneId": "scene:*-overworld-west:guildbank-exit"
+  },
+  "chase-chairman": {
+    "title": "The chairman",
+    "description": "The chairman is on the run. I can't let him get away!",
+    "sceneId": "scene:*-overworld-west:bridge-exit"
+  },
+  "save-maxwell": {
+    "title": "Trapped under the lab",
+    "description": "Somebody is trapped under the laboratory and needs my help.",
+    "sceneId": "scene:*-overworld-east:laboratory-exit"
+  },
+  "stop-chairman": {
+    "title": "The chairman",
+    "description": "I'm behind the chairman's coup. Only I can stop him and restore order now.",
+    "sceneId" : "scene:*-overworld-east:palace-exit"
+  },
+  "multiplayer": {
+    "title": "Enabling multiplayer",
+    "description": "Local co-op can be enabled by visiting the Shadow Temple in town after obtaining the Power of Fortitude in the first dungeon.",
+    "sceneId": "scene:*-overworld-west:shadow-temple-exit"
+  }
+}

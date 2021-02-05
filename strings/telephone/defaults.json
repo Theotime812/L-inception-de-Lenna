@@ -1,0 +1,8 @@
+{
+  "notConnected" : [
+    "Nous sommes désolés, mais cet appel ne peut aboutir."
+  ],
+  "notInService" : [
+    "Nous sommes désolés, mais ce numéro n'est plus en service."
+  ]
+}

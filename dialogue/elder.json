@@ -1,0 +1,38 @@
+{
+  "default" : {
+    "name" : "Elder",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 0
+    },
+    "font" : "default"
+  },
+  "laughing" : {
+    "name" : "Elder",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 1
+    },
+    "font" : "default"
+  },
+  "eyebrow" : {
+    "name" : "Elder",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 2
+    },
+    "font" : "default"
+  },
+  "glitch" : {
+    "name" : "Elder",
+    "nameFormat" : "#{color:p130}",
+    "portrait" : {
+      "sheet" : "portraits/elder",
+      "index" : 3
+    },
+    "font" : "smallcaps"
+  }
+}

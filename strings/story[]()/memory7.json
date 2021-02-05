@@ -1,0 +1,25 @@
+{
+  "part1" : {
+    "delvin_calledLab" : "Ancien, je suis ici à propos de votre appel de tout à l'heure...",
+    "delvin_bossWasListening" : "Je ne pouvais pas en parler à ce moment-là. Mon patron écoutait.",
+    "elder_keepLanceSafe": "Oui, oui. Donc, avez-vous quelque chose qui gardera Lance sauf pendant quelques années encore ?",
+    "delvin_changeEverything": "J'ai quelque chose qui changera tout !",
+    "elder_fourPowers" : "Cela ressemble à l'un des Quatre Pouvoirs.",
+    "elder_powerOfTruth": "Avez-vous récupéré le Pouvoir de Vérité, fils ? Je suis impressioné.",
+    "delvin_muchMoreInteresting": "Non, c'est bien plus intéressant que cela !",
+    "delvin_unlimitedPotential": "8Fridge est une arme au potentiel illimité, un génie qui peut exhaucer n'importe quel v½u.",
+    "delvin_speakTheLanguage": "Tant que vous parlez le langage...",
+    "elder_scam": "Vous feriez mieux d'aller arnaquer quelqu'un d'autre.",
+    "elder_lookAroundYou": "Regardez autour de vous, gamin. Je n'ai pas beaucoup d'argent.",
+    "elder_goodPitch": "C'était bien tenté, pourtant ! Cela me rappelle...",
+    "delvin_notAScam": "#{shake:3,0}#{font:bold}Ce n'est pas une arnaque !",
+    "delvin_justWatch": "Regardez ! Je l'ai configuré pour devenir l'être le plus puissant du monde !",
+    "elder_morePowerfulThan": "Oh, vraiment ? Plus puissant que l'Archange... ?",
+  },
+  "part3": {
+    "aalenna_azraflail": "Azraflail, nous sommes attaqués ! Sortez d'ici !",
+    "aalenna_showYourself": "Sortez et montrez-vous, lâche !",
+    "aalenna_no": "#{shake:3,3}#{font:bold}Non !#{reset}",
+    "aalenna_students": "Je ne vous laisserai pas faire de mal... à mes... #{wave:3,9,0.1}élèves..."
+  }
+}

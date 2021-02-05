@@ -1,0 +1,10 @@
+{
+  "bat" : "Bruce is licking blood from his lips.",
+  "chicken" : "Henrietta looks clucking mad.",
+  "phoenix" : "Henrietta looks like she's about to fly off the handle!",
+  "pumpkin" : "Gourdon is grinning.",
+  
+  "startedFollowing" : "${0} started following you!",
+  "chickenStartedFollowing" : "${0} the chicken started following you!",
+  "foundWhistle" : "Oh! ${0} was carrying something..."
+}

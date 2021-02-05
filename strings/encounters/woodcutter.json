@@ -1,0 +1,24 @@
+{
+  "intro" : [
+    "Over the course of my life, I've cut down hundreds of trees.",
+    "I've found small items, baddies, and sometimes... sometimes, even wood!",
+    "But I've never found any secrets. I don't think there are any...",
+    "But I'd be very happy if you proved me wrong!"
+  ],
+  "dialogue" : [
+    "Cut some wood for me! Chop chop!"
+  ],
+  "questComplete" : [
+    [
+      "Wow you did it! Incredible!"
+    ],
+    [
+      "I can't believe it! I'm so excited!",
+      "You found a secret!"
+    ],
+    [
+      "I think I'm gonna go cut some wood right now!",
+      "Here, you should keep this. Someone might need it."
+    ]
+  ]
+}

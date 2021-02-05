@@ -1,0 +1,14 @@
+{
+  "challengeAlreadyPlayed" : [
+    "Vous avez déjà joué au défi du jour.",
+    "Revenez demain pour le suivant !"
+  ],
+  "upload" : "Envoyer le GIF au tableau des scores ?",
+  "uploading" : "Envoi",
+  "viewGif" : "Voir le GIF ?",
+  "viewLeaderboard" : "Envoyé avec succès. Voir le tableau des scores ?",
+  "gifTooLarge" : "Erreur : le GIF est trop lourd pour être envoyé.",
+  "uploadFailed" : "Erreur : Échec lors de l'envoi du GIF.",
+  "uploadCancelled" : "Envoi annulé.",
+  "scoreUploadFailed" : "Erreur : Échec lors de l'envoi du score."
+}

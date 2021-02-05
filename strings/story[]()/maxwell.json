@@ -1,0 +1,15 @@
+{
+  "interact" : [
+    "Il semblerait que beaucoup de choses se sont passées pendant que j'étais coincé dans le sous-sol.",
+    "Comment vous vous en sortez ?"
+  ],
+
+  "telephoneSameRoom" : [
+    "Qu'est-ce qu'il y a ? Nous ne pouvons pas se parler en personne ?"
+  ],
+
+  "saveMe" : [
+    "À l'aide !",
+    "Je suis piégé dans le sous-sol du laboratoire !"
+  ]
+}

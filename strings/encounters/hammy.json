@@ -1,0 +1,14 @@
+{
+  "intro" : "STOP!",
+
+  "giveHammer" : [
+    "Did you just blow up my door?",
+    "Are those BOMBS?",
+    "I can see you're a gal who likes combustion!",
+    "But if you ever find yourself in a spot where a detonation just won't do, try a hammer!"
+  ],
+
+  "repeatedDialogue" : [
+    "If you ever find yourself in a spot where a detonation just won't do, try a hammer!"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "base": "dungeon",
+  "name": "Miscellaneous Dungeon",
+  "music": "dungeon",
+  
+  "colorSchemeGen": {
+    "primary": [0,3],
+    "boostGreen": "random",
+    "primaryAmount": [4,1],
+    "baseRed": [1,3],
+    "baseGreen": [1,3],
+    "baseBlue": [1,3]
+  }
+}

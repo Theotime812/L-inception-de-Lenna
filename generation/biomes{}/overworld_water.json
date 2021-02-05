@@ -1,0 +1,36 @@
+{
+  "base": "overworld",
+  "name": "waters",
+  "music": null,
+  "tilesheet": "overworld-beach",
+  "floor": "water",
+
+  "mapIconColor": ["0x000", "0x013", "0x025", "0x555"],
+
+  "#comment": "The player must have all of the following items to reach an area in this biome.",
+  "requiredKeys": ["SWIMMING_SHORTS"],
+  "#comment2": "If the player can get into this biome, they implicitly have all of the following items.",
+  "playerHas": ["SWIMMING_SHORTS"],
+  
+  "graphifyChance": {
+    "overworld_beach": 0.8
+  },
+  "canHostBridge": false,
+
+  "monsterSpawners" : {
+    "bat": false,
+    "slime": false,
+    "green_slime": false,
+    "wallhugger": false,
+    "skeleton": false,
+    "crab_knight": false,
+    "smileder": false,
+    "snail": false,
+    "sharktula": true,
+    "dolphin": true,
+    "green_wizard": false,
+    "bomb_snail": false,
+    "shielded_crab_knight": false,
+    "skeleton_warrior": false
+  }
+}

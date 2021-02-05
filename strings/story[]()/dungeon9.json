@@ -1,0 +1,31 @@
+{
+  "entrance" : {
+    "lenna_smells" : "Cet endroit a une odeur familière !",
+    "paige_whereYouLived" : "Donc, c'est ici que tu vivais ?",
+    "lenna_corridors" : "J'ai grandi dans ces couloirs, en chassant les petits monstres que les humains laissaient derrière eux.",
+    "lenna_hungry" : "J'étais affamée la plupart du temps."
+  },
+  "skeletons" : {
+    "lenna_tellYou" : "Paige... Il faut que je te dise quelque chose.",
+    "lenna_closet" : "Il y a #{wave:3,9,0.1}vraiment#{reset} quelques squelettes dans mon placard.",
+    "paige_humerus" : "Hilarant !",
+    "lenna_seriously" : "Non, sérieusement."
+  },
+  "family" : {
+    "paige_family" : "Est-ce que tu avais de la famille ici ?",
+    "paige_friends" : "Ou des amis ?",
+    "lenna_no" : "Non, et pendant longtemps... jusqu'à ce que je vole le Pouvoir de Vérité et que je crée les archanges."
+  },
+  "school" : {
+    "paige_yourClassroom" : "Est-ce que c'est ta salle de classe ?",
+    "lenna_corruptedMemory" : "Je croyais que c'était un souvenir corrompu...",
+    "lenna_humanSized" : "Quelque chose ne va pas. Tout est à échelle humaine."
+  },
+  "fridge" : {
+    "paige_bedroom" : "Oh mon dieu, c'est #{wave:3,9,0.1}t-ta chambre#{reset} ?",
+    "paige_books" : "#{font:bold}#{wave:3,9,0.1}C'EST TES LIVRES !?",
+    "paige_archangelsRead" : "Quel genre de livre lisent les archanges ?",
+    "paige_horror" : "#{font:tiny}Je devrais peut-être étendre la section horreur de la librairie pour attirer des lecteurs archanges...",
+    "lenna_trapped" : "C'est un piège !"
+  }
+}

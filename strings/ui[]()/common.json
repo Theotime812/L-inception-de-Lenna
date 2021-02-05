@@ -1,0 +1,13 @@
+{
+  "yes": "Oui",
+  "no": "Non",
+  "ok": "OK",
+  "cancel": "Annuler",
+
+  "notEnoughMoney" : "Vous n'avez pas assez d'argent.",
+  "saveRecommendation" : [
+    "Il est conseillé de sauvegarder avant de continuer.",
+    "Sauvegarder maintenant ?"
+  ],
+  "saveAsk" : "Sauvegarder votre progression ?"
+}

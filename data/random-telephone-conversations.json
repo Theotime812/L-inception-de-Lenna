@@ -1,0 +1,120 @@
+{
+  "ROOT": [
+    "${likeTemplate}",
+    "${suspicionTemplate}",
+    "${friendlyTemplate}"
+  ],
+
+  "likeTemplate": [
+    "I like ${pluralNoun}, how about you?\nThey're ${emphasis} ${positiveAdjective}${optionalArentThey}!",
+    "Do you like ${pluralNoun}?\n${yeahOrHey}, me ${too}!",
+    "Do you like ${pluralNoun}?\n${yeahOrHey}, so do I!",
+    "I like ${verb}, how about you?\nIt's ${emphasis} ${positiveAdjective}${optionalIsntIt}",
+    "Do you like ${verb}?\n${yeahOrHey}, me ${too}!",
+    "Do you like ${verb}?\n${yeahOrHey}, so do I!"
+  ],
+  "suspicionTemplate": [
+    "${suspicionConfusion}\n${suspicionAssertion}"
+  ],
+  "friendlyTemplate": [
+    "${friendlyGreeting} Are you keeping safe?\nDon't forget to pick up hearts when you're hurt!",
+    "${friendlyGreeting} Did you know that ${friendlyFactQ}",
+    "${friendlyGreeting} You should be aware that ${friendlyFact}",
+    "${friendlyGreeting} I heard that ${friendlyFact}",
+    "${friendlyGreeting} Rumor has it that ${friendlyFact}"
+  ],
+
+  "friendlyGreeting": [
+    "Hello dear...",
+    "Hey there.",
+    "Ahoy-hoy.",
+    "Adventurer!",
+    "Moshi moshi.",
+    "Hello?",
+    "Hey, what's up?"
+  ],
+  "friendlyFactQ": [
+    "monsters heal when they drink human blood?\nYou should be careful if you're wounded!",
+    "this world contains many hidden areas?\nMaybe a different way of looking at things will help you find them!",
+    "if you have a friend with you, you can get some extra help!\nJust plug in an extra controller, whatever that means...",
+    "there may be someone who can help you break rocks without using explosives?\nI just heard!",
+    "there's a way to get up those cliffs?\nI know, wild huh?"
+  ],
+  "friendlyFact": [
+    "monsters heal when they drink human blood.\nYou should be careful if you're wounded!",
+    "this world contains many hidden areas.\nMaybe a different way of looking at things will help you find them!",
+    "if you have a friend with you, you can get some extra help!\nJust plug in an extra controller, whatever that means...",
+    "there may be someone who can help you break rocks without using explosives.\nI just heard!",
+    "there's a way to get up those cliffs.\nI know, wild huh?"
+  ],
+
+  "suspicionConfusion": [
+    "WHAT?",
+    "What? How did you get this number?",
+    "Hmm, who is this?",
+    "Are you selling something?",
+    "Do I know you?",
+    "Hello? I think you have the wrong number."
+  ],
+  "suspicionAssertion": [
+    "I don't want any, thanks.",
+    "Nobody has this number!",
+    "I haven't given this number to anyone...",
+    "HELLO?",
+    "Did you call the wrong number?"
+  ],
+
+  "pluralNoun": [
+    "coins",
+    "monsters",
+    "bears",
+    "hearts",
+    "weapons",
+    "video games"
+  ],
+  "verb": [
+    "to dance",
+    "playing games",
+    "fighting monsters",
+    "calling strangers",
+    "to collect hearts",
+    "to shout real loud on the telephone"
+  ],
+  "positiveAdjective": [
+    "cool",
+    "neat",
+    "interesting",
+    "fun",
+    "fascinating",
+    "strange"
+  ],
+
+  "emphasis": [
+    "totally",
+    "absolutely",
+    "very",
+    "really",
+    "so"
+  ],
+
+  "optionalArentThey": [
+    "",
+    " aren't they"
+  ],
+  "optionalIsntIt": [
+    "",
+    " isn't it"
+  ],
+  "yeahOrHey": [
+    "Yeah",
+    "Hey",
+    "Nice",
+    "Cool"
+  ],
+  "too": [
+    "too",
+    "also",
+    "as well"
+  ]
+
+}

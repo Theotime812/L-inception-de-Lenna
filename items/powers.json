@@ -1,0 +1,110 @@
+{
+  "categories": {
+    "key": [
+      {
+        "id": "POWER0",
+        "name": "Power of Fortitude",
+        "sortOrder": 10,
+        "charge": 1,
+        "description": "One of the fabled Four Powers. With this power, every conflict you survive will make you stronger!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 0,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER0"]
+      },
+      {
+        "id": "POWER1",
+        "name": "Power of Compassion",
+        "sortOrder": 11,
+        "charge": 1,
+        "description": "One of the fabled Four Powers. With this power, you discover ways to end conflict without violence!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "POWER1"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 1,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER1"]
+      },
+      {
+        "id": "POWER2",
+        "name": "Power of Wealth",
+        "sortOrder": 12,
+        "charge": 1,
+        "description": "One of the fabled Four Powers. With this power, wealth is more easily obtained!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 2,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER2"]
+      },
+      {
+        "id": "POWER3",
+        "name": "Power of Truth",
+        "sortOrder": 13,
+        "charge": 1,
+        "description": "One of the fabled Four Powers. It's the power to see through deception!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "KEY_ITEM"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 3,
+          "animationSlowness": 3,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["POWER3"]
+      },
+      {
+        "id" : "CARTRIDGE",
+        "name" : "Game Cartridge",
+        "sortOrder": 14,
+        "charge" : 1,
+        "description" : "You hold the fate of the world in your hands!",
+        "dropsFromSky": false,
+        "mapSpecific": false,
+        "important" : true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "CARTRIDGE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "items/powers",
+          "row": 4,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpMusic": "key_item_get",
+        "pickUpSound": "pickup_power",
+        "replaces": ["CARTRIDGE"]
+      }
+    ]
+  }
+}

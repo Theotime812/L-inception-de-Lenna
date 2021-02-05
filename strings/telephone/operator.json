@@ -1,0 +1,13 @@
+{
+  "intro" : [
+    "Bonjour, avec qui puis-je vous mettre en contact aujoud'hui ?"
+  ],
+
+  "confirmConnection" : [
+    "Vous allez être mis en relation avec votre interlocuteur."
+  ],
+
+  "cancelConnection" : [
+    "Merci d'avoir appelé !"
+  ]
+}

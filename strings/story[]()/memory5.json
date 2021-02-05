@@ -1,0 +1,41 @@
+{
+  "maxwell_pizzasHere": "Delvin, ta pizza est là !",
+  "pizzaguy_255pizzas": [
+    "*Halète*",
+    "Pardon pour le retard. J'ai essayé de prendre un raccourci par la côte, mais les monstres là-bas étaient #{font:bold}fous#{reset}.",
+    "C'est vous qui avez commandé 255 pizzas ?"
+  ],
+  "delvin_onePizza": "Que... quoi !? J'ai commandé #{font:bold}une#{reset} pizza.",
+  "pizzaguy_iHave255": "Eh bien, j'en ai ici 255 pour vous. Vous les prenez ou pas ?",
+  "delvin_giveToMe": "*Soupir* Donnez-les-moi. Je vais les mettre dans le frigo pour plus tard.",
+
+  "fridge_title": "Frigo",
+  "fridge_pizza": "Pizza \u008D#{glitch:true}5#{glitch:false}5",
+  "fridge_milk": "Lait odorant",
+  "fridge_toss_menu": "Que faire avec ${0}?",
+  "fridge_use": "Utiliser",
+  "fridge_sort": "Trier",
+  "fridge_toss": "Jeter",
+  "fridge_junk": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "E#{glitch:true}rreur",
+    "#{glitch:true}Sauvegarde corrompue !",
+    "",
+    "",
+    "",
+    "#{glitch:true}La faim affecte ma santé... mais parfois, je trouve quelques c½urs dans les buissons dehors, et donc je survis.",
+    "",
+    "",
+    ""
+  ],
+  "delvin_uh": "Euh...",
+  "delvin_allThisJunk": "Que fait toute ce #{wave:3,9,0.1}bazar#{reset} dans ce frigo !?",
+
+  "maxwell_whatOnEarth": "Qu'est-ce que..."
+}

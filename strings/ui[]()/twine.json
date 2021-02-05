@@ -1,0 +1,5 @@
+{
+  "loading": "Chargement en cours...",
+  "error": "Impossible de charger l'histoire.",
+  "quit": "Quitter ${0} ?"
+}

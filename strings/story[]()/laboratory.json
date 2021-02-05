@@ -1,0 +1,42 @@
+{
+  "exterior" : {
+    "paige_nextDungeon": "Le prochain donjon se trouve ici ?",
+    "paige_myPenpal": "Mon correspondant Maxwell travaille ici..."
+  },
+  "basement" : {
+    "paige_thatsMaxwell": "C'est Maxwell ! Nous devons le libérer !"
+  },
+  "rescueMaxwell" : {
+    "maxwell_trappedDownHere": "Je suis piégé ici depuis des jours !",
+    "maxwell_thankYou": "Merci de m'avoir sauvé.",
+    "paige_gladYoureOk": "Maxwell, je suis si contente que tu aille bien !",
+    "maxwell_cafeteria": "Je suis affamé. Venez avec moi à la cafétéria à l'étage, nous parlerons là."
+  },
+  "cafeteria" : {
+    "maxwell_mmm": "Mmm ! C'était bon...",
+    "maxwell_welcome": "Bref... Bienvenue dans mon laboratoire !",
+    "paige_basement": "Comment tu t'es retrouvé au sous-sol, Max ?",
+    "lenna_basement": "Comment vous vous êtes retrouvé au sous-sol ?",
+    "maxwell_labAssistant": "C'était mon assistant.",
+    "maxwell_dangerousExperiments": "Il a mené des expériences dangereuses...",
+    "paige_wroteToMe" : "Je m'en souviens ! Tu m'en avais parlé !",
+    "maxwell_triedToStop": "J'ai essayé de l'arrêter, mais il a retourné ma machine à séismes contre moi.",
+    "maxwell_impressiveMachine": "C'est une machine impressionnante, n'est-ce pas ? Vous avez dû l'utiliser aussi !",
+    "lenna_yesBut": "Oui, mais ce n'est pas pour ça que nous sommes ici...",
+    "maxwell_whatDo": "Que puis-je faire pour vous ?",
+    "lenna_dungeon": "Je cherche un donjon...",
+    "maxwell_thatOldThing": "Oh, ce vieux truc ?",
+    "maxwell_quakemaker2000": "Je suis tombé dessus quand j'installais le Quakemaker2000.",
+    "maxwell_getYouIn": "Je peux vous y mener, mais vous devrez vous débrouiller pour en sortir.",
+    "maxwell_followMe": "Suivez-moi."
+  },
+  "study" : {
+    "maxwell_stand": "Placez-vous sur le + quand vous êtes prête.",
+    "maxwell_start": "Je la démarre ?",
+    "confirm_start": "Démarrer la machine ?",
+    "maxwell_delvin": "Si vous trouvez Delvin en bas, dites-lui qu'il est viré !"
+  },
+  "studyAfterDungeon": {
+    "maxwell_whatDoYouKnow": ["Et ben dis-donc !", "L'entrée du donjon était derrière une vieille bibliothèque depuis le début !"]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "default" : {
+    "name" : "Telephone",
+    "nameFormat" : "#{color:p303}",
+    "portrait" : "/dialogue/portraits/misc-default.png",
+    "font" : "smallcaps"
+  }
+}

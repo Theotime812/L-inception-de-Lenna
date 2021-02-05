@@ -1,0 +1,15 @@
+{
+  "inherit": "/menus/textentry.json",
+
+  "transition" : {
+    "type" : "slide",
+    "direction" : "n",
+    "duration" : 0.25
+  },
+
+  "templates" : {
+    "title" : {
+      "text" : "World Seed"
+    }
+  }
+}

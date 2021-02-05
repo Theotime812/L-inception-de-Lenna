@@ -1,0 +1,47 @@
+{
+  "wife" : {
+    "glitched" : [
+      "#{glitch:true}I don't understand you..."
+    ],
+    "request" : [
+      "My husband and I have been stuck here since the disaster.",
+      "Everything was fine... relatively... until a few days ago when my beloved was affected.",
+      "I'm worried about him!",
+      "Could you check he's OK? I can't make sense of his garbled speech!"
+    ],
+    "thanks" : [
+      "Thank you for checking on my husband!",
+      "We really should have evacuated when young Del warned us!",
+      "I do wonder what our boy's up to now..."
+    ]
+  },
+  "husband" : {
+    "glitched" : [
+      "#{glitch:true}I don't understand you..."
+    ],
+    "thanks" : [
+      "Could you tell my wife I'm doing OK?",
+      "Since the corruption affected me, I haven't been able to find any compatible food.",
+      "Starvation is affecting my health... but occasionally I find some hearts in the bushes outside, and so I survive.",
+      "I do wonder how the constant consumption of corrupted material is affecting me...",
+      "I can feel myself changing. Do I look like a monster?"
+    ],
+    "hint" : [
+      "Hey, if you get lost outside, head < west.",
+      "For some reason, that direction never changes."
+    ]
+  },
+  
+  "randomDialogue" : [
+    "#{glitch:true}Object event.",
+    "#{glitch:true}No windows available for popping.",
+    "#{glitch:true}The window save area was exceeded.",
+    "#{glitch:true}Corrupted event!",
+    "#{glitch:true}BG event.",
+    "#{glitch:true}Coordinates event.",
+    "#{glitch:true}9 ERROR.",
+    "#{glitch:true}0@56 ERROR.",
+    ["#{glitch:true}PA: Ding-dong!","#{glitch:true}Time's up!"],
+    ["\n\n\n", ""]
+  ]
+}

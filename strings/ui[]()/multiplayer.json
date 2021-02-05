@@ -1,0 +1,10 @@
+{
+  "playerNames": [
+    "${player.name}",
+    "Shadow"
+  ],
+  "keyboardName": "Clavier",
+  "controllerName": "Manette ${0}",
+  "save" : "${key.confirm1} - Valider",
+  "cancel" : "${key.cancel1} - Annuler"
+}

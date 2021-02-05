@@ -1,0 +1,35 @@
+{
+  "startQuest": [
+    "Psst... Hey!",
+    "Want to help beta test a game I'm developing?",
+    "It's based on a trick a stranger showed me with potions and tunics...",
+    "The game's called the #{wave:4,9,0.2}#{font:bold}Hallucinatory Battle Arena#{reset}!",
+    "Enter the cave to begin! Beat 9 waves for a special reward!"
+  ],
+  "duringQuest": [
+    "Enter the cave to begin the game.",
+    "Beat 9 waves for a special reward!"
+  ],
+  "questComplete1": [
+    "Nice!",
+    "Let me give you this..."
+  ],
+  "questComplete2": [
+    "And, take this as my thanks..."
+  ],
+  "questComplete3": [
+    "With that tunic you can take on the Hallucinatory Battle Arena any time you want.",
+    "It will work anywhere, but this cave is an especially good spot for it.",
+    "You've only played the beginning. After round 9 the enemies start getting harder!"
+  ],
+  "afterQuest": [
+    "Want to play again?",
+    "Just put on that Hallucination Tunic I gave you!",
+    "It will work anywhere, but this cave is an especially good spot for it."
+  ],
+  "tressaNumber": [
+    "Oh! You're looking for someone who works with potions and tunics?",
+    "That sounds like Tressa! She's the one who showed me how to set up this Hallucinatory Battle Arena.",
+    "You should give her a call on 555-3956!"
+  ]
+}

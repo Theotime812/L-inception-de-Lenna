@@ -1,0 +1,22 @@
+{
+  "intro" : {
+    "lenna_dungeon" : ["Il était censé y avoir un donjon ici.", "Je devrais jeter un coup d'½il dans le coin..."]
+  },
+  "office": {
+    "chairman_intro": "On m'appelle le président, mais je suis également l'intégralité du conseil d'administration, le PDG et l'actionnaire majoritaire de la banque dans laquelle vous vous trouvez.",
+    "chairman_custSupport": "Il est inhabituel que quelqu'un arrive aussi loin après le service client.",
+    "chairman_skeletonCrew": "Surtout quand les employés sont constitués du #{wave:3,9,0.1}minimum syndical#{reset}.",
+    "chairman_coincidence": "Je suppose que ce n'est pas une coïncidence si vous êtes venue aujourd'hui...",
+    "chairman_prince": "Vous êtes ici pour le prince, n'est-ce pas ?"
+  },
+  "chairmanEscape": {
+    "chairman_wontCatch": "#{shake:2,2}Vous ne m'attraperez jamais !"
+  },
+  "princeCall": {
+    "prince_scared": "Lance ! Je suis terrifié !",
+    "prince_skeletons": "Le président a remplacé l'intégralité des gardes du palais par des squelettes.",
+    "prince_lookAfter": "Au cas où je ne m'en sorte pas, j'ai besoin que vous veilliez sur quelque chose !",
+    "phone_attachment": "1 pièce(s) jointe(s). Ouvrir la pièce jointe ?",
+    "prince_rememberTheWay": "Vous vous souvenez du chemin, hein ? Le  pont à l'est ?"
+  }
+}

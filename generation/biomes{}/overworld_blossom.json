@@ -1,0 +1,14 @@
+{
+  "base": "overworld",
+  "name": "blossom",
+  "music": null,
+  "plainslike": true,
+  "replacedByMountain": true,
+  "tilesheet": "overworld-blossom",
+  "hasRoads": true,
+
+  "mapIconColor": ["0x000", "0x130", "0x340", "0x555"],
+  "monsterSpawners" : {
+    "daisy_slime": true
+  }
+}

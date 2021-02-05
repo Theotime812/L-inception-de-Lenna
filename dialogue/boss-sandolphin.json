@@ -1,0 +1,11 @@
+{
+  "default" : {
+    "name" : "Archangel Sandolphin",
+    "nameFormat" : "#{color:p500}#{font:gothiccaps}",
+    "portrait" : {
+      "sheet" : "portraits/sandolphin",
+      "index" : 0
+    },
+    "font" : "smallcaps"
+  }
+}

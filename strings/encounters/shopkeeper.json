@@ -1,0 +1,20 @@
+{
+  "damageGoods" : [
+    "Hey! Don't damage the goods!",
+    "Don't make me hit you!",
+    "Well, I don't actually keep anything in those anyway..."
+  ],
+
+  "humanDialogue" : [
+    "Don't blame me if you can't afford anything. That's just inflation.",
+    "Hurry up and decide before I go bankrupt again.",
+    "Wanna buy something and save my family from starvation?"
+  ],
+  "bearDialogue" : [
+    "Welcome to Andres the Bear's Emporium."
+  ],
+
+  "impossible" : [
+    "What is this sorcery? How did you get so much money?"
+  ]
+}

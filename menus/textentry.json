@@ -1,0 +1,99 @@
+{
+  "keyboard": "/menus/keyboard.json",
+
+  "lengthLimit": 12,
+  "errorSfx": "fart",
+
+  "keyRepeatPeriod": 100,
+  "keyRepeatDelay": 500,
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    }
+  },
+
+  "windowRegion": [48, 48, 224, 128],
+  "windowPadding": 8,
+  "drawWindow": true,
+
+  "templates": {
+    "title" : {
+      "type": "text",
+      "text": "Text Input",
+      "font" : "bold",
+      "selectable": false,
+      "position" : [16, 8],
+      "origin" : "topleft"
+    },
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "selectionIndicator": [">", -16, 0],
+      "position": [0, 4],
+      "origin": "previous"
+    },
+    "textbox": {
+      "type": "container",
+      "size": [168, 16],
+      "position": [0,0],
+      "selectable": true,
+      "selectionIndicator": ["\u0083\u0084", -20, 2, false],
+      "action": "textbox",
+      "actionTypes": ["typing","confirm"],
+      "children": [
+        {
+          "type": "text",
+          "text": {"$":"text"},
+          "position": [2, 2],
+          "origin": "previous",
+          "blinkingCursor": true
+        },
+        {
+          "type": "hr",
+          "width": 164,
+          "position": [0,-4],
+          "origin": "previous"
+        }
+      ]
+    }
+  },
+  
+  "root": {
+    "type": "container",
+    "position": [48, 48],
+    "size": [224, 128],
+    "children": [
+      {
+        "instance" : "title",
+        "parameters" : {}
+      },
+      {
+        "instance": "textbox",
+        "parameters": {
+          "text": {"$":"text"}
+        },
+        "overrides": {
+          "position": [12, 0],
+          "origin": "previous"
+        }
+      },
+      {
+        "type": "text",
+        "text": "${key.text_confirm} - OK        ${key.text_cancel} - Cancel",
+        "font": "tiny",
+        "centered": true,
+        "selectable": false,
+        "position": [120, 48],
+        "origin": "topcenter"
+      }
+    ]
+  }
+}

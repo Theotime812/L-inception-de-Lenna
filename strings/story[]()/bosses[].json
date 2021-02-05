@@ -1,0 +1,111 @@
+{
+  "intro" : {
+    "azraflail" : "Imposteur ! Tu seras vaincu, démon !",
+    "crabaddon" : "Woop woop woop, woop woop!",
+    "headraniel" : "Vous n'êtes pas #{wave:3,9,0.1}elle#{reset} ! Je suis pas fan !",
+    "sandolphin" : "Combien de temps pouvez-vous retenir votre respiration, humain ? *#{wave:3,9,0.1}Iiii#{reset} !*",
+    "tentaluchus" : "Beurk, dégoûtant ! Vous êtes un humains, allez-vous-en !",
+    "hatasiah" : "Faites très attention pendant que je fais #{wave:3,9,0.1}disparaître#{reset} un humain !",
+    "santaquiel" : "Ho ho ho!",
+    "catsiel" : "Ooh ! Un nouveau jouet !"
+  },
+
+  "compassion" : {
+    "start" : "Nous n'avons pas besoin de nous battre comme ça !",
+    "ignored" : "${0} vous a ignorée.",
+    "left" : "${0} est parti paisiblement.",
+
+    "BINOCULARS" : [
+      "Mais il n'y a pas d'autre alternative !",
+      "Essayez de voir un peu plus loin.",
+      "Haha, les humains sont drôles !"
+    ],
+
+    "I_CHING" : [
+      "Mais le futur est déjà écrit !",
+      "Alors déchirons la fin et réécrivons-là ensemble.",
+      "Vous pouvez faire ça ?"
+    ],
+
+    "IOU" : [
+      "Comment récupérer autrement les butins de guerre !",
+      "Prenez l'objet le plus précieux que j'ai -- je n'en ai pas besoin. Personne ne doit mourir.",
+      "Attendez, vraiment ? Les humains #{wave:3,9,0.1}donnent des choses comme ça#{reset} ?"
+    ],
+
+    "TROPHY" : [
+      "Mais j'ai besoin d'être respecté par les autres !",
+      "Eh bien, je toruve que votre combat mérite un trophée.",
+      "#{wave:3,9,0.1}Merci#{reset} ! Je suppose que ça va faire l'affaire."
+    ],
+
+    "PATENT" : [
+      "La civilisation humaine stagne ! Rien ne changera ou ne s'amélioreera jusqu'à ce que tous les humains soient partis !",
+      "On invente des nouvelles technologies -- des améliorations dans la vie des gens -- tout le temps.",
+      "Qu'est-ce que c'est... ?"
+    ],
+
+    "ERROR_LOG" : [
+      "Mais c'est naturel, et ça ne peut pas être mauvais !",
+      "Parfois, #{wave:3,9,0.1}la nature#{reset} est mauvaise.",
+      "Je suppose que cet objet a l'air cassé."
+    ],
+
+    "LIBRARIAN" : [
+      "Mais les humains sont plein de haine !",
+      "Nous sommes aussi capable d'aimer !",
+      "Ohohoho ! Je peux le voir dans vos yeux !"
+    ],
+
+    "CRIME_FILE" : [
+      "Je combat pour la justice !",
+      "Je ne suis pas opposé à la justice. Laissez-moi vous aider.",
+      "Vous feriez ça ?"
+    ]
+  },
+
+  "postBattle" : {
+    "initial" : {
+      "paige" : [["laughing", "Vous n'avez pas de #{wave:3,9,0.1}c½ur#{reset} !"]],
+      "shadow" : [["evilgrin", "Wow ! C'est #{wave:3,9,0.1}dark#{reset}, ${player.name} !"]]
+    },
+
+    "azraflail" : {
+      "paige" : [["laughing", "That feeling of victory, ${player.name}--#{wave:3,9,0.1}saber it!"]],
+      "shadow" : [["evilgrin", "C'était tellement simple. On ne peut pas dire que c'était un #{wave:3,9,0.1}fléau#{reset}, celui-là."]]
+    },
+    "crabaddon" : {
+      "paige" : [["laughing", "Ce Crabbadon semblait vouloir ce donjon juste pour lui. Il ne manque pas d'#{wave:3,9,0.1}air#{reset} !"]],
+      "shadow" : [["evilgrin", "Je #{wave:3,9,0.1}tire#{reset} ma révérence."]]
+    },
+    "headraniel" : {
+      "paige" : [
+        ["laughing", "Quel combat qui #{wave:3,9,0.1}décoiffe#{reset} !"],
+        ["laughing", "Et tout ce qui lui est passé par la #{wave:3,9,0.1}tête#{reset} !"]],
+      "shadow" : [["evilgrin", "Tu sais #{wave:3,9,0.1}lancer#{reset} une fête, ${player.name} !"]]
+    },
+    "sandolphin" : {
+      "paige" : [["laughing", "C'était intense ! Je suis en #{wave:3,9,0.1}nage#{reset} !"]],
+      "shadow" : [["evilgrin", "I think we found our true #{wave:3,9,0.1}porpoise#{reset}, ${player.name}!"]]
+    },
+    "tentaluchus" : {
+      "paige" : [
+        ["blushing", "C'est vrai, j'aime les tentacules."],
+        ["smiling", "C'est une blague, on se #{wave:3,9,0.1}calamar#{reset} !"]],
+      "paige-lenna" : [["laughing", "Haha, you're #{wave:3,9,0.1}kraken#{reset} me up!"]],
+      "shadow" : [["evilgrin", "Je n'arrive pas à croire que ce soit déjà fini. C'était#{wave:3,9,0.1}explosif !"]]
+    },
+    "hatasiah" : {
+      "paige" : [["laughing", "Le dernier recours d'un vampire est de prendre la fuite à bord de son #{wave:3,9,0.1}vaisseau sanguin#{reset} !"]],
+      "shadow" : [["concerned", "#{glitch:true}Pourquoi le professeur porte des lunettes de soleil ?\nParce que ses élèves sont trop brillants."]]
+    },
+    "santaquiel" : {
+      "paige" : [["laughing", "Tu es #{wave:3,9,0.1}en feu#{reset}, ${player.name} !"]],
+      "shadow" : [["evilgrin", "Un accueil glacial reçoit une réponse ardente."]]
+    },
+    "catsiel" : {
+      "paige" : [["laughing", "Cette chose était énorme. Elle m'a vraiment faite sursauter !"]],
+      "shadow" : [["evilgrin", "A truly fur-midable foe!"]]
+    }
+  }
+}

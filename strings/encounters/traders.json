@@ -1,0 +1,123 @@
+{
+  "intro": [
+    [
+      "I'm so thirsty I can't move.",
+      "Can you bring me a bottle of fresh water?"
+    ],
+    [
+      "My desk is so disorganized!",
+      "I can't find anything I'm looking for!",
+      "Help me out will you?"
+    ],
+    [
+      "Creepy Jack, legitimate small business owner, at your \"service\".",
+      "Well, I would be if I had the necessary materials.",
+      "Bring me a pen and I will reward you handsomely, kid."
+    ],
+    [
+      "Psst... Hey.",
+      "My investment business is in dire straits. I need some property quick or I'll lose everything.",
+      "If you help me out, I'll let you have this briefcase and #{font:bold}all#{font:default} its contents."
+    ],
+    [
+      "*Sigh* I wish it wasn't so hard to transport these goods..."
+    ],
+    [
+      "I'd be comfortable being a bare bear if only that zoologist kept away...",
+      "She keeps staring at me through those binoculars.",
+      "Can you find me a shirt to wear?"
+    ],
+    [
+      "Aren't bears the best?",
+      "I would just love a bear-based keepsake!"
+    ]
+  ],
+  "accept": [
+    [
+      "I'm so thirsty!",
+      "Let me have that Water Potion!"
+    ],
+    [
+      "Is... Is that a paperclip?",
+      "That's just what I need!"
+    ],
+    [
+      "You got a pen? Great, let's get down to business."
+    ],
+    [
+      "Is that a deed in your hands? I'll trade it for my briefcase and all its contents.",
+      "I don't care if the deed is illegitimate, I'll just trade it with an investment bank!"
+    ],
+    [
+      "Oh that briefcase would be very useful for carrying my goods..."
+    ],
+    [
+      "You brought me a shirt? Thank you!",
+      "It even smells musty too!"
+    ],
+    [
+      "Oh my archangels! Is that... A bear claw?",
+      "I just have to have it!"
+    ]
+  ],
+  "reward" : [
+    [
+      "Thanks, I needed that.",
+      "Here, take this."
+    ],
+    [
+      "Now I feel much more organized, thank you.",
+      "Hmm... Would you like this?"
+    ],
+    [
+      "Here's a free sample."
+    ],
+    [
+      "As offered, here's the briefcase.",
+      "No take-backsies!"
+    ],
+    [
+      "You want something in return?",
+      "Hmm... How about my shirt?"
+    ],
+    [
+      "Let me give you this for your troubles."
+    ],
+    [
+      "Here, take this!"
+    ]
+  ],
+  "thanks": [
+    [
+      "Things are looking up, aren't they?"
+    ],
+    [
+      "I'm so organized now, that I'll never lose a thing."
+    ],
+    [
+      "How's business, kid?"
+    ],
+    [
+      "I told you, no take-backs!",
+      "\"Greed is good,\" after all!",
+    ],
+    [
+      "I go everywhere with my briefcase now."
+    ],
+    [
+      "This shirt is starting to tear, but that's OK."
+    ],
+    [
+      "I love bears so much! They're unbearably cute!"
+    ]
+  ],
+  "mapTitles": [
+    "Thirsty Person",
+    "An Office",
+    "\"Creepy Jack\"",
+    "Guild Bank",
+    "Travelling Merchant",
+    "Naked Bear",
+    "Zoologist"
+  ]
+}

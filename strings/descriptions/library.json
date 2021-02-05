@@ -1,0 +1,22 @@
+{
+  "bookcase" : [
+    "A bookcase full of dusty, incomprehensible volumes."
+  ],
+  "bedroomLetter" : [
+    "It's a letter to Paige from someone called Maxwell.",
+    "He's complaining about a new lab assistant causing trouble."
+  ],
+  "diary" : [
+    "It's Paige's diary. She wouldn't want me to touch this."
+  ],
+  "bedroomSign" : [
+    "Private!"
+  ],
+  "backBook1" : [
+    "It's a romance novel about a librarian who falls in love with an eldritch abomination!",
+    "Seems unlikely."
+  ],
+  "backBook2" : [
+    "It's a tale of two friends who go on a journey to defeat evil."
+  ]
+}

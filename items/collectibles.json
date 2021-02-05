@@ -1,0 +1,136 @@
+{
+  "categories": {
+    "collectible": [
+      {
+        "id": "METEOR",
+        "name": "Meteor",
+        "description": "It came from outer space. If you gather a bunch of these, maybe you can make something!",
+        "argumentKind": "collectible",
+        "charge": -1,
+        "important": true,
+        "dropsFromSky": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "COLLECTIBLE"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 37,
+          "colors": ["0x000", "0x222", "0x444", "0x210"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "METEOR",
+          "collectionName": "Meteors",
+        }
+      },
+      {
+        "id": "LIBRARY_BOOK",
+        "name": "Library Book",
+        "description": "Now you have ${collectibles.count+1.LIBRARY_BOOK} of them!",
+        "argumentKind": "collectible",
+        "charge": 0,
+        "important": true,
+        "dropsFromSky": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "LIBRARY_BOOK"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 17,
+          "colors": ["0x000", "0x230", "0x454", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "LIBRARY_BOOK",
+          "collectionName": "Library Books"
+        }
+      },
+      {
+        "id": "MARSHMALLOW",
+        "name": "Marshmallow",
+        "description": "It's a soft round lump of sugar, egg and gelatin!",
+        "argumentKind": "collectible",
+        "charge": 1,
+        "important": true,
+        "dropsFromSky": false,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "COLLECTIBLE"],
+        "sprite": {
+          "size": [1.0, 1.0],
+          "sheet": "slime",
+          "animation" : "none",
+          "row": 0,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "MARSHMALLOW",
+          "collectionName": "Marshmallows"
+        }
+      },
+      {
+        "id": "VENTRICLE",
+        "name": "Archangel Ventricle",
+        "description": "It's a quarter of a heart! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "argumentKind": "collectible",
+        "charge": 1,
+        "important": true,
+        "dropsFromSky": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "COLLECTIBLE"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/ventricle",
+          "row": 0,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "VENTRICLE",
+          "collectionName": "Cardiac Tissue",
+        }
+      },
+      {
+        "id": "ATRIUM",
+        "name": "Archangel Atrium",
+        "description": "It's a quarter of a heart! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "argumentKind": "collectible",
+        "charge": 1,
+        "important": true,
+        "dropsFromSky": true,
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "COLLECTIBLE"],
+        "sprite": {
+          "size": [0.5, 0.5],
+          "sheet": "items/ventricle",
+          "row": 0,
+          "colors": ["0x000", "0x222", "0x444", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "VENTRICLE",
+          "collectionName": "Cardiac Tissue",
+        }
+      },
+      {
+        "id": "SCHOOL_LIBRARY_BOOK",
+        "name": "Missing Library Book",
+        "description": "This book hasn't been properly checked out from the library.",
+        "argumentKind": "collectible",
+        "charge": 0,
+        "important": true,
+        "dropsFromSky": true,
+        "tutorial": "inventory",
+        "script": ["net.bytten.inceptus.logic.item.ItemLogic", "LIBRARY_BOOK"],
+        "sprite": {
+          "size": [0.5, 1.0],
+          "sheet": "items/items",
+          "row": 17,
+          "colors": ["0x000", "0x230", "0x454", "0x555"]
+        },
+        "pickUpSound": "pickup_generic",
+        "config": {
+          "collectibleKind": "LIBRARY_BOOK",
+          "collectionName": "Library Books"
+        }
+      }
+    ]
+  }
+}

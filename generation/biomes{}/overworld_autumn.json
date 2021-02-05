@@ -1,0 +1,11 @@
+{
+  "base": "overworld",
+  "name": "autumnal forest",
+  "music": null,
+  "plainslike": true,
+  "replacedByMountain": true,
+  "tilesheet": "overworld-autumn",
+  "hasRoads": true,
+
+  "mapIconColor": ["0x000", "0x430", "0x530", "0x555"]
+}

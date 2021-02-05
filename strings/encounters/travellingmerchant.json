@@ -1,0 +1,31 @@
+{
+  "intro": [
+    "A new customer! Nice to meet you!",
+    "Please take this free sample!"
+  ],
+  "alreadyMet" : [
+    "Our fates cross once more!"
+  ],
+  "quest" : [
+    [
+      "If you can find me three more times, I'll give you an especially rare reward!",
+      "My mystical book tells me we'll next meet here:"
+    ],
+    [
+      "You've found me twice, but can you find me three times?",
+      "The Book of Changes tells me we'll soon cross paths here:"
+    ],
+    [
+      "Three times is beyond coincidence, bordering on serendipitous!",
+      "Can you guess where we'll meet next?"
+    ]
+  ],
+  "questComplete" : [
+    [
+      "I'm a man of my word. Here's your reward for tracking me down."
+    ],
+    [
+      "Perhaps it's destiny for us to keep running into each other like this."
+    ]
+  ]
+}

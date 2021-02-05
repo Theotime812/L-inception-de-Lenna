@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Story Mode",
+    "description": "When the pr#{glitch:true}op#{glitch:false}hecied hero fai#{glitch:true}l#{glitch:false}s, Lenna is forced to take up the mantle.",
+    "extraDamage": false,
+    "extraPuns": false,
+    "icon": {
+      "sheet": "items/items",
+      "row": 17,
+      "colors": ["0x000", "0x230", "0x454", "0x555"]
+    }
+  },
+  {
+    "name": "New Groan+",
+    "description": "Extra damage, extra puns.",
+    "extraDamage": true,
+    "extraPuns": true,
+    "icon": {
+      "sheet": "items/items",
+      "row": 17,
+      "colors": ["0x000", "0x230", "0x454", "0x555"]
+    }
+  }
+]

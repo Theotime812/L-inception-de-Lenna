@@ -1,0 +1,7 @@
+{
+  "n": "#{font:bold}Nord ^#{font:default}",
+  "e": "#{font:bold}Est >#{font:default}",
+  "s": "#{font:bold}Sud _#{font:default}",
+  "w": "#{font:bold}Ouest <#{font:default}",
+  "o": "??\u0080#{font:tiny}]@$*%#{color:p500}9#{font:default}\u0084"
+}

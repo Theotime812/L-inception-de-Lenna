@@ -1,0 +1,113 @@
+{
+  "assistant": {
+    "intro": [
+      "Hello, I see that you're new here!",
+      "Up here is where investors buy and sell stocks.",
+      "Anybody can do it, but first you'll have to deposit some money into your investor account.",
+      "My colleague on the left will help you with that."
+    ],
+    "interact": [
+      "You can deposit as much as you like.",
+      "However, to prevent money laundering, the amount you can withdraw is limited to at most $${0}."
+    ]
+  },
+
+  "accountant": {
+    "hello": ["Hello ${player.name}, how can I help you today?"],
+    "bye": [],
+    "withdrawn": ["Here's your cash!", "Your investor account balance is now at: $${0}"],
+    "deposited": ["Thank you!", "Your investor account balance is now at: $${0}"],
+    "balance": "Balance: $${0}",
+    "withdraw": "Withdraw",
+    "deposit": "Deposit",
+    "exit": "Exit",
+    "withdrawNoMoney": "You have nothing to withdraw.",
+    "depositNoMoney": "You have nothing to deposit.",
+    "withdrawHowMuch": "Withdraw how much?\nBalance: $${0}",
+    "depositHowMuch": "Deposit how much?\nBalance: $${0}",
+    "withdrawalLimitExceeded": [
+      "I'm sorry, but this transaction would exceed your withdrawal limit.",
+      "If I approved the withdrawal, the Guild Bank would be at risk of insolvency.",
+    ],
+    "withdrawCantCarry": "You can't carry any more money.",
+    "gildStockHint": [
+      "If you owned some GILD stock, however, we might be able to help you..."
+    ],
+    "ownsGildStock": [
+      "Oh! You're a GILD shareholder!"
+    ]
+  },
+  
+  "bankerVault1": [
+    "Bankers never die, they just lose interest in living."
+  ],
+  "bankerVault2": [
+    "It's been so long since I turned a profit, I'm getting withdrawal symptoms."
+  ],
+  "bankerVault3": [
+    "I had an account with a bank at the North Pole until they froze all my assets."
+  ],
+  "bankerVault4": [
+    "The chairman ordered me to barricade the vaults.",
+    "Apparently there is a vandal on the way here. He's known for smashing pots and grabbing valuables."
+  ],
+  "bankerEvilJar1": [
+    "With all this inflation, I think I will invest in balloons."
+  ],
+  "bankerEvilJar2": [
+    "The best thing about being an undead investor is all the bone-uses."
+  ],
+  "bankerGroundFloor1": [
+    "They didn't teach me about this at business skull..."
+  ],
+  "bankerGroundFloor2": [
+    "I saw a duck come in for financial advice yesterday.",
+    "He had a large bill to pay!"
+  ],
+  "bankerGroundFloor3": [
+    "I have a side-job writing financial thrillers. Maybe you've heard of my novel #{wave:3,9,0.1}Back to the Futures#{reset}?",
+    "Yes, the critics did say it was a bit #{wave:3,9,0.1}derivative#{reset}..."
+  ],
+  "bankerGroundFloor4": [
+    "Yep, I'm the one and only Doctor Bones, kid.",
+    "It's $10000 for an autograph. You can't afford it."
+  ],
+
+  "investor1": [
+    "Prices shoot up if you get three of a kind, or go up a little bit if you get a coin or two.",
+    "Anything else gives a loss!"
+  ],
+  "investor2": [
+    "How do the reels know where to stop? What causes the prices to jump up and down like they do?",
+    "Nothing significant is actually changing in the businesses we're trading... Not on the timescale of seconds!"
+  ],
+  "investor3": [
+    "Most of the time these machines provide a nice steady, but low income.",
+    "Then occasionally there are sudden catastrophic falls when everyone panic-sells at the same time!",
+    "I lost almost half my savings at once last time!"
+  ],
+  "investor4": [
+    "I always read the headlines before trading.",
+    "It doesn't always help, but in the long run it #{font:bold}does#{font:default} give me a slight edge."
+  ],
+
+  "tressaBanker": {
+    "part1": [
+      "I can't reveal whether someone called 'Tressa' has been here.",
+      "First, you'll need to answer some security questions.",
+      "The first question: what is the name of Tressa's eldest brother?"
+    ],
+    "wrong": [
+      "Sorry, that's the wrong answer.",
+      "Try again when you've remembered."
+    ],
+    "part2": [
+      "Good. Now the second question: what is the name of Tressa's youngest brother?"
+    ],
+    "part3": [
+      "Thank you for authenticating, Tressa.",
+      "I can reveal that you were just here, taking out a loan in order to redecorate a business property.",
+      "You gave me the telephone number of your guarantor: 555-1105."
+    ]
+  }
+}

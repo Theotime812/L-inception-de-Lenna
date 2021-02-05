@@ -1,0 +1,16 @@
+{
+  "bookshelves" : [
+    [
+      "It's the tale of Jack and the Beanstalk!"
+    ],
+    [
+      "It's the tale of the Three Little Pigs!"
+    ]
+  ],
+  "book" : [
+    "It's the tale of Tom Thumb!"
+  ],
+  "picture" : [
+    "Hey, it's a nice picture of the family having a picnic in the woods."
+  ]
+}

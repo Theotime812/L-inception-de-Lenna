@@ -1,0 +1,190 @@
+{
+  "background": "/menus/telephonedialer-background.png",
+  "backgroundOffset": [-16, 0],
+  "drawWindow": false,
+  "title": "Telephone Dialer",
+
+  "keyboard": "/menus/telephonekeys.json",
+
+  "lengthLimit": 4,
+  "errorSfx": "fart",
+
+  "keyRepeatPeriod": 100,
+  "keyRepeatDelay": 500,
+
+  "colors": ["0x555", "0x444", "0x222", "0x000"],
+
+  "constants": {
+    "text": {
+      "charWidth": 8,
+      "charHeight": 16
+    },
+    "meter": {
+      "heartWidth": 8,
+      "heartHeight": 8
+    },
+    "subscript-1": "    ",
+    "subscript-2": "ABC ",
+    "subscript-3": "DEF ",
+    "subscript-4": "GHI ",
+    "subscript-5": "JKL ",
+    "subscript-6": "MNO ",
+    "subscript-7": "PQRS",
+    "subscript-8": "TUV ",
+    "subscript-9": "WXYZ",
+    "subscript-*": "    ",
+    "subscript-0": "    ",
+    "subscript-#": "    "
+  },
+
+  "windowRegion": [48, 32, 224, 128],
+  "windowPadding": 8,
+
+  "templates": {
+    "option": {
+      "type": "text",
+      "text": {"$":"text"},
+      "action": {"$":"action"},
+      "selectable": true,
+      "transparent": false,
+      "position": [0, 4],
+      "origin": "previous"
+    },
+    "textbox": {
+      "type": "container",
+      "size": [84, 16],
+      "position": [0,0],
+      "selectable": true,
+      "selectionIndicator": ["\u0083\u0084", -20, 2, false],
+      "action": "textbox",
+      "actionTypes": ["typing"],
+      "children": [
+        {
+          "type": "text",
+          "text": "\u008c 555-",
+          "position": [2, 2],
+          "origin": "topleft"
+        },
+        {
+          "type": "text",
+          "text": {"$":"text"},
+          "position": [50, 2],
+          "origin": "topleft",
+          "blinkingCursor": true
+        },
+        {
+          "type": "hr",
+          "width": 80,
+          "position": [2,12],
+          "origin": "topleft"
+        }
+      ]
+    },
+    "keyOption": {
+      "instance": "option",
+      "parameters": {
+        "text": {"$concat": [" ", {"$":"key"}, "#{font:tiny}", {"$":"subscript"}]},
+        "action": ["key", {"$":"key"}]
+      },
+      "overrides": {
+        "selectionIndicator": null,
+        "position": {"$":"pos"},
+        "width": 40
+      }
+    },
+    "keyboard": {
+      "type": "container",
+      "position": [0, 0],
+      "origin": "previous",
+      "size": [224, 56],
+      "children": [{
+        "foreach": {"$":"keyboard"},
+        "var": "row",
+        "body": {
+          "type": "container",
+          "position": [0, 0],
+          "size": [224, 16],
+          "origin": "previous",
+          "children": [
+            {
+              "type": "text",
+              "text": "",
+              "position": [-8,0],
+              "origin": "previous"
+            },
+            {
+              "foreach": {"$$":"row"},
+              "var": "key",
+              "body": {
+                "instance": "keyOption",
+                "parameters": {
+                  "key": {"$$$":"key"},
+                  "subscript": {"$$$":{"$$$concat": ["subscript-", {"$$$":"key"}]}},
+                  "pos": [48, -16]
+                }
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+
+  "root": {
+    "type": "container",
+    "position": [48, 32],
+    "size": [224, 128],
+    "children": [
+      {
+        "instance": "textbox",
+        "parameters": {
+          "text": {"$":"text"}
+        },
+        "overrides": {
+          "position": [28, 8],
+          "origin": "topleft"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "text": " \u0086 ",
+          "#comment": "Backspace",
+          "action": "backspace"
+        },
+        "overrides": {
+          "position": [122, 8],
+          "origin": "topleft"
+        }
+      },
+      {
+        "instance": "keyboard",
+        "parameters": {
+          "keyboard": {"$":"keyboard"}
+        },
+        "overrides": {
+          "position": [-19, 48],
+          "origin": "topleft"
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "text": " \u008c Call ",
+          "action": "ok"
+        },
+        "overrides": {
+          "origin": "topright",
+          "position": [-8,8]
+        }
+      },
+      {
+        "instance": "option",
+        "parameters": {
+          "text": " Back   ",
+          "action": "back"
+        }
+      }
+    ]
+  }
+}

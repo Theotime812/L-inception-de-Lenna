@@ -1,0 +1,18 @@
+{
+  "phoneCalls" : {
+    "exterior": [
+      [
+        "Aidez-moi, Lance... Par pitié, aidez-moi...",
+        "Je suis emprisonné dans le donjon du palais.",
+        "Le président de la Guilde des Banquiers a pris le contrôle de mon royaume.",
+        "J'ai peur pour la sécurité de mes sujets !",
+        "Aidez-moi, s'il vous plaît..."
+      ],
+      "Si Lance ne peut pas l'aider... peut-être que je peux.",
+      "Nous avons le même nom, après tout !",
+      "It sounds like the chairman has had the prince #{font:bold}throne#{font:default} in jail.",
+      "That pun may be your #{wave:3,9,0.1}crowning#{reset} achievement.",
+      "It must be really un-#{wave:3,9,0.1}peasant#{reset} for him..."
+    ]
+  }
+}

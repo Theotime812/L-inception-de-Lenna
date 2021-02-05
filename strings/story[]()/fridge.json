@@ -1,0 +1,34 @@
+{
+  "intro" : "#{glitch:true}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaaaaaaaaaaaaaaAaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa??????a",
+  "elder1" : "C'est dangereux de #{glitch:true}prendre des soins, aussi !",
+  "elder2" : [
+    "${0}...",
+    "Dans votre monde, 8Fridge #{glitch:true}est connu sous un autre nom."
+  ],
+  "elder2Privacy" : "À l'attention de celui qui contrôle ${player.name}",
+  "elderSaved" : [
+    "Sauvegarde en cours...",
+    "#{glitch:true}L'Ancien a été sauvé !"
+  ],
+  "fakeLenna" : [
+    "Tu ne peux pas nous blesser ! Nous te battrons #{wave:3,9,0.1}encore et encore#{wave:off} aves les outils #{glitch:true}m#{glitch:false}êmes entre tes mains !"
+  ],
+  "lance" : [
+    "#{glitch:true}N'aba#{glitch:false}ndonne pas, #{glitch:true}ne le#{glitch:false} laisse pas gagner, ${player.name}."
+  ],
+  "lanceSaved" : [
+    "Sauvegarde...",
+    "#{glitch:true}Lance a été sauvé !"
+  ],
+  "aalenna" : [
+    "Lance, espèce d'#{glitch:true}ordure#{glitch:false}!",
+    "D'abord, vous #{shake:0,3}tuez mes #{glitch:true}élèves#{glitch:false}#{shake:0,0}, et maintenant vous #{shake:0,3}envahissez ma maison #{shake:0,0} !?",
+    "#{shake:0,3}Les humains me dégoûtent !#{glitch:false} Je voudrais que vous #{shake:3,3}MOURRIEZ TOUS#{shake:0,0} !"
+  ],
+  "pizza" : [
+    "Là voila... la cause de tous nos problèmes !",
+    "Si je remets le contenu du frigo comme il était avant qu'il ne devienne 8Fridge...",
+    "Et que j'enlève la pizza qui a provoqué un débordement en premier lieu...",
+    "Alors peut-être que ${world.name} pourra enfin trouver la paix."
+  ]
+}

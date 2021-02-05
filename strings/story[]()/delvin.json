@@ -1,0 +1,23 @@
+{
+  "default" : [
+    "..."
+  ],
+
+  "telephoneSameRoom" : [
+    "Comme tous les gens de votre âge, vous jouez avec votre téléphone au lieu de parler avec de vraies personnes."
+  ],
+
+  "questAssistance" : {
+    "firstIsland" : [
+      "Vainquez le mal au sein des quatre donjons de cette île.",
+      "La libraire peut vous montrer le chemin."
+    ],
+    "secondIsland" : [
+      "Vainquez aussi le mal au sein des quatre donjons de l'île de l'est.",
+      "Nous nous parlerons alors."
+    ],
+    "bridge" : [
+      "Partez vers l'est. Le pont vous mènera vers mon acolyte."
+    ]
+  }
+}

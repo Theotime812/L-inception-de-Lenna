@@ -1,0 +1,23 @@
+{
+  "exterior-sign": "#{font:creepy}Shadow Temple\nEnter at your own peril.",
+  
+  "writing" : [
+    [
+      "#{font:creepy}One final challenge awaits the Hero of Fortitude."
+    ],
+    [
+      "#{font:creepy}Overcome the darkness within, or perish by its hands."
+    ],
+    [
+      "There's writing here, but it's too eroded to read."
+    ]
+  ],
+  
+  "stained-glass" : "It's a stained glass window showing two men fighting at the end of time.",
+  
+  "power-slot" : {
+    "initial" : "There's a slot for an item here...",
+    "activate-question" : "Insert the Power of Fortitude?",
+    "after" : "You're not thinking of sealing me away again, are you?"
+  }
+}

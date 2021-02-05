@@ -1,0 +1,17 @@
+{
+  "base": "overworld",
+  "name": "glitch city",
+  "music": "glitch_city",
+  "plainslike": true,
+  "tilesheet": "overworld-glitch",
+  "hasRoads": true,
+
+  "mapIconColor": ["0x000", "0x034", "0x045", "0x555"],
+  
+  "defaultZoneStyle": "net.bytten.inceptus.generator.spatial.overworld.GlitchZoneStylist",
+  "glitchWalls" : true,
+  "spawnNPCs" : true,
+  "glitchNPCs" : true,
+  "cityObjects": true,
+  "forced": true
+}

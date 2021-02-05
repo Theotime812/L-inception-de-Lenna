@@ -1,0 +1,80 @@
+{
+  "father" : {
+    "notStarted" : [
+      "Someone keeps sneaking into our house.",
+      "It's a complete violation of our privacy!"
+    ],
+    "complete" : [
+      "You'll always be welcome here, ${player.name}."
+    ]
+  },
+  "mother" : {
+    "notStarted" : [
+      "I hate to think what she gets up to when we're not here..."
+    ],
+    "complete" : [
+      "Thank you for protecting my family!"
+    ]
+  },
+  "baby" : {
+    "notStarted" : [
+      "She broke my stool!"
+    ],
+    "complete" : [
+      "Big ${player.name} want to play Cops and Robbers?"
+    ]
+  },
+  "guard" : {
+    "recruit" : [
+      "The family living here are being harassed by a woman who enters their home while they're out.",
+      "She's reportedly five-foot-five, with golden locks.",
+      "Would you be able to help us set a trap?"
+    ],
+    "recruitConfirm" : "Help catch the intruder?",
+    "questStart" : [
+      "Great. Wait right here while we leave.",
+      "Don't let her see you... You may want to find somewhere to hide.",
+      "When she falls asleep, give me the signal!"
+    ],
+    "goldilocksCaught1" : [
+      "Great job, ${player.name}!"
+    ],
+    "goldilocksCaught2" : [
+      "W- what do you want with me?"
+    ],
+    "goldilocksCaught3" : [
+      "You're awake--",
+      "Good lord! What big #{wave:3,9,0.1}ears#{reset} you have!"
+    ],
+    "goldilocksCaught4" : [
+      "All the better to hear you with, guvnor."
+    ],
+    "goldilocksCaught5" : [
+      "Oh, and what big eyes you have!"
+    ],
+    "goldilocksCaught6" : [
+      "All the better to see you with, guvnor."
+    ],
+    "goldilocksCaught7" : [
+      "Umm..."
+    ],
+    "goldilocksCaught8" : [
+      "Go on, say it."
+    ],
+    "goldilocksCaught9" : [
+      "...",
+      "My... What big teeth you have..."
+    ],
+    "goldilocksCaught10" : [
+      "You might say they're \"hare-raising\"..."
+    ],
+    "goldilocksCaught11" : [
+      "Look out! Werebun!"
+    ],
+    "bunDefeated" : [
+      "Huh, so Goldilocks was a werebun in the end?",
+      "Well, she won't be back here again in a hurry.",
+      "But you should be careful out there - once a werebun clan picks up a scent they won't stop until the target is dead!"
+    ]
+  }
+}
