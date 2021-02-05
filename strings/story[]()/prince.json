@@ -2,7 +2,7 @@
   "default" : [
     "Aide moi, Lance... S'il te plait aide moi...",
     "Je suis emprisonné dans le donjon du palais.",
-    "Le chef de la Guilde des Banquiers s'est emparé de mon royaume",
+    "Le Président de la Guilde des Banquiers s'est emparé de mon royaume",
     "J'ai peur que mes sujets ne soient plus en sécurité.",
     "S'il te plait, aide moi..."
   ],
@@ -14,7 +14,7 @@
 
   "element0" : {
     "telephoneIntro" : [
-      "Lance!"
+      "Lance !"
     ],
     "quest" : [
       "The elder wants you to find #{color:p505}eight mystical elements#{color:reset}?",
@@ -23,14 +23,14 @@
       "I guess you had better do what he says then!"
     ],
     "signOff" : [
-      "Please hurry! This cell is... not what I'm used to!"
+      "S'il te plait, dépêche toi ! Cette cellule n'est... pas ce à quoi je suis habitué !"
     ]
   },
 
   "compassionHint": [
-    "Lance... I hope you truly understand the #{font:bold}Power of Compassion#{reset}.",
-    "It is said that with it, #{font:bold}any#{reset} conflict can be resolved without bloodshed. Hearts don't have to be broken.",
-    "Though I suppose some people might be pretty hard to reason with.",
-    "Perhaps you could offer a personal gift to mend the bond when they're at a moment of weakness?"
+    "Lance... J'espère que tu comprends véritablement #{font:bold}le Pouvoir de Compassion#{reset}.",
+    "On dit qu'avec lui, #{font:bold}tous#{reset} les conflits peuvent être résolus sans verser de sang. Les c÷urs n'ont pas a être cassées.",
+    "Toutefois je suppose que certaines personnes ne sauront pas raisonner avec.",
+    "Peut-être pourriez-vous leur offrir un cadeau personnel pour les aider à renouer les liens lorsqu'ils sont dans un moment de faiblesse ?"
   ]
 }
