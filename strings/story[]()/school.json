@@ -1,10 +1,10 @@
 {
   "moveControls" : "Move with #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
-  
+
   "children" : {
     "azraflail": {
       "dialogue": true,
-      "text": "When I grow up I want to be a knight! *#{wave:3,9,0.1}Hyaaa#{reset}*"
+      "text": "Quand je serais grand, je voudrais être chevalier *#{wave:3,9,0.1}Hyaaa#{reset}*"
     },
     "crabaddon": {
       "dialogue": false,
@@ -16,7 +16,7 @@
     },
     "sandolphin": {
       "dialogue": true,
-      "text": "Can we go swimming again today, miss?"
+      "text": "Est-ce qu'on peut retourner nager, mademoiselle ?"
     },
     "tentaluchus": {
       "dialogue": false,
@@ -39,7 +39,7 @@
       "text": "TODO"
     }
   },
-  
+
   "names" : {
     "azraflail": "Asrabel",
     "crabaddon": "Crabbe",
@@ -51,7 +51,7 @@
     "catsiel": "Catherine",
     "???": "???"
   },
-  
+
   "desks" : [
     "\"Current spying target: Miss ${player.name}. Her routine has her hunting exclusively between 12am and 4am. People seem wary of her. Isn't she lonely?\"",
     "A spreadsheet details this student's investments in various stocks.",
@@ -78,7 +78,7 @@
       "nb": "This desk is made out of a different type of wood from the others. ${0} made it themself."
     }
   ],
-  
+
   "exterior" : [
     "Huh?",
     "#{wave:3,12,0}No!#{wave:reset}#{pause:30} #{shake:3,3}My students!#{shake:reset}"
