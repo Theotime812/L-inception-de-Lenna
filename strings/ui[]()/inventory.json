@@ -10,7 +10,7 @@
     "healed" : "${0} se sent mieux !",
 
     "notEnoughHearts" : "Vous n'avez pas assez de c½urs !",
-    "librarianGrewHeart" : " Paige's heart grew!"
+    "librarianGrewHeart" : "Le c½ur de Paige devient plus grand !"
   },
   "items" : {
     "compassion" : {
