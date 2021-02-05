@@ -1,0 +1,18 @@
+[
+  "Tu peux combattre des monstres, Lance, mais... #{wave:3,9,0.1}Peux-tu te combattre toi-même#{reset} !?",
+  "...",
+  "Attends... tu n'es pas Lance ! Qu'est-ce que c'est que ça ?",
+  "...",
+  "Deux ${player.name}!",
+  "${player.name}, tu détiens le Pouvoir de Courage, n'est-ce pas ?",
+  "Sans l'ombre d'un doute !",
+  "J'étais censée attendre ici que Lance vienne me tuer...",
+  "J'étais juste un mini-boss optionnel, c'est tout !",
+  "Mais grâce à toi, Lance est mort. Je ne suis plus obligée d'être ça.",
+  "Tu peux compter sur moi quand tu veux.",
+  "Branchez une deuxième manette pour appeler Shadow ${player.name} à l'aide.",
+
+  "Hein ? Tu t'appelles vraiment Lance ?",
+  "J'étais censée attendre ici que l'autre Lance vienne me tuer...",
+  "Mais grâce à toi, l'autre Lance est mort. Je ne suis plus obligée d'être ça."
+]
