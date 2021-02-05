@@ -1,15 +1,15 @@
 {
   "default" : [
     "Aide moi, Lance... S'il te plait aide moi...",
-    "Je suis enfermé dans le donjon du palais.",
-    "Le chef de la Guilde des Banquiers m'a pris mon royaume",
+    "Je suis emprisonné dans le donjon du palais.",
+    "Le chef de la Guilde des Banquiers s'est emparé de mon royaume",
     "J'ai peur que mes sujets ne soient plus en sécurité.",
     "S'il te plait, aide moi..."
   ],
 
   "telephoneSameRoom" : [
-    "Hey! What are you doing with Lance's phone?",
-    ["Huh? Your name is also Lance?", "That's just confusing!"]
+    "Eh! Qu'est-ce que vous faites avec le téléphone de Lance ?",
+    ["mmh? Vous vous appelez aussi Lance ?", "C'est troublant..."]
   ],
 
   "element0" : {
