@@ -11,7 +11,7 @@
 
   "leverButton": "TIRER LE LEVIER",
 
-  "tradeTitle": "Trade ${0}",
+  "tradeTitle": "Négocier ${0}",
   "tradeBuy": "Acheter",
   "tradeSell": "Vendre",
   "tradeCancel": "Annuler",
