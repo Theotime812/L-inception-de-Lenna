@@ -43,6 +43,6 @@
     "multiplayer": "Multijoueur",
     "quit" : "Quitter",
     "restart" : "Redémarrer",
-    "confirmQuit" : "Êtes-vous sûr de vouloir quitter ? Les progrès non sauvegardés seront perdus."
+    "confirmQuit" : "Quitter le jeu ? Les progrès non sauvegardés seront perdus."
   }
 }
