@@ -217,25 +217,25 @@
 
   "finalEnding" : {
     "prince" : ["I hereby decree...", "Pizza shall be available to all, regardless of how many limbs they have!"],
-    "everyone" : "#{wave:3,9,0.1}Hooray!",
-    "lenna1" : "We did it, Tentaluchus!",
-    "tentaluchus" : "#{wave:3,9,0.1}PIZZAAAAAAAA!",
+    "everyone" : "#{wave:3,9,0.1}Hourra !",
+    "lenna1" : "On a réussi, Tentaluchus!",
+    "tentaluchus" : "#{wave:3,9,0.1}PIZZAAAAAAAA !",
     "lance" : "...!",
-    "elder" : "${player.name}, I misjudged your kind. For that, I will be eternally sorry.",
-    "lenna2" : "No, I really was planning to kill you all!",
-    "azraflail" : "No more plotting and killing will happen on my watch.",
-    "shadow" : "The #{wave:3,9,0.1}shadow#{wave:reset} of evil across the land has finally lifted!",
+    "elder" : "${player.name}, j'ai mal jugé les vôtres. Je suis profondément désolé pour cela.",
+    "lenna2" : "Il ne faut pas, j'essayais vraiment de tous vous tuer !",
+    "azraflail" : "Il n'y aura plus jamais ni complot ni meurtre sous ma surveillance.",
+    "shadow" : "#{wave:3,9,0.1}L'ombre#{wave:reset} du mal sur cette terre a enfin été dissipée !",
     "paige" : [
-      "I was pleased to hear you're reopening your school, ${player.name}!",
-      "And inviting human children too...",
-      "Will your students need any books?"
+      "J'ai entendu que tu allais réouvrir ton école, ${player.name}!",
+      "Et que tu allais aussi inviter des enfants humains...",
+      "Est-ce que tes élèves auront besoin de livres ?"
     ],
-    "lenna3" : "Yes! And I could use an extra pair of hands, now that I only have two. What do you think?",
-    "paige2" : "Sounds wonderful!",
+    "lenna3" : "Oui ! Et je pourrais avoir un coup de main, maintenant que je n'en ai que deux. Qu'en penses-tu ?",
+    "paige2" : "Excellente idée !",
     "narrator" : [
-      "With the glitches fixed, and the Archangel hunger for pizza finally sated, ${player.name} and Prince Daniel worked together to rebuild the Kingdom of ${world.name}.",
-      "Integrating humans and Archangels proved challenging, but with Compassion and Fortitude, and ${player.name}'s example, everyone came to realize it was never too late to become a better person.",
-      "With the Wealth the two species shared, and their healthy respect for Truth, the peace that came lasted for a thousand years."
+      "Avec les glitchs corrigés, et la faim de pizza des Archanges satisfaite, ${player.name} et le Prince Daniel travaillèrent ensemble pour reconstruire le Royaume de ${world.name}.",
+      "La cohabitation entre les humains et les Archanges se révéla difficile, mais avec Compassion et Courage, ainsi que par l'exemple de ${player.name}, tout le monde réalisa qu'il n'était jamais trop tard pour devenir une meilleure personne.",
+      "Avec la Richesse que les deux espèces partageaient, et leur respect sain pour la Vérité, la paix dura un millier d'années."
     ]
   }
 }
