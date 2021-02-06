@@ -4,7 +4,7 @@
   "children" : {
     "azraflail": {
       "dialogue": true,
-      "text": "Quand je serai grand, je veux être un chevalier ! *#{wave:3,9,0.1}Yaaa#{reset}*"
+      "text": "Quand je serai grand, je veux être un chevalier ! *#{wave:3,9,0.1}Yi-haaa#{reset}*"
     },
     "crabaddon": {
       "dialogue": false,
@@ -41,7 +41,7 @@
   },
 
   "names" : {
-    "azraflail": "Asrabel",
+    "azraflail": "Raphaël",
     "crabaddon": "Crabbe",
     "headraniel": "Cabe",
     "sandolphin": "Sandy",
