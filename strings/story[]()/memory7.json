@@ -17,7 +17,7 @@
     "elder_morePowerfulThan": "Oh, vraiment ? Plus puissant que l'Archange... ?",
   },
   "part3": {
-    "aalenna_azraflail": "Azraflail, nous sommes attaqués ! Sortez d'ici !",
+    "aalenna_azraflail": "Raflagel, nous sommes attaqués ! Sortez d'ici !",
     "aalenna_showYourself": "Sortez et montrez-vous, lâche !",
     "aalenna_no": "#{shake:3,3}#{font:bold}Non !#{reset}",
     "aalenna_students": "Je ne vous laisserai pas faire de mal... à mes... #{wave:3,9,0.1}élèves..."
