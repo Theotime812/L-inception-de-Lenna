@@ -28,7 +28,7 @@
     },
     "santaquiel" : {
       "dialogue": false,
-      "text": "Klaus joue avec une boule de neige."
+      "text": "Noël joue avec une boule de neige."
     },
     "catsiel" : {
       "dialogue" : false,
@@ -43,11 +43,11 @@
   "names" : {
     "azraflail": "Asrabel",
     "crabaddon": "Crabbe",
-    "headraniel": "Draniel",
+    "headraniel": "Cabe",
     "sandolphin": "Sandy",
     "tentaluchus": "Luchas",
-    "hatasiah": "Hattie",
-    "santaquiel": "Klaus",
+    "hatasiah": "Maggie",
+    "santaquiel": "Noël",
     "catsiel": "Catherine",
     "???": "???"
   },
