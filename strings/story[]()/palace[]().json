@@ -108,7 +108,7 @@
     "delvin_onlyOneWay" : [
       "Il n'y a qu'un seul moyen de corriger le glitch.",
       "L'histoire doit se terminer -- arriver à un vrai #{wave:3,9,0.1}game over#{reset} !",
-      "${world.name} redémarrera, recommencera à nouveau...",
+      "${world.name} redémarrera, commencera à nouveau...",
       "Quand la #{font:bold}bataille finale#{reset} sera gagnée.",
       "Et c'est contre #{shake:3,3}vous#{reset} !"
     ],
