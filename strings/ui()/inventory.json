@@ -3,14 +3,14 @@
     "revive" : "Ressusciter ${0}",
     "heal" : "Soigner ${0}",
 
-    "askRevive" : "Ressusciter ${0} pour ${1} c線rs ?",
-    "askHeal" : "Soigner ${0} pour ${1} c線rs ?",
+    "askRevive" : "Ressusciter ${0} pour ${1} c飋rs ?",
+    "askHeal" : "Soigner ${0} pour ${1} c飋rs ?",
 
     "revived" : "${0} se rel鋦e !",
     "healed" : "${0} se sent mieux !",
 
-    "notEnoughHearts" : "Vous n'avez pas assez de c線rs !",
-    "librarianGrewHeart" : "Le c線r de Paige devient plus grand !"
+    "notEnoughHearts" : "Vous n'avez pas assez de c飋rs !",
+    "librarianGrewHeart" : "Le c飋r de Paige devient plus grand !"
   },
   "items" : {
     "compassion" : {
