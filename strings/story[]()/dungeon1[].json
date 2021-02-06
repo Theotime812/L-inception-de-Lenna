@@ -11,8 +11,8 @@
       "Si Lance ne peut pas l'aider... peut-être que je peux.",
       "Nous avons le même nom, après tout !",
       "It sounds like the chairman has had the prince #{font:bold}throne#{font:default} in jail.",
-      "That pun may be your #{wave:3,9,0.1}crowning#{reset} achievement.",
-      "It must be really un-#{wave:3,9,0.1}peasant#{reset} for him..."
+      "Ta blague vient #{wave:3,9,0.1}couronner#{reset} le tout.",
+      "Ça doit être #{wave:3,9,0.1}dépaysant#{reset} pour lui..."
     ]
   }
 }
