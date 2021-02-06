@@ -155,7 +155,7 @@
   "delvinPhase2" : ["Vous savez déjà comment ça doit se terminer, ${player.name}."],
   "delvinPhase3" : ["#{glitch:true}Vous savez déjà comment ça doit se terminer, ${player.name}."],
   "delvinDeath" : {
-    "delvin_surelyLost" : "Si tu ne #{glitch:true}meurs#{glitch:false} #{glitch:true}p#{glitch:false}as, ${world.name} #{glitch:true}e#{glitch:false}st perdu..#{glitch:true}.",
+    "delvin_surelyLost" : "Si vous ne #{glitch:true}mourrez#{glitch:false} #{glitch:true}p#{glitch:false}as, ${world.name} #{glitch:true}e#{glitch:false}st perdu..#{glitch:true}.",
     "lenna_attention" : [
       "Vous n'êtes pas un héros, Delvin !",
       "Tout cela est arrivé à cause de votre pathétique besoin de reconnaissance.",
