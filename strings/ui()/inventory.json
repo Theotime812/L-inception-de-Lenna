@@ -20,7 +20,7 @@
       "activate" : "Souven#{glitch:true}ir cor#{glitch:false}rompu #${0} restau#{glitch:true}ré#{glitch:false}."
     },
     "cartridge" : {
-      "blow" : "Souffler dans la cartouche ? Le monde va s'arrêter et redémarrer sans le glitch.",
+      "blow" : "Souffler dans la cartouche ? Le monde redémarrera sans le glitch.",
       "punch" : "Taper dans la cartouche ?"
     }
   },
