@@ -23,8 +23,8 @@
     "lenna_putAStop": "Mais je compte mettre fin à ça maintenant.",
     "delvin_palace": "Il sera au pala...",
     "lenna_fixTheGlitch": "Une fois que je l'aurai vaincu, vous et moi allons trouver un moyen de corriger les glitchs que vous avez provoqué.",
-    "paige_hungUp": "#{wave:3,9,0.1}Hung up#{reset} on something, ${player.name}?",
-    "lenna_dialBack": "#{wave:3,9,0.1}Dial#{reset} it back a bit, Paige!"
+    "paige_hungUp": "Tu es #{wave:3,9,0.1}raccrochée#{reset} à une idée, ${player.name}?",
+    "lenna_dialBack": "#{wave:3,9,0.1}Décroche#{reset} un peu, Paige !"
   },
   "glitchCityIntro": [
     ["#{shake:3,3}Oh punaise !", "Qu'est-ce qui est arrivé à cet endroit ?"],

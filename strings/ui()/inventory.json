@@ -3,14 +3,14 @@
     "revive" : "Ressusciter ${0}",
     "heal" : "Soigner ${0}",
 
-    "askRevive" : "Ressusciter ${0} pour ${1} c½urs ?",
-    "askHeal" : "Soigner ${0} pour ${1} c½urs ?",
+    "askRevive" : "Ressusciter ${0} pour ${1} c÷urs ?",
+    "askHeal" : "Soigner ${0} pour ${1} c÷urs ?",
 
     "revived" : "${0} se relève !",
     "healed" : "${0} se sent mieux !",
 
-    "notEnoughHearts" : "Vous n'avez pas assez de c½urs !",
-    "librarianGrewHeart" : " Paige's heart grew!"
+    "notEnoughHearts" : "Vous n'avez pas assez de c÷urs !",
+    "librarianGrewHeart" : "Le c÷ur de Paige devient plus grand !"
   },
   "items" : {
     "compassion" : {
@@ -43,6 +43,6 @@
     "multiplayer": "Multijoueur",
     "quit" : "Quitter",
     "restart" : "Redémarrer",
-    "confirmQuit" : "Êtes-vous sûr de vouloir quitter ? Les progrès non sauvegardés seront perdus."
+    "confirmQuit" : "Quitter le jeu ? Les progrès non sauvegardés seront perdus."
   }
 }

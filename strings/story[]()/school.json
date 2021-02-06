@@ -1,38 +1,50 @@
 {
+<<<<<<< HEAD
   "moveControls" : "Move with #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
+=======
+  "moveControls" : "Déplacez-vous avec #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
+>>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
 
   "children" : {
     "azraflail": {
       "dialogue": true,
+<<<<<<< HEAD
       "text": "Quand je serais grand, je voudrais être chevalier *#{wave:3,9,0.1}Hyaaa#{reset}*"
+=======
+      "text": "Quand je serai grande, je veux être une chevaleresse ! *#{wave:3,9,0.1}Yaaa#{reset}*"
+>>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
     },
     "crabaddon": {
       "dialogue": false,
-      "text": "Crabbe is busy blowing bubbles and spitting at the floor."
+      "text": "Crabbe est en train de faire des bulles et de cracher par terre."
     },
     "headraniel": {
       "dialogue": false,
-      "text": "Draniel is painstakingly sketching a man losing his limbs to a propeller blade."
+      "text": "Draniel dessine méticuleusement un homme qui perd ses bras à cause d'une hélice."
     },
     "sandolphin": {
       "dialogue": true,
+<<<<<<< HEAD
       "text": "Est-ce qu'on peut retourner nager, mademoiselle ?"
+=======
+      "text": "On peut retourner nager, maîtresse ?"
+>>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
     },
     "tentaluchus": {
       "dialogue": false,
-      "text": "Luchas, with his face covered in dirt, suddenly grabs your arm. It leaves an inky handprint."
+      "text": "Luchas, le visage couvert de terre, attrape tout à coup votre bras. Cela laisse une empreinte de main noire comme de l'encre."
     },
     "hatasiah": {
       "dialogue": false,
-      "text": "Hattie is performing magic tricks at her desk."
+      "text": "Hattie réalise des tours de magie à son bureau."
     },
     "santaquiel" : {
       "dialogue": false,
-      "text": "Klaus is playing with a snowball."
+      "text": "Klaus joue avec une boule de neige."
     },
     "catsiel" : {
       "dialogue" : false,
-      "text" : "Catherine is trying to hide the fact that she's watching a pocket TV, not paying attention."
+      "text" : "Catherine essaye de cacher le fait qu'elle est devant sa télévision miniature au lieu de faire attention."
     },
     "???": {
       "dialogue": false,
@@ -53,34 +65,38 @@
   },
 
   "desks" : [
-    "\"Current spying target: Miss ${player.name}. Her routine has her hunting exclusively between 12am and 4am. People seem wary of her. Isn't she lonely?\"",
-    "A spreadsheet details this student's investments in various stocks.",
+    "\"Cible espionnée actuelle: Madame ${player.name}. Elle chasse systématiquement et exclusivement entre 0:00 et 4:00. Les gens ont l'air de se méfier d'elle. Est-ce qu'elle se sent seule ?\"",
+    "Une feuille de calcul détaille les placement de cet élève dans diverses actions.",
     {
-      "m": "${0}'s essay explains why he wants to become a police officer.",
-      "f": "${0}'s essay explains why she wants to become a police officer.",
-      "nb": "${0}'s essay explains why they want to become a police officer."
+      "m": "La dissertation de ${0} explique pourquoi il veut être policier.",
+      "f": "La dissertation de ${0} explique pourquoi elle veut être policière.",
+      "nb": "La dissertation de ${0} explique pourquoi il veut être policier."
     },
-    "Tarot cards cover the desk. The Death and Tower cards lie face up.",
+    "Des cartes de tarot recouvrent le bureau. La Mort et la Tour sont retournés, face visible.",
     {
-      "m": "This student is proudly displaying his collection of sporting medals on his desk.",
-      "f": "This student is proudly displaying her collection of sporting medals on her desk.",
-      "nb": "This student is proudly displaying their collection of sporting medals on their desk."
-    },
-    "This student has drawn up a design for a unique machine that can automatically sort the various items dropped by monsters.",
-    {
-      "m": "This student has a stack of borrowed library books on his desk. Some of them are long overdue.",
-      "f": "This student has a stack of borrowed library books on her desk. Some of them are long overdue.",
-      "nb": "This student has a stack of borrowed library books on their desk. Some of them are long overdue."
+      "m": "Cet élève étale fièrement sa collection de médailles de sport sur son bureau.",
+      "f": "Cette élève étale fièrement sa collection de médailles de sport sur son bureau.",
+      "nb": "Cet élève étale fièrement sa collection de médailles de sport sur son bureau."
     },
     {
-      "m": "This desk is made out of a different type of wood from the others. ${0} made it himself.",
-      "f": "This desk is made out of a different type of wood from the others. ${0} made it herself.",
-      "nb": "This desk is made out of a different type of wood from the others. ${0} made it themself."
+      "m": "Cet élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres.",
+      "f": "Cette élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres.",
+      "nb": "Cet élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres."
+    },
+    {
+      "m": "Cet élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps.",
+      "f": "Cette élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps.",
+      "nb": "Cet élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps."
+    },
+    {
+      "m": "Ce bureau est fait à partir d'un différent de celui des autres bureaux. ${0} l'a fabriqué lui-même.",
+      "f": "Ce bureau est fait à partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriqué elle-même.",
+      "nb": "Ce bureau est fait à partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriqué lui-même."
     }
   ],
 
   "exterior" : [
-    "Huh?",
-    "#{wave:3,12,0}No!#{wave:reset}#{pause:30} #{shake:3,3}My students!#{shake:reset}"
+    "Hein ?",
+    "#{wave:3,12,0}Non !#{wave:reset}#{pause:30} #{shake:3,3}Mes élèves !#{shake:reset}"
   ]
 }

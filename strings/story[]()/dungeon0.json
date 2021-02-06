@@ -1,6 +1,6 @@
 {
   "tutorialIntro" : {
-    "lenna0" : "Nous allons avoir notre tutoriel ici.",
+    "lenna0" : "Nous aurons notre tutoriel ici.",
     "lenna1" : "Mais avant, explorons un peu pour trouver un endroit sûr.",
     "lance0" : "...!"
   },
@@ -27,7 +27,7 @@
       ],
       "...",
       [
-        "L'armée de morts-vivants du président de la Guilde des Banquiers a arraché le prince de son trône.",
+        "L'armée de morts-vivants du président de la Corporation des Banquiers a arraché le prince de son trône.",
         "Avec ses actions irréfléchies, le président a détruit l'équilibre fragile des pouvoirs qui empêche notre monde de sombrer dans #{font:bold}le chaos et la corruption#{reset}.",
         "Il est temps pour toi de faire tes premiers pas vers ta destinée, et de devenir le héros que tu dois être.",
         "Cherche la libraire. Elle a la connaissance des quatre donjons cachés sur cette île.",

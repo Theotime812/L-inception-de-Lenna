@@ -12,7 +12,7 @@
   ],
 
   "exteriorGuard2" : [
-    "Je savais que c'était une mauvaise idée que le président soit au commandes."
+    "Je savais que c'était une mauvaise idée que le Président soit au commandes."
   ],
 
   "cells" : {
@@ -26,25 +26,10 @@
   ],
 
   "hintSkeleton": [
-    "Le président m'a viré pour avoir été un zombie, donc laissez-moi vous aider.",
+    "Le Président m'a viré pour avoir été un zombie, donc laissez-moi vous aider.",
     "Vous voyez ces portes là-bas ? Vous allez devoir tuer tous les monstres sur cet écran pour les ouvrir.",
     "Cherchez les ombres laissées par les araignées."
   ],
-
-  "monarchs" : {
-    "intro" : [
-      "#{font:gothiccaps}We Cannot Allow You To Pass, Child."
-    ],
-    "defeated" : [
-      "#{font:gothiccaps}We Submit."
-    ],
-    "playerWeak" : [
-      "#{font:gothiccaps}You Are Injured. Rest."
-    ],
-    "crypt" : [
-      "#{font:gothiccaps}Forgive Us."
-    ]
-  },
 
   "chairman" : {
     "chairman_arrivedAtLast" : "Ah, vous êtes enfin arrivée.",
@@ -93,11 +78,11 @@
     "lenna_insolvent" : "Vous êtes insolvable.",
     "chairman_speechless" : "...",
     "lenna_bleedsCash" : "S'il y a une chose dans ce monde qui saigne de l'argent, #{wave:3,9,0.1}c'est votre banque#{reset} !",
-    "lenna_fineLine" : "La banque de guilde tient à un fil si fin que le moindre choc cause son effondrement total.",
+    "lenna_fineLine" : "La Corporation tient à un fil si fin que le moindre choc cause son effondrement total.",
     "lenna_bailYouOut" : "Et cette fois, le prince ne peut pas vous tirer d'affaire",
     "lenna_simplyCantPay" : "La vérité, c'est que je ne peux tout simplement pas payer.",
-    "lenna_bleedMoney" : "Unfortunately, humans just #{wave:3,9,0.1}don't#{reset} bleed money.",
-    "chairman_nooooo" : "#{font:bold}#{wave:3,9,0.1}NOOOOO!"
+    "lenna_bleedMoney" : "Malheureusement, les humains ne saignent #{wave:3,9,0.1}pas#{reset} de l'argent.",
+    "chairman_nooooo" : "#{font:bold}#{wave:3,9,0.1}NOOOOON !"
   },
   "chairmanEnd" : {
     "paige_cashthartic" : "Wow, c'était vraiment cashthartique !",
@@ -127,7 +112,7 @@
       "Quand la #{font:bold}bataille finale#{reset} sera gagnée.",
       "Et c'est contre #{shake:3,3}vous#{reset} !"
     ],
-    "delvin_motherOf" : "You are the final evil! #{shake:3,3}La Mère des Archanges !",
+    "delvin_motherOf" : "Vous êtes le boss final ! #{shake:3,3}La Mère des Archanges !",
     "delvin_meantToBe" : "#{wave:3,9,0.1}Je vais vous tuer pour que tout redevienne comme avant !",
 
     "companion_wait" : "Attendez !",
