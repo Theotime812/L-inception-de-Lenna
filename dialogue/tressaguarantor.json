@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Tressa's Mom",
+    "name" : "Mère de Tressa",
     "nameFormat" : "#{color:p033}",
     "portrait" : "/dialogue/portraits/misc-default.png",
     "font" : "default"

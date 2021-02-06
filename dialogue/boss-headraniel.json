@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Headraniel",
+    "name" : "Archange Cabochiel",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/headraniel",

@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Guard",
+    "name" : "Garde",
     "nameFormat" : "#{color:p211}",
     "portrait" : {
       "sheet" : "portraits/guard",

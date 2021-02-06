@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Pizza Delivery Person",
+    "name" : "Livreur de pizza",
     "nameFormat" : "#{color:p035}",
     "portrait" : {
       "sheet" : "portraits/pizza",
@@ -9,7 +9,7 @@
     "font" : "default"
   },
   "fearful" : {
-    "name" : "Pizza Delivery Person",
+    "name" : "Livreur de pizza",
     "nameFormat" : "#{color:p035}",
     "portrait" : {
       "sheet" : "portraits/pizza",

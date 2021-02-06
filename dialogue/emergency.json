@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Emergency Services",
+    "name" : "Services d'urgence",
     "nameFormat" : "#{color:p310}",
     "portrait" : "/dialogue/portraits/misc-default.png",
     "font" : "default"

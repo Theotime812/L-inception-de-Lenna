@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Sandolphin",
+    "name" : "Archange Sandauphin",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/sandolphin",

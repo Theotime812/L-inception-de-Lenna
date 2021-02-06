@@ -72,7 +72,7 @@
     "font" : "default"
   },
   "elder" : {
-    "name" : "Elder",
+    "name" : "Ancien",
     "nameFormat" : "#{color:p130}",
     "portrait" : {
       "sheet" : "portraits/delvin",
@@ -90,7 +90,7 @@
     "font" : "default"
   },
   "archangel" : {
-    "name" : "Archangel Delvin",
+    "name" : "Archange Delvin",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/archangeldelvin",
@@ -99,7 +99,7 @@
     "font" : "smallcaps"
   },
   "archangelcrying" : {
-    "name" : "Archangel Delvin",
+    "name" : "Archange Delvin",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/archangeldelvin",

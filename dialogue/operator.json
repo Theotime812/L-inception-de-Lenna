@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Operator",
+    "name" : "Opérateur",
     "nameFormat" : "#{color:p303}",
     "portrait" : "/dialogue/portraits/misc-default.png",
     "font" : "default"

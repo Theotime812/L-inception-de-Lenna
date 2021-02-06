@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Elder",
+    "name" : "Ancien",
     "nameFormat" : "#{color:p130}",
     "portrait" : {
       "sheet" : "portraits/elder",
@@ -9,7 +9,7 @@
     "font" : "default"
   },
   "laughing" : {
-    "name" : "Elder",
+    "name" : "Ancien",
     "nameFormat" : "#{color:p130}",
     "portrait" : {
       "sheet" : "portraits/elder",
@@ -18,7 +18,7 @@
     "font" : "default"
   },
   "eyebrow" : {
-    "name" : "Elder",
+    "name" : "Ancien",
     "nameFormat" : "#{color:p130}",
     "portrait" : {
       "sheet" : "portraits/elder",
@@ -27,7 +27,7 @@
     "font" : "default"
   },
   "glitch" : {
-    "name" : "Elder",
+    "name" : "Ancien",
     "nameFormat" : "#{color:p130}",
     "portrait" : {
       "sheet" : "portraits/elder",

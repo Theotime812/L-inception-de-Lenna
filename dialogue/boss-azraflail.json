@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Azraflail",
+    "name" : "Archange Raflagel",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/azraflail",

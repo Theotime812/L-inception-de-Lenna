@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Tentaluchus",
+    "name" : "Archange Tentaluchus",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/tentaluchus",

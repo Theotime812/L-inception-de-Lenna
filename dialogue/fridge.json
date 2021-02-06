@@ -1,6 +1,6 @@
 {
   "archangellenna" : {
-    "name" : "Archange#{glitch:true}l ???",
+    "name" : "Archang#{glitch:true}e ???",
     "nameFormat" : "#{color:p400}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/archangellenna",
@@ -9,7 +9,7 @@
     "font" : "smallcaps"
   },
   "archangellenna-glitched" : {
-    "name" : "Archange#{glitch:true}l ???",
+    "name" : "Archang#{glitch:true}e ???",
     "nameFormat" : "#{color:p400}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "npcs/8fridge",

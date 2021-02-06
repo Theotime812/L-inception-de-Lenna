@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Catsiel",
+    "name" : "Archange Catsiel",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/catsiel",

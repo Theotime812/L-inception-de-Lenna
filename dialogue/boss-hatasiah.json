@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Hatasiah",
+    "name" : "Archange Magiciah",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/hatasiah",

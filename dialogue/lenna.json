@@ -189,7 +189,7 @@
     "font" : "default"
   },
   "itemget" : {
-    "name" : "New Item",
+    "name" : "Nouvel objet",
     "nameFormat" : "#{color:p400}",
     "portrait" : {
       "sheet" : "portraits/lenna",

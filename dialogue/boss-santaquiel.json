@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Santaquiel",
+    "name" : "Archange Noïel",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/santaquiel",

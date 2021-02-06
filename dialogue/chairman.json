@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -9,7 +9,7 @@
     "font" : "default"
   },
   "shocked" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -18,7 +18,7 @@
     "font" : "default"
   },
   "smiling" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -27,7 +27,7 @@
     "font" : "default"
   },
   "crying" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -36,7 +36,7 @@
     "font" : "default"
   },
   "thinking" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -45,7 +45,7 @@
     "font" : "default"
   },
   "angry" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -54,7 +54,7 @@
     "font" : "default"
   },
   "winking" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -63,7 +63,7 @@
     "font" : "default"
   },
   "hearts" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -72,7 +72,7 @@
     "font" : "default"
   },
   "praying" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -81,7 +81,7 @@
     "font" : "default"
   },
   "greedy" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -90,7 +90,7 @@
     "font" : "default"
   },
   "puzzled" : {
-    "name" : "Chairman",
+    "name" : "Président",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman",
@@ -99,7 +99,7 @@
     "font" : "default"
   },
   "archangel" : {
-    "name" : "Chairman #{shake:0,2}\u0095#{shake:0,0}ammon",
+    "name" : "Président #{shake:0,2}\u0095#{shake:0,0}ammon",
     "nameFormat" : "#{color:p500}",
     "portrait" : {
       "sheet" : "portraits/chairman-mammon",

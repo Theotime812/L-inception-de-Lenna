@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel Crabaddon",
+    "name" : "Archange Crabaddon",
     "nameFormat" : "#{color:p500}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/crabaddon",

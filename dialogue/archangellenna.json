@@ -1,6 +1,6 @@
 {
   "default" : {
-    "name" : "Archangel ${player.name}",
+    "name" : "Archange ${player.name}",
     "nameFormat" : "#{color:p400}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/archangellenna",
@@ -9,7 +9,7 @@
     "font" : "smallcaps"
   },
   "cloaked" : {
-    "name" : "Archange#{glitch:true}l ???",
+    "name" : "Archange{glitch:true}e ???",
     "nameFormat" : "#{color:p400}#{font:gothiccaps}",
     "portrait" : {
       "sheet" : "portraits/archangellenna-cloaked",
