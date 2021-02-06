@@ -78,7 +78,7 @@
     "lenna_insolvent" : "Vous êtes insolvable.",
     "chairman_speechless" : "...",
     "lenna_bleedsCash" : "S'il y a une chose dans ce monde qui saigne de l'argent, #{wave:3,9,0.1}c'est votre banque#{reset} !",
-    "lenna_fineLine" : "La banque de guilde tient à un fil si fin que le moindre choc cause son effondrement total.",
+    "lenna_fineLine" : "La Corporation tient à un fil si fin que le moindre choc cause son effondrement total.",
     "lenna_bailYouOut" : "Et cette fois, le prince ne peut pas vous tirer d'affaire",
     "lenna_simplyCantPay" : "La vérité, c'est que je ne peux tout simplement pas payer.",
     "lenna_bleedMoney" : "Malheureusement, les humains ne saignent #{wave:3,9,0.1}pas#{reset} de l'argent.",
