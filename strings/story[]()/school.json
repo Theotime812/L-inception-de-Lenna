@@ -1,18 +1,10 @@
 {
-<<<<<<< HEAD
-  "moveControls" : "Move with #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
-=======
   "moveControls" : "Déplacez-vous avec #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
->>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
 
   "children" : {
     "azraflail": {
       "dialogue": true,
-<<<<<<< HEAD
-      "text": "Quand je serais grand, je voudrais être chevalier *#{wave:3,9,0.1}Hyaaa#{reset}*"
-=======
       "text": "Quand je serai grande, je veux être une chevaleresse ! *#{wave:3,9,0.1}Yaaa#{reset}*"
->>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
     },
     "crabaddon": {
       "dialogue": false,
@@ -24,11 +16,7 @@
     },
     "sandolphin": {
       "dialogue": true,
-<<<<<<< HEAD
-      "text": "Est-ce qu'on peut retourner nager, mademoiselle ?"
-=======
       "text": "On peut retourner nager, maîtresse ?"
->>>>>>> a4d5166f47952582559a555b3c69431f6f102b9b
     },
     "tentaluchus": {
       "dialogue": false,
