@@ -181,7 +181,7 @@
       "cave_normal" : [
         ["thinking", "Les monstres ici ne sont pas comme d'habitude."],
         ["default", "Tu crois que cet endroit descend jusqu'où ?"],
-        ["default", "J'ai déjà lu quelque chose sur cette cave. Il devrait y avoir un trésor ici."]
+        ["default", "J'ai déjà lu quelque chose sur cette grotte. Il devrait y avoir un trésor ici."]
       ],
       "dungeon_built_level" : [
         ["thinking", "Qui a construit cet endroit ?"],
