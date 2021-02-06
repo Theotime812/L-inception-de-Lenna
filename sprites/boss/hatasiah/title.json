@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Hatasiah#{reset}\n#{font:smallcaps}Vampire Magician",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Magiciah#{reset}\n#{font:smallcaps}Magicien Vampire",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

@@ -1,5 +1,5 @@
 {
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Headraniel#{reset}\n#{font:smallcaps}Rock Noggin",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Cabochiel#{reset}\n#{font:smallcaps}Tête dure",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

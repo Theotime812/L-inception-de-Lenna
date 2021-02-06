@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Chairman #{shake:0,2}\u0095#{shake:0,0}ammon#{reset}\n#{font:smallcaps}Capitalist Pig",
+  "text" :  "#{color:p500}#{font:gothiccaps}Président #{shake:0,2}\u0095#{shake:0,0}ammon#{reset}\n#{font:smallcaps}Cochon Capitaliste",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

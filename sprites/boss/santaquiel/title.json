@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Santaquiel#{reset}\n#{font:smallcaps}Giver of Unwanted Gifts",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Noïel#{reset}\n#{font:smallcaps}Donneur de Cadeaux Empoisonnés",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

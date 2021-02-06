@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel ${player.name}#{reset}\n#{font:smallcaps}Mother of Archangels",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange ${player.name}#{reset}\n#{font:smallcaps}Mère des Archanges",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

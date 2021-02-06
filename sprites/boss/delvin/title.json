@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Delvin#{reset}\n#{font:smallcaps}Egomaniac",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Delvin#{reset}\n#{font:smallcaps}Égocentrique",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75

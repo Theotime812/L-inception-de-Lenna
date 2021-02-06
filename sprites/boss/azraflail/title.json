@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Azraflail#{reset}\n#{font:smallcaps}Knight of Death",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Raflagel#{reset}\n#{font:smallcaps}Chevalier de la Mort",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75
