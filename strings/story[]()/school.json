@@ -4,7 +4,7 @@
   "children" : {
     "azraflail": {
       "dialogue": true,
-      "text": "Quand je serai grand, je veux être un chevalier ! *#{wave:3,9,0.1}Yaaa#{reset}*"
+      "text": "Quand je serai grande, je veux être une chevaleresse ! *#{wave:3,9,0.1}Yaaa#{reset}*"
     },
     "crabaddon": {
       "dialogue": false,
@@ -32,7 +32,7 @@
     },
     "catsiel" : {
       "dialogue" : false,
-      "text" : "Catherine essaye de cacher le fait qu'elle est devant sa télévision miniature au lieu de payer attention."
+      "text" : "Catherine essaye de cacher le fait qu'elle est devant sa télévision miniature au lieu de faire attention."
     },
     "???": {
       "dialogue": false,
