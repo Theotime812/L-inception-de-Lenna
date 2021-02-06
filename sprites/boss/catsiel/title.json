@@ -1,10 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-<<<<<<< HEAD
   "text" :  "#{color:p500}#{font:gothiccaps}Archange Catsiel#{reset}\n#{font:smallcaps}Tabby Tueur",
-=======
-  "text" :  "#{color:p500}#{font:gothiccaps}Archange Chattsiel#{reset}\n#{font:smallcaps}Tabby Tueur",
->>>>>>> a2b01836c327c9ae8fe8800069b7ac96d2cb404d
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75
