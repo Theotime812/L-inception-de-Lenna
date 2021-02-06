@@ -36,8 +36,8 @@
 
   "puns" : [
     [
-      "Did you know my library is technically the tallest building in ${world.name}?",
-      "It has the most stories!"
+      "Tu savais que ma bibliothèque est le bâtiment qui compte le plus à ${world.name} ?",
+      "Elle a le plus de fables !"
     ],
     [
       "J'ai lu un livre sur l'anti-gravité, récemment.",
@@ -96,7 +96,7 @@
       "Ramène-moi les corps de 10 slimes rose et mous !",
     ],
     "inProgress" : [
-      "Les guimauves sont les slimes roses et mous.",
+      "Les guimauves sont les slimes roses et moues.",
       "Nous en avons encore besoin de ${0} de plus pour ce que j'ai prévu !"
     ],
     "end" : [
@@ -170,7 +170,7 @@
     "biome" : {
       "bank" : [
         ["sad", "I've heard they cook books here."],
-        ["laughing", "Do you know a banker's favorite part of a novel? Chapter eleven!"]
+        ["laughing", "Tu connais la partie d'un libre préférée des banquiers ? Chapitre onze !"]
       ],
       "cave_glitch" : [
         ["shocked", "Que s'est-il passé ici ?"]
