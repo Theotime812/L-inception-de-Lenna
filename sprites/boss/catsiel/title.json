@@ -1,6 +1,6 @@
 {
   "image" : "/images/bosstitle-bg.png",
-  "text" :  "#{color:p500}#{font:gothiccaps}Archangel Catsiel#{reset}\n#{font:smallcaps}Murder Tabby",
+  "text" :  "#{color:p500}#{font:gothiccaps}Archange Chattsiel#{reset}\n#{font:smallcaps}Tabby Tueur",
   "duration" : 5,
   "fadeIn" : 0.75,
   "fadeOut" : 0.75
