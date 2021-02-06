@@ -40,12 +40,12 @@
       "It has the most stories!"
     ],
     [
-      "I've been reading a textbook about anti-gravity lately.",
-      "It's hard to put down!"
+      "J'ai lu un livre sur l'anti-gravité, récemment.",
+      "J'ai eu du mal à le reposer !"
     ],
     [
-      "I caught a young man damaging books in the library today. He couldn't even look me in the eye.",
-      "How spineless!"
+      "Un jeune homme a fait tomber quelque chose sur un livre et l'a abîmé, aujourd'hui. Il ne pouvait même pas me regarder dans les yeux.",
+      "Quel lâche !"
     ],
     [
       "We just got a new book in the library about hands.",
@@ -60,110 +60,110 @@
       "I feel so shelf-aware..."
     ],
     [
-      "A patron asked me on a date yesterday.",
-      "I told him I was fully-booked!"
+      "Hier, un usager de la bibliothèque m'a demandé si j'étais libre après le travail.",
+      "Mais j'ai vu clair dans son jeu. Je pouvais lire en lui comme dans un livre ouvert !"
     ]
   ],
 
   "booksFound" : [
-    "Wow! You've found quite a few!"
+    "Wow ! Tu en as trouvé pas mal !"
   ],
   "booksFoundTelephone" : [
     "Are you planning to visit the library any time soon?",
     "Because ISBN thinking about you!"
   ],
   "booksFoundInPerson" : [
-    "But not quite all... I'm certain there are more to be found.",
-    "Why don't I come with you to look?",
-    "It'd be nice to go for a walk!"
+    "Mais pas tous... Je suis certaine qu'il en reste d'autres à trouver.",
+    "J'ai une idée ! Je peux chercher avec toi !",
+    "Ça serait sympa de prendre l'air !"
   ],
 
   "searchStatus" : [
-    "You've found ${0} of my books?"
+    "Tu as trouvé ${0} livres ?"
   ],
   "foundSomeBooks" : [
-    "Keep it up! I'm sure that someday we'll have them all back safe and sound."
+    "Continue comme ça ! Je suis sûre qu'un jour, ils seront tous à la bibliothèque, sains et saufs."
   ],
   "foundNoBooks" : [
-    "Have you tried looking?"
+    "Est-ce que tu as au moins essayé de regarder ?"
   ],
 
   "marshmallowQuest" : {
     "start" : [
-      "We've found most of my books, ${player.name}!",
-      "We should celebrate! Hmm...",
-      "I have an idea! But first, I need you to kill 10 marshmallows.",
-      "Bring me the corpses of 10 soft pink slime creatures!",
+      "Nous avons trouvé la plupart de mes livres, ${player.name} !",
+      "Nous devrions fêter ça ! Hum...",
+      "J'ai une idée ! Mais avant, il faudrait que tu tues 10 guimauves.",
+      "Ramène-moi les corps de 10 slimes rose et mous !",
     ],
     "inProgress" : [
-      "Marshmallows are the soft pink slime creatures.",
-      "We need ${0} more of them for our celebration!"
+      "Les guimauves sont les slimes roses et mous.",
+      "Nous en avons encore besoin de ${0} de plus pour ce que j'ai prévu !"
     ],
     "end" : [
-      "Are you ready for our celebration?",
-      "Are you ready for Paige's dubious celebration?",
-      "Talk to me again when you're ready!",
-      "Give me a moment, I'll set everything up!",
-      "A campfire?",
-      "Yes! I thought it would be nice to take a rest!",
-      "You do remember to take breaks from your adventuring, don't you?",
-      "Skewer one of those marshmallows on your sword, and put it in the fire.",
-      "It's burning...",
-      "Give it a moment...",
-      "OK, now eat it.",
-      "What!?",
-      "Just try it!",
+      "Tu es prête ?",
+      "Êtes-vous prêt pour la fête louche de Paige ?",
+      "Dis-moi quand tu es prête !",
+      "Attends un instant, je vais tout installer !",
+      "Un feu de camp ?",
+      "Oui ! Je pensais que ce serait une bonne idée de faire une pause !",
+      "Tu te souviens qu'il faut faire des pauses pendant ton aventure, n'est-ce pas ?",
+      "Mets l'une de ces guimauves sur ton épée, et mets-la dans le feu.",
+      "Ça brûle...",
+      "Attends un peu...",
+      "OK, mange-la maintenant.",
+      "Quoi !?",
+      "Allez, goûte !",
       "*Mmmf mmf mmf*",
-      "It's good right!?",
-      "Too sweet...",
+      "C'est bon, hein !?",
+      "Trop sucré...",
 
-      "There's something else, but...",
-      "I'm not very good at putting my feelings into words.",
-      "So I've put my feelings into this instead. #{shake:3,0}I want you to have it!",
-      "Now #{wave:3,9,0.1}you're#{reset} being too sweet!",
+      "Il y a autre chose, mais...",
+      "Je ne suis pas très douée pour mettre des mots sur mes sentiments.",
+      "Donc je les ai mis sur ça, à la place. #{shake:3,0}Je voudrais que tu le gardes !",
+      "Maintenant #{wave:3,9,0.1}c'est toi#{reset} qui est trop sucrée !",
 
-      "As ${player.name} and Paige sit by the campfire, Paige reads to ${player.name} a play she has been writing.",
-      "The play is terrible, but afterwards, for the first time in a long while, ${player.name} sleeps well."
+      "Alors que ${player.name} et Paige s'assoient vers le feu de camp, Paige lit à ${player.name} une pièce de théâtre qu'elle a écrite.",
+      "La pièce est terriblement mauvaise, mais ensuite, pour la première fois depuis longtemps, ${player.name} dort bien."
     ]
   },
 
   "telephoneSameRoom" : [
-    "Why don't we talk face-to-face?"
+    "Pourquoi ne pas parler face-à-face ?"
   ],
 
   "tressa" : [
-    "You're looking for Tressa? She was at the library a little while ago.",
-    "She seemed very interested in books about finance! Maybe you should try looking for her at the bank?"
+    "Tu cherches Tressa ? Elle était à la bibliothèque il y a un petit moment.",
+    "Elle avait l'air assez intéressée aux livres sur la finance ! Essaye de la chercher à la banque, peut-être ?"
   ],
 
   "swimming" : [
-    ["smiling", "I read that swimming is very effective exercise!"],
-    ["smiling", "Don't worry, my waterproof bag is keeping my books dry!"],
-    ["concerned", "Keep your eyes peeled for sharks!"]
+    ["smiling", "J'ai lu que nager est un excellent exercice !"],
+    ["smiling", "Ne t'inquiète pas, mon sac étanche garde mes livres au sec !"],
+    ["concerned", "Fais attention aux requins !"]
   ],
 
   "locations" : {
     "specific" : {
       "library" : [
-        ["default", "Looking for a book? I can give recommendations!"]
+        ["default", "Tu cherches un livre ? Je peux te conseiller !"]
       ],
       "libraryBackRoom" : [
         ["blushing", "..."]
       ],
       "librarySecretRoom" : [
-        ["shocked", "This room was here the whole time!?"]
+        ["shocked", "Cette pièce était ici depuis tout ce temps !?"]
       ],
       "bridge" : [
-        ["smiling", "I've never been past this bridge before."]
+        ["smiling", "Je n'ai jamais traversé ce pont avant."]
       ],
       "elderCave" : [
-        ["sad", "How awful..."]
+        ["sad", "C'est horrible..."]
       ],
       "palaceSewer" : [
-        ["concerned", "It really smells in here."]
+        ["concerned", "Ça sent vraiment mauvais, ici."]
       ],
       "void" : [
-        ["concerned", "Is this real? I'm scared."]
+        ["concerned", "Est-ce que c'est réel ? J'ai peur."]
       ]
     },
 
@@ -173,101 +173,101 @@
         ["laughing", "Do you know a banker's favorite part of a novel? Chapter eleven!"]
       ],
       "cave_glitch" : [
-        ["shocked", "What happened to this place?"]
+        ["shocked", "Que s'est-il passé ici ?"]
       ],
       "cave_ice" : [
-        ["sad", "It sure is cold here!"]
+        ["sad", "Il fait vraiment froid ici !"]
       ],
       "cave_normal" : [
-        ["thinking", "The monsters here are different from usual."],
-        ["default", "How much deeper do you think this place goes?"],
-        ["default", "I've read about this cave. There's meant to be treasure down here."]
+        ["thinking", "Les monstres ici ne sont pas comme d'habitude."],
+        ["default", "Tu crois que cet endroit descend jusqu'où ?"],
+        ["default", "J'ai déjà lu quelque chose sur cette cave. Il devrait y avoir un trésor ici."]
       ],
       "dungeon_built_level" : [
-        ["thinking", "Who built this place?"],
-        ["default", "What do you think this place was built for?"],
-        ["thinking", "I wonder what these archangels want."]
+        ["thinking", "Qui a construit cet endroit ?"],
+        ["default", "À ton avis, pourquoi cet endroit a-t-il été construit ?"],
+        ["thinking", "Je me demande ce que veulent ces archanges."]
       ],
       "dungeon_cave_level" : [
-        ["thinking", "Who dug out this place?"],
-        ["default", "What do you think this place was dug for?"],
-        ["thinking", "I wonder what these archangels want."]
+        ["thinking", "Qui a creusé cet endroit ?"],
+        ["default", "À ton avis, pourquoi cet endroit a-t-il été construit ?"],
+        ["thinking", "Je me demande ce que veulent ces archanges."]
       ],
       "dungeon_dark_level" : [
-        ["concerned", "It's so dim! I can barely see anything in here."],
-        ["shocked", "Is that blood running down the walls!?"],
-        ["shocked", "It's like something out of a horror story!"]
+        ["concerned", "Il fait si sombre ! Je peux à peine voir quoi que ce soit là-dedans."],
+        ["shocked", "Est-ce que c'est du sang qui coule le long des murs !?"],
+        ["shocked", "Ça ressemble à quelque chose sorti tout droit d'une histoire d'horreur !"]
       ],
       "dungeon_jungle_level" : [
-        ["laughing", "An unusual place for an archangel to hide. Perhaps it wants to turn over a new leaf!"],
-        ["thinking", "I wonder what these archangels want."],
-        ["concerned", "I hope there are no bugs in this grass. I hate bugs!"]
+        ["laughing", "Ce n'est pas un endroit où irait se cacher un archange, en général. Il a peut-être la main verte !"],
+        ["thinking", "Je me demande ce que veulent ces archanges."],
+        ["concerned", "J'espère qu'il n'y a pas d'insectes dans l'herbe. J'ai horreur des insectes !"]
       ],
       "dungeon_misc_level" : [
-        ["thinking", "Who built this place?"],
-        ["default", "What do you think this place was built for?"],
-        ["thinking", "I wonder what these archangels want."]
+        ["thinking", "Qui a construit cet endroit ?"],
+        ["default", "À ton avis, pourquoi cet endroit a-t-il été construit ?"],
+        ["thinking", "Je me demande ce que veulent ces archanges."]
       ],
       "house" : [
-        ["smiling", "It's nice to take a break from fighting and adventuring once in a while."]
+        ["smiling", "C'est agréable de faire une pause et d'arrêter de se battre et de partir à l'aventure, de temps en temps."]
       ],
       "laboratory" : [
-        ["smiling", "My old pal Maxwell lives here."],
-        ["default", "Think we could take a look at Maxwell's research before we leave?"]
+        ["smiling", "Mon vieil ami Maxwell vit ici."],
+        ["default", "Tu penses qu'on pourrait jeter un coup d'½il aux recherches de Maxwell avant de partir ?"]
       ],
       "overworld_autumn" : [
-        ["smiling", "I love the colors of the leaves in Autumn."],
-        ["default", "I could kill for a slice of pumpkin pie right now!"],
-        ["concerned", "This is farther than I've ever been from my library."]
+        ["smiling", "J'adore les couleurs des feuilles en automne."],
+        ["default", "Je pourrais tuer pour une part de tarte à la citrouille !"],
+        ["concerned", "Je ne suis jamais allée aussi loin de ma bibliothèque avant."]
       ],
       "overworld_winter" : [
-        ["smiling", "Your burning passion keeps me warm!"],
-        ["concerned", "It's cold here!"]
+        ["smiling", "Ta passion ardente me tient chaud !"],
+        ["concerned", "Il fait froid ici !"]
       ],
       "overworld_beach" : [
-        ["concerned", "So much sand! It's getting in my shoes."],
-        ["blushing", "Let's go for a swim!"]
+        ["concerned", "Il y a plein de sable ! Il rentre dans mes chaussures."],
+        ["blushing", "Allons nager !"]
       ],
       "overworld_glitch" : [
-        ["shocked", "Oh my gosh! What happened here?"],
-        ["concerned", "Was this the archangels' doing?"],
-        ["concerned", "The people who lived here..."]
+        ["shocked", "Oh mon dieu ! Que s'est-il passé ici ?"],
+        ["concerned", "Est-ce que les archanges sont responsables de ça ?"],
+        ["concerned", "Les gens qui vivaient ici..."]
       ],
       "overworld_graveyard" : [
-        ["laughing", "It's spooky here!"],
-        ["concerned", "Is this where skeletons come from?"],
-        ["concerned", "With all the monsters around, nobody has been maintaining the graves here."]
+        ["laughing", "C'est effrayant, ici !"],
+        ["concerned", "Est-ce que c'est de là que viennent les squelettes ?"],
+        ["concerned", "Avec tous ces monstres aux alentours, personne n'entretient les tombes."]
       ],
       "overworld_mountain" : [
-        ["smiling", "I can see the library from up here!"],
-        ["concerned", "Oof... Climbing mountains is hard work."]
+        ["smiling", "Je peux voir la bibliothèque d'ici !"],
+        ["concerned", "Ouf... C'est compliqué d'escalader des montagnes."]
       ],
       "overworld_plains" : [
-        ["smiling", "Ah, there's nothing like fresh air!"],
-        ["thinking", "Do you think slimes appreciate the beauty of nature the way people do?"],
-        ["default", "I come out here to read sometimes."]
+        ["smiling", "Ah, rien de tel que l'air frais !"],
+        ["thinking", "Est-ce que tu penses que les slimes apprécient la beauté de la nature comme les gens ?"],
+        ["default", "Je viens ici pour lire, parfois."]
       ],
       "overworld_water" : [
-        ["blushing", "Let's go for a swim!"]
+        ["blushing", "Allons nager !"]
       ],
       "palace" : [
-        ["concerned", "The chairman really likes skeletons..."],
-        ["default", "This place has really changed a lot."]
+        ["concerned", "Le Président aime vraiment les squelettes..."],
+        ["default", "Cet endroit a décidément beaucoup changé."]
       ]
     },
 
     "anywhere" : [
-      ["default", "Where to now?"],
-      ["laughing", "We're on a real-life adventure!"],
-      ["default", "What do you like to read ${player.name}?"],
-      ["thinking", "Hmm... What would Lance do?"],
-      ["smiling", "Don't worry about me! I'm fine."]
+      ["default", "Où allons-nous maintenant ?"],
+      ["laughing", "Nous sommes en train de vivre une vraie aventure !"],
+      ["default", "Qu'est-ce que tu aimes bien lire, ${player.name} ?"],
+      ["thinking", "Hum... Que ferait Lance ?"],
+      ["smiling", "Ne t'inquiète pas pour moi ! Je vais bien."]
     ]
   },
 
   "notFollowing": [
-    ["smiling", "How are things going, ${player.name}?"],
-    ["smiling", "Don't forget about me!"],
-    ["sad", "Come visit me sometime? I miss you."]
+    ["smiling", "Comment ça se passe, ${player.name} ?"],
+    ["smiling", "Ne m'oublie pas !"],
+    ["sad", "Viens me voir de temps en temps. Tu me manques."]
   ]
 }
