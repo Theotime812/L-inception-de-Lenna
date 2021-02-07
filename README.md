@@ -25,8 +25,8 @@ de contenu à traduire.
 
 ### Comment l'utiliser
 
-Suivez [ce lien (en anglais)](https://github.com/EntranceJew/LennasMods/blob/master/docs/getting_started.md)
-pour savoir comment charger un mod. N'oubliez pas de modifier les noms des dossiers et des fichiers.
+1. Téléchargez la dernière version du mod dans la rubrique Releases à droite.
+2. Placez le fichier .zip dans lennas-inception/assets
 
 ### Comment contribuer
 
@@ -56,8 +56,8 @@ Files and folder potentially useless to translate the game contain `{}` in their
 
 ### How to use it
 
-Follow [this link](https://github.com/EntranceJew/LennasMods/blob/master/docs/getting_started.md)
-to learn how to load a mod. Don't forget to change the file and folder names.
+1. Download the latest version by clicking on Releases on the right.
+2. Put the zip file in lennas-inception/assets
 
 ### How to contribute
 
