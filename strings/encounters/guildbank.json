@@ -1,58 +1,58 @@
 {
   "assistant": {
     "intro": [
-      "Hello, I see that you're new here!",
-      "Up here is where investors buy and sell stocks.",
-      "Anybody can do it, but first you'll have to deposit some money into your investor account.",
-      "My colleague on the left will help you with that."
+      "Bonjour, je vois que vous êtes nouvelle ici !",
+      "C'est ici que les investisseurs achètent et vendent des actions.",
+      "Tout le monde peut le faire, mais vous devez d'abord déposer de l'argent sur votre compte investisseur.",
+      "Mon collègue à gauche peut vous aider."
     ],
     "interact": [
-      "You can deposit as much as you like.",
-      "However, to prevent money laundering, the amount you can withdraw is limited to at most $${0}."
+      "Vous pouvez déposer la somme que vous voulez.",
+      "Cependant, pour éviter le blanchiment d'argent, vous ne pouvez retirer que ${0}$ maximum."
     ]
   },
 
   "accountant": {
-    "hello": ["Hello ${player.name}, how can I help you today?"],
+    "hello": ["Bonjour ${player.name}, comment puis-je vous aider ?"],
     "bye": [],
-    "withdrawn": ["Here's your cash!", "Your investor account balance is now at: $${0}"],
-    "deposited": ["Thank you!", "Your investor account balance is now at: $${0}"],
-    "balance": "Balance: $${0}",
-    "withdraw": "Withdraw",
-    "deposit": "Deposit",
-    "exit": "Exit",
-    "withdrawNoMoney": "You have nothing to withdraw.",
-    "depositNoMoney": "You have nothing to deposit.",
-    "withdrawHowMuch": "Withdraw how much?\nBalance: $${0}",
-    "depositHowMuch": "Deposit how much?\nBalance: $${0}",
+    "withdrawn": ["Voilà votre argent !", "Le solde de votre compte investisseur est maintenant de : ${0}$"],
+    "deposited": ["Merci !", "Le solde de votre compte investisseur est maintenant de : ${0}$"],
+    "balance": "Solde : ${0}$",
+    "withdraw": "Retirer",
+    "deposit": "Déposer",
+    "exit": "Quitter",
+    "withdrawNoMoney": "Vous n'avez rien à retirer.",
+    "depositNoMoney": "Vous n'avez rien à déposer.",
+    "withdrawHowMuch": "Retirer combien ?\nSolde : ${0}$",
+    "depositHowMuch": "Déposer combien ?\nSolde : ${0}$",
     "withdrawalLimitExceeded": [
-      "I'm sorry, but this transaction would exceed your withdrawal limit.",
-      "If I approved the withdrawal, the Guild Bank would be at risk of insolvency.",
+      "Je suis désolé, mais cette transaction excéderait votre plafond de retrait.",
+      "Si j'approuvais le retrait, la Corporation des Banquiers risquerait d'être insolvable.",
     ],
-    "withdrawCantCarry": "You can't carry any more money.",
+    "withdrawCantCarry": "Vous ne pouvez pas transporter autant d'argent.",
     "gildStockHint": [
-      "If you owned some GILD stock, however, we might be able to help you..."
+      "Si vous aviez des actions pour GILD, cela dit, nous pourrions peut-être vous aider..."
     ],
     "ownsGildStock": [
-      "Oh! You're a GILD shareholder!"
+      "Oh ! Vous êtes une actionnaire de GILD !"
     ]
   },
-  
+
   "bankerVault1": [
-    "Bankers never die, they just lose interest in living."
+    "Les banquiers ne meurent jamais, ils arrêtent juste de trouver de l'intérêt à la vie."
   ],
   "bankerVault2": [
     "It's been so long since I turned a profit, I'm getting withdrawal symptoms."
   ],
   "bankerVault3": [
-    "I had an account with a bank at the North Pole until they froze all my assets."
+    "J'avais un compte auprès d'une banque au Pôle Nord, jusqu'à ce qu'ils gèlent mon capital."
   ],
   "bankerVault4": [
-    "The chairman ordered me to barricade the vaults.",
-    "Apparently there is a vandal on the way here. He's known for smashing pots and grabbing valuables."
+    "Le Président m'a ordonné de barricader les coffres.",
+    "Apparemment, un vandale serait sur le point d'arriver. Il est connu pour casser des pots et s'emparer d'objets de valeur."
   ],
   "bankerEvilJar1": [
-    "With all this inflation, I think I will invest in balloons."
+    "Avec tous ces prix qui gonflent, je pense que je vais investir dans des ballons."
   ],
   "bankerEvilJar2": [
     "The best thing about being an undead investor is all the bone-uses."
@@ -69,13 +69,13 @@
     "Yes, the critics did say it was a bit #{wave:3,9,0.1}derivative#{reset}..."
   ],
   "bankerGroundFloor4": [
-    "Yep, I'm the one and only Doctor Bones, kid.",
-    "It's $10000 for an autograph. You can't afford it."
+    "Ouep, je suis le seul et unique Doctor Bones, gamin.",
+    "C'est 10000$ pour un autographe. T'as pas les moyens."
   ],
 
   "investor1": [
-    "Prices shoot up if you get three of a kind, or go up a little bit if you get a coin or two.",
-    "Anything else gives a loss!"
+    "Les prix grimpent si vous avec 3 symboles identiques, ou montent un petit peu si vous avez une pièce ou deux.",
+    "Tout le reste entraîne une perte !"
   ],
   "investor2": [
     "How do the reels know where to stop? What causes the prices to jump up and down like they do?",
