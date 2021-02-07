@@ -4,7 +4,7 @@
 
 Une tentative de traduction du jeu Lenna's Inception en français.
 
-Lenna's Inception est développé par Bytten Studio.
+[Lenna's Inception](https://lennasinception.com/) est développé par [Bytten Studio](https://bytten-studio.com/devlog/).
 
 Les fichiers de police ont été modifiés pour suppporter les lettres accentuées.
 Cependant, aucun autre caractère n'a été modifié.
@@ -38,9 +38,9 @@ en utilisant l'encodage ISO 8859-15.
 
 An attempt at translating the game Lenna's Inception into French.
 
-Lenna's Inception is developed by Bytten Studio.
+[Lenna's Inception](https://lennasinception.com/) is developed by [Bytten Studio](https://bytten-studio.com/devlog/).
 
-The font filmes have been edited to support accentuated letters.
+The font files have been edited to support accentuated letters.
 However, no other character has been modified.
 
 This repository only contains files that might contain text displayed in the game
