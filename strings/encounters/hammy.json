@@ -1,14 +1,14 @@
 {
-  "intro" : "STOP!",
+  "intro" : "STOP !",
 
   "giveHammer" : [
-    "Did you just blow up my door?",
-    "Are those BOMBS?",
-    "I can see you're a gal who likes combustion!",
-    "But if you ever find yourself in a spot where a detonation just won't do, try a hammer!"
+    "Est-ce que vous venez juste d'exploser ma porte ?",
+    "Est-ce que c'est des BOMBES ?",
+    "Je vois que vous êtes une meuf qui aime la combustion !",
+    "Mais si vous vous retrouvez à un endroit où une détonation ne fera pas l'affaire, essayez un marteau !"
   ],
 
   "repeatedDialogue" : [
-    "If you ever find yourself in a spot where a detonation just won't do, try a hammer!"
+    "Si vous vous retrouvez à un endroit où une détonation ne fera pas l'affaire, essayez un marteau !"
   ]
 }
