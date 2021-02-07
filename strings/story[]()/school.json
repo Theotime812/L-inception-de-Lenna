@@ -1,10 +1,10 @@
 {
-  "moveControls" : "DÃ©placez-vous avec #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
+  "moveControls" : "Déplacez-vous avec #{font:bold}${key.up} ${key.left} ${key.down} ${key.right}#{reset}.",
 
   "children" : {
     "azraflail": {
       "dialogue": true,
-      "text": "Quand je serai grande, je veux Ãªtre une chevaleresse ! *#{wave:3,9,0.1}Yaaa#{reset}*"
+      "text": "Quand je serai grande, je veux être une chevaleresse ! *#{wave:3,9,0.1}Yaaa#{reset}*"
     },
     "crabaddon": {
       "dialogue": false,
@@ -12,27 +12,27 @@
     },
     "headraniel": {
       "dialogue": false,
-      "text": "Draniel dessine mÃ©ticuleusement un homme qui perd ses bras Ã  cause d'une hÃ©lice."
+      "text": "Draniel dessine méticuleusement un homme qui perd ses bras à cause d'une hélice."
     },
     "sandolphin": {
       "dialogue": true,
-      "text": "On peut retourner nager, maÃ®tresse ?"
+      "text": "On peut retourner nager, maîtresse ?"
     },
     "tentaluchus": {
       "dialogue": false,
-      "text": "Luchas, le visage couvert de terre, attrape tout Ã  coup votre bras. Cela laisse une empreinte de main noire comme de l'encre."
+      "text": "Luchas, le visage couvert de terre, attrape tout à coup votre bras. Cela laisse une empreinte de main noire comme de l'encre."
     },
     "hatasiah": {
       "dialogue": false,
-      "text": "Hattie rÃ©alise des tours de magie Ã  son bureau."
+      "text": "Hattie réalise des tours de magie à son bureau."
     },
     "santaquiel" : {
       "dialogue": false,
-      "text": "NoÃ«l joue avec une boule de neige."
+      "text": "Noël joue avec une boule de neige."
     },
     "catsiel" : {
       "dialogue" : false,
-      "text" : "Catherine essaye de cacher le fait qu'elle est devant sa tÃ©lÃ©vision miniature au lieu de faire attention."
+      "text" : "Catherine essaye de cacher le fait qu'elle est devant sa télévision miniature au lieu de faire attention."
     },
     "???": {
       "dialogue": false,
@@ -41,50 +41,50 @@
   },
 
   "names" : {
-    "azraflail": "RaphaÃ«l",
+    "azraflail": "Raphaël",
     "crabaddon": "Crabbe",
     "headraniel": "Cabe",
     "sandolphin": "Sandy",
     "tentaluchus": "Luchas",
     "hatasiah": "Maggie",
-    "santaquiel": "NoÃ«l",
+    "santaquiel": "Noël",
     "catsiel": "Catherine",
     "???": "???"
   },
 
   "desks" : [
-    "\"Cible espionnÃ©e actuelle: Madame ${player.name}. Elle chasse systÃ©matiquement et exclusivement entre 0:00 et 4:00. Les gens ont l'air de se mÃ©fier d'elle. Est-ce qu'elle se sent seule ?\"",
-    "Une feuille de calcul dÃ©taille les placement de cet Ã©lÃ¨ve dans diverses actions.",
+    "\"Cible espionnée actuelle: Madame ${player.name}. Elle chasse systématiquement et exclusivement entre 0:00 et 4:00. Les gens ont l'air de se méfier d'elle. Est-ce qu'elle se sent seule ?\"",
+    "Une feuille de calcul détaille les placement de cet élève dans diverses actions.",
     {
-      "m": "La dissertation de ${0} explique pourquoi il veut Ãªtre policier.",
-      "f": "La dissertation de ${0} explique pourquoi elle veut Ãªtre policiÃ¨re.",
-      "nb": "La dissertation de ${0} explique pourquoi il veut Ãªtre policier."
+      "m": "La dissertation de ${0} explique pourquoi il veut être policier.",
+      "f": "La dissertation de ${0} explique pourquoi elle veut être policière.",
+      "nb": "La dissertation de ${0} explique pourquoi il veut être policier."
     },
-    "Des cartes de tarot recouvrent le bureau. La Mort et la Tour sont retournÃ©s, face visible.",
+    "Des cartes de tarot recouvrent le bureau. La Mort et la Tour sont retournés, face visible.",
     {
-      "m": "Cet Ã©lÃ¨ve Ã©tale fiÃ¨rement sa collection de mÃ©dailles de sport sur son bureau.",
-      "f": "Cette Ã©lÃ¨ve Ã©tale fiÃ¨rement sa collection de mÃ©dailles de sport sur son bureau.",
-      "nb": "Cet Ã©lÃ¨ve Ã©tale fiÃ¨rement sa collection de mÃ©dailles de sport sur son bureau."
-    },
-    {
-      "m": "Cet Ã©lÃ¨ve a dessinÃ© le design d'une machine unique qui peut trier automatiquement les diffÃ©rents objets laissÃ©s par les monstres.",
-      "f": "Cette Ã©lÃ¨ve a dessinÃ© le design d'une machine unique qui peut trier automatiquement les diffÃ©rents objets laissÃ©s par les monstres.",
-      "nb": "Cet Ã©lÃ¨ve a dessinÃ© le design d'une machine unique qui peut trier automatiquement les diffÃ©rents objets laissÃ©s par les monstres."
+      "m": "Cet élève étale fièrement sa collection de médailles de sport sur son bureau.",
+      "f": "Cette élève étale fièrement sa collection de médailles de sport sur son bureau.",
+      "nb": "Cet élève étale fièrement sa collection de médailles de sport sur son bureau."
     },
     {
-      "m": "Cet Ã©lÃ¨ve a une pile de livres de la bibliothÃ¨que sur son bureau. Certains d'entre eux sont Ã  rendre depuis longtemps.",
-      "f": "Cette Ã©lÃ¨ve a une pile de livres de la bibliothÃ¨que sur son bureau. Certains d'entre eux sont Ã  rendre depuis longtemps.",
-      "nb": "Cet Ã©lÃ¨ve a une pile de livres de la bibliothÃ¨que sur son bureau. Certains d'entre eux sont Ã  rendre depuis longtemps."
+      "m": "Cet élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres.",
+      "f": "Cette élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres.",
+      "nb": "Cet élève a dessiné le design d'une machine unique qui peut trier automatiquement les différents objets laissés par les monstres."
     },
     {
-      "m": "Ce bureau est fait Ã  partir d'un diffÃ©rent de celui des autres bureaux. ${0} l'a fabriquÃ© lui-mÃªme.",
-      "f": "Ce bureau est fait Ã  partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriquÃ© elle-mÃªme.",
-      "nb": "Ce bureau est fait Ã  partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriquÃ© lui-mÃªme."
+      "m": "Cet élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps.",
+      "f": "Cette élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps.",
+      "nb": "Cet élève a une pile de livres de la bibliothèque sur son bureau. Certains d'entre eux sont à rendre depuis longtemps."
+    },
+    {
+      "m": "Ce bureau est fait à partir d'un différent de celui des autres bureaux. ${0} l'a fabriqué lui-même.",
+      "f": "Ce bureau est fait à partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriqué elle-même.",
+      "nb": "Ce bureau est fait à partir d'un autre bois de celui des autres bureaux. ${0} l'a fabriqué lui-même."
     }
   ],
 
   "exterior" : [
     "Hein ?",
-    "#{wave:3,12,0}Non !#{wave:reset}#{pause:30} #{shake:3,3}Mes Ã©lÃ¨ves !#{shake:reset}"
+    "#{wave:3,12,0}Non !#{wave:reset}#{pause:30} #{shake:3,3}Mes élèves !#{shake:reset}"
   ]
 }

@@ -10,6 +10,6 @@
   "guarantorCall" : {
     "lenna1": "Bonjour, j'appelle à propos de Tressa...",
     "person2": "Elle s'est blessée ? Je suis toujours en train de lui dire qu'un de ces jours elle va se blesser. C'est dangereux d'explorer des donjons !",
-    "after": ["Des donjons ? Hmmm...", "Je devrais jeter un coup d'½il dans le donjon le plus proche."]
+    "after": ["Des donjons ? Hmmm...", "Je devrais jeter un coup d'÷il dans le donjon le plus proche."]
   }
 }

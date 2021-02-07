@@ -66,7 +66,7 @@
 
   "postBattle" : {
     "initial" : {
-      "paige" : [["laughing", "Vous n'avez pas de #{wave:3,9,0.1}c½ur#{reset} !"]],
+      "paige" : [["laughing", "Vous n'avez pas de #{wave:3,9,0.1}c÷ur#{reset} !"]],
       "shadow" : [["evilgrin", "Wow ! C'est #{wave:3,9,0.1}dark#{reset}, ${player.name} !"]]
     },
 

@@ -26,7 +26,7 @@
     "dungeon-west" : "Il semblerait que ton prochain donjon est ${0}, dans cette direction : ${1}.",
     "dungeon-east" : [
       "Il semblerait que tu aies été dans tous les donjons de ${world.name} de l'Ouest.",
-      "Essaye de jeter un coup d'½il à l'Est. Il devrait y avoir un pont quelque part."
+      "Essaye de jeter un coup d'÷il à l'Est. Il devrait y avoir un pont quelque part."
     ]
   },
 
@@ -213,7 +213,7 @@
       ],
       "laboratory" : [
         ["smiling", "Mon vieil ami Maxwell vit ici."],
-        ["default", "Tu penses qu'on pourrait jeter un coup d'½il aux recherches de Maxwell avant de partir ?"]
+        ["default", "Tu penses qu'on pourrait jeter un coup d'÷il aux recherches de Maxwell avant de partir ?"]
       ],
       "overworld_autumn" : [
         ["smiling", "J'adore les couleurs des feuilles en automne."],
