@@ -1,80 +1,80 @@
 {
   "father" : {
     "notStarted" : [
-      "Someone keeps sneaking into our house.",
-      "It's a complete violation of our privacy!"
+      "Quelqu'un n'arrête pas de rentrer chez nous.",
+      "C'est une violation pure et simple de notre vie privée !"
     ],
     "complete" : [
-      "You'll always be welcome here, ${player.name}."
+      "Vous serez toujours la bienvenue, ${player.name}."
     ]
   },
   "mother" : {
     "notStarted" : [
-      "I hate to think what she gets up to when we're not here..."
+      "Je n'ose même pas imaginer ce qu'elle fait quand nous ne sommes pas là..."
     ],
     "complete" : [
-      "Thank you for protecting my family!"
+      "Merci d'avoir protégé ma famille !"
     ]
   },
   "baby" : {
     "notStarted" : [
-      "She broke my stool!"
+      "Elle a cassé mon tabouret !"
     ],
     "complete" : [
-      "Big ${player.name} want to play Cops and Robbers?"
+      "Grande ${player.name} veut jouer aux Policiers et aux Voleurs ?"
     ]
   },
   "guard" : {
     "recruit" : [
-      "The family living here are being harassed by a woman who enters their home while they're out.",
-      "She's reportedly five-foot-five, with golden locks.",
-      "Would you be able to help us set a trap?"
+      "La famille vivant ici est harcelée par une femme qui entre dans leur maison lorsqu'ils ne sont pas là.",
+      "Elle mesurerait 1 mètre 65, et aurait des boucles d'or.",
+      "Pourriez-vous nous aider à mettre un piège en place ?"
     ],
-    "recruitConfirm" : "Help catch the intruder?",
+    "recruitConfirm" : "Aider à capturer l'intruse ?",
     "questStart" : [
-      "Great. Wait right here while we leave.",
-      "Don't let her see you... You may want to find somewhere to hide.",
-      "When she falls asleep, give me the signal!"
+      "Bien. Attendez ici, nous allons sortir.",
+      "Ne la laissez pas vous voir... Vous devriez trouver un endroit pour vous cacher.",
+      "Une fois qu'elle sera endormie, donnez-moi le signal !"
     ],
     "goldilocksCaught1" : [
-      "Great job, ${player.name}!"
+      "Bon travail, ${player.name} !"
     ],
     "goldilocksCaught2" : [
-      "W- what do you want with me?"
+      "Q- qu'est-ce que vous allez faire de moi ?"
     ],
     "goldilocksCaught3" : [
-      "You're awake--",
-      "Good lord! What big #{wave:3,9,0.1}ears#{reset} you have!"
+      "Vous êtes réveillée...",
+      "Mon Dieu ! Vous avez de grandes #{wave:3,9,0.1}oreilles#{reset} !"
     ],
     "goldilocksCaught4" : [
-      "All the better to hear you with, guvnor."
+      "C'est pour mieux vous entendre, m'dame."
     ],
     "goldilocksCaught5" : [
-      "Oh, and what big eyes you have!"
+      "Oh, et vous avez de grands yeux !"
     ],
     "goldilocksCaught6" : [
-      "All the better to see you with, guvnor."
+      "C'est pour mieux vous voir, m'dame."
     ],
     "goldilocksCaught7" : [
-      "Umm..."
+      "Euh..."
     ],
     "goldilocksCaught8" : [
-      "Go on, say it."
+      "Allez-y, dites-le."
     ],
     "goldilocksCaught9" : [
       "...",
-      "My... What big teeth you have..."
+      "Oh... Vous avez de grandes dents..."
     ],
     "goldilocksCaught10" : [
-      "You might say they're \"hare-raising\"..."
+      "On pourrait presque dire qu'elles sont à \"hérisser le poil\"..."
     ],
     "goldilocksCaught11" : [
-      "Look out! Werebun!"
+      "Attention ! Un lapin-garou !"
     ],
     "bunDefeated" : [
-      "Huh, so Goldilocks was a werebun in the end?",
-      "Well, she won't be back here again in a hurry.",
-      "But you should be careful out there - once a werebun clan picks up a scent they won't stop until the target is dead!"
+      "Donc les Boucle d'or étaient des lapins-garou, en fin de compte ?",
+      "Eh bien, elle ne s'empressera pas de revenir ici.",
+      "Mais vous devriez faire attention, dehors : une fois qu'un clan de lapin-garou a repéré une odeur, ils ne s'arrêtent que lorsque leur cible est morte !"
     ]
   }
 }

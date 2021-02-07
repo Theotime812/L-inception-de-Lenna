@@ -1,35 +1,35 @@
 {
   "startQuest": [
-    "Psst... Hey!",
-    "Want to help beta test a game I'm developing?",
-    "It's based on a trick a stranger showed me with potions and tunics...",
-    "The game's called the #{wave:4,9,0.2}#{font:bold}Hallucinatory Battle Arena#{reset}!",
-    "Enter the cave to begin! Beat 9 waves for a special reward!"
+    "Psst... Hé !",
+    "Envie de participer à un test bêta d'un jeu que je suis en train de développer ?",
+    "Il se base sur un truc qu'un inconnu m'a montré l'autre jour, avec des potions et des tuniques...",
+    "Le jeu s'appelle #{wave:4,9,0.2}#{font:bold}Hallucinatory Battle Arena#{reset}!",
+    "Entrez dans la grotte pour y jouer ! Survivez pendant 9 vagues et gagnez une récompense spéciale !"
   ],
   "duringQuest": [
-    "Enter the cave to begin the game.",
-    "Beat 9 waves for a special reward!"
+    "Entrez dans la grotte pour commencer à jouer.",
+    "Survivez pendant 9 vagues pour une récompense spéciale !"
   ],
   "questComplete1": [
-    "Nice!",
-    "Let me give you this..."
+    "Joli !",
+    "Laissez-moi vous donner ça..."
   ],
   "questComplete2": [
-    "And, take this as my thanks..."
+    "Et en guise de remerciements..."
   ],
   "questComplete3": [
-    "With that tunic you can take on the Hallucinatory Battle Arena any time you want.",
-    "It will work anywhere, but this cave is an especially good spot for it.",
-    "You've only played the beginning. After round 9 the enemies start getting harder!"
+    "Avec cette tunique, vous pouvez jouer à Hallucinatory Battle Arena n'importe quand.",
+    "Elle fonctionne partout, mais cette grotte est un excellent endroit pour l'utiliser.",
+    "Vous ne vous êtes arrêtée qu'au début. Après 9 manches, les ennemis deviennent de plus en plus forts !"
   ],
   "afterQuest": [
-    "Want to play again?",
-    "Just put on that Hallucination Tunic I gave you!",
-    "It will work anywhere, but this cave is an especially good spot for it."
+    "Envie de rejouer ?",
+    "Mettez simplement cette Tunique Hallucinogène que je vous ai donnée !",
+    "Elle fonctionne partout, mais cette grotte est un excellent endroit pour l'utiliser."
   ],
   "tressaNumber": [
-    "Oh! You're looking for someone who works with potions and tunics?",
-    "That sounds like Tressa! She's the one who showed me how to set up this Hallucinatory Battle Arena.",
-    "You should give her a call on 555-3956!"
+    "Oh, vous cherchez quelqu'un qui travaille avec des potions et des tuniques ?",
+    "Ça doit être Tressa ! C'est elle qui m'a montré comment créer Hallucinatory Battle Arena.",
+    "Vous devriez lui passer un coup de fil au 555-3956 !"
   ]
 }

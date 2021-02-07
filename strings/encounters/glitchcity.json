@@ -1,37 +1,37 @@
 {
   "wife" : {
     "glitched" : [
-      "#{glitch:true}I don't understand you..."
+      "#{glitch:true}Je ne vous comprends pas..."
     ],
     "request" : [
-      "My husband and I have been stuck here since the disaster.",
-      "Everything was fine... relatively... until a few days ago when my beloved was affected.",
-      "I'm worried about him!",
-      "Could you check he's OK? I can't make sense of his garbled speech!"
+      "Mon mari et moi sommes coincés ici depuis le désastre.",
+      "Tout allait bien... relativement... jusqu'à il y a quelques jours, quand mon mari a été affecté.",
+      "Je m'inquiète pour lui !",
+      "Est-ce que vous pourriez vérifier qu'il va bien ? Je n'arrive pas à comprendre ses phrases déformées !"
     ],
     "thanks" : [
-      "Thank you for checking on my husband!",
-      "We really should have evacuated when young Del warned us!",
-      "I do wonder what our boy's up to now..."
+      "Merci d'être passée voir mon mari !",
+      "Nous aurions vraiment dû partir quand le petit Del nous a prévenu !",
+      "Je me demande ce que fait notre garçon, maintenant..."
     ]
   },
   "husband" : {
     "glitched" : [
-      "#{glitch:true}I don't understand you..."
+      "#{glitch:true}Je ne vous comprends pas..."
     ],
     "thanks" : [
-      "Could you tell my wife I'm doing OK?",
-      "Since the corruption affected me, I haven't been able to find any compatible food.",
-      "Starvation is affecting my health... but occasionally I find some hearts in the bushes outside, and so I survive.",
-      "I do wonder how the constant consumption of corrupted material is affecting me...",
-      "I can feel myself changing. Do I look like a monster?"
+      "Pourriez-vous dire à ma femme que je vais bien ?",
+      "Depuis que la corruption m'a affecté, je n'ai pas pu trouver de nourriture compatible.",
+      "La faim affecte ma santé... mais parfois, je trouve quelques c½urs dans les buissons dehors, et donc je survis.",
+      "Je me demande comment consommer constamment du contenu corrompu m'affecte...",
+      "Je sens que je suis en train de changer. Est-ce que ressemble à un monstre ?"
     ],
     "hint" : [
-      "Hey, if you get lost outside, head < west.",
-      "For some reason, that direction never changes."
+      "Hé, si vous vous perdez dehors, allez vers < l'ouest.",
+      "Bizarrement, cette direction ne change jamais."
     ]
   },
-  
+
   "randomDialogue" : [
     "#{glitch:true}Object event.",
     "#{glitch:true}No windows available for popping.",

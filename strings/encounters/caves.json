@@ -1,22 +1,22 @@
 {
   "spealman" : [
-    "I stumbled into this cave by accident. It was scary at first, but I have so much cool loot now!",
-    "Caves ARE dangerous though... Cave monsters grow up drinking all the potions you find underground...",
-    "I know! Maybe this will help you!",
-    "Well, good luck!"
+    "Je suis tombé sur cette grotte par accident. C'était effrayant au début, mais j'ai pu récupérer plein de trucs cools !",
+    "Les grottes SONT dangereuses, par contre... Ici, les monstres grandissent en buvant toutes les potions qu'on peut trouver sous terre...",
+    "Je sais ! Peut-être que ceci peut vous aider !",
+    "Bon, bonne chance !"
   ],
 
   "itemGiver" : [
-    "I found this while I was spelunking. Take it!"
+    "J'ai trouvé ça pendant que je faisais de la spéléologie. Prenez-le !"
   ],
 
   "itemSeller" : [
-    "I don't get many customers down here.",
-    "This place is great for stocking up if you don't mind the locals!"
+    "Je n'ai pas beaucoup de client, aussi bas.",
+    "Cet endroit est excellent pour faire le plein d'objets, si les habitants ne vous dérangent pas !"
   ],
 
   "effectTeller" : [
-    "Did you know that ${0} potions are ${2} potions?",
-    "And ${1} tunics are ${2} tunics, too!"
+    "Saviez-vous que les potions ${0} sont des potions de ${2}  ?",
+    "Et que les tuniques ${1} sont des tuniques de ${2}, aussi !"
   ]
 }

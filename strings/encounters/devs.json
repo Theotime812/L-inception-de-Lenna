@@ -1,47 +1,47 @@
 {
   "jay" : [
-    "My name is Jay and I like to party."
+    "Je m'appelle Jay et j'aime faire la fête."
   ],
 
   "tom" : {
     "npc" : [
-      "Does this universe have any good video games? I'm looking for recommendations!"
+      "Est-ce que cet univers a des bons jeux vidéo ? Je cherche des recommandations !"
     ],
     "phone" : [
-      "Is this Lance? Or ${player.name}?"
+      "C'est Lance ? Ou c'est ${player.name}?"
     ],
     "cheatsDisabled" : [
-      "Hey ${player.name}.",
-      "Normally I'd offer you the cheat menu... but since you have the story mode timer on, I'm assuming you're attempting a speedrun?",
-      "I don't want to spoil your run with cheats, so let me tell you a story instead...",
-      "\"It's not looking good,\" said the defense lawyer to the thief. \"The prosecutor has a CCTV recording of you stealing the 200kg of cheese. I have to ask... why did you do it?\"",
-      "The thief looked down, ashamed. \"I wish I knew. What's going to happen to me?\"",
-      "\"Well, you're looking at 20 years in jail. If you plea guilty, we might be able to get that down to 10 years.\"",
-      "\"10 years!? My children back home in Switzerland will be all grown up. I can't...\"",
-      "The two looked at each other. Finally, the lawyer spoke. \"I don't know what else to suggest.\"",
-      "When his day in court finally came around, the thief pleaded innocent, clinging to the hope that the prosecution would mess up.",
-      "As it turned out, luck was on his side. The case against the Swiss cheese thief was full of holes."
+      "Salut ${player.name}.",
+      "Normalement, vous auriez eu le menu de triche... mais comme vous avez le chronomètre activé, je suppose que vous essayez de faire un speedrun ?",
+      "Je ne veux pas gâcher votre run avec des triches, donc laissez-moi vous raconter une histoire à la place...",
+      "\"Ça s'annonce mal,\" dit l'avocat de la défence au voleur. \"Le procureur a un enregistrement de vidéosurveillance où l'on vous voir voler 200kg de fromage. Je me demande... pourquoi avez-vous fait ça ?\"",
+      "Le voleur baissa les yeux, honteux. \"J'aimerais le savoir. Que va-t-il m'arriver ?\"",
+      "\"Eh bien, vous risquez 20 ans de prison. Si vous plaidez coupable, nous pouvons peut-être réduire à 10 ans.\"",
+      "\"10 ans !? Mes enfants, chez moi en Suisse, auront tellement grandi. Je ne peux pas...\"",
+      "Les deux se regardèrent. Finalement, l'avocat dit : \"Je ne sais pas quoi vous suggérer d'autre.\"",
+      "Le jour du procès, le voleur plaida innocent, s'accrochant à l'espoir que son procès foire.",
+      "Il s'est avéré que la chance était de son côté. L'affaire contre le voleur de fromage suisse était pleine de trous."
     ]
   },
 
   "telephoneSameRoom" : {
     "jay" : [
-      "Hello? Hello? Hello?",
-      "I think I can hear myself."
+      "Allô ? Allô ? Allô ?",
+      "Je crois qu'il y a un écho."
     ],
     "tom" : [
-      "Hey, I'm right here!"
+      "Hé, je suis juste là !"
     ]
   },
-  
+
   "computer" : [
-    "A game is up on the screen, and-",
-    "Is that me!?"
+    "Il y a un jeu à l'écran, et...",
+    "Mais c'est moi !?"
   ],
-  
+
   "blackboard" : [
-    "The blackboard is covered in text written in terrible handwriting.",
-    "It's utterly unreadable."
+    "Le tableau est couvert de texte horriblement mal écrit.",
+    "C'est totalement illisible."
   ]
 
 }
