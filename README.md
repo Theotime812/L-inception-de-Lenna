@@ -1,4 +1,4 @@
-# L-inception-de-Lenna
+# L'inception de Lenna
 
 ## Français
 
