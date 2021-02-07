@@ -1,11 +1,11 @@
 {
-  "delivery" : "${player.name}? Here's your pizza. That'll be $${0}.",
+  "delivery" : "${player.name} ? Voilà votre pizza. Ça vous fait ${0}$.",
   "noMoney" : [
-    "You have no money? Oh.",
-    "Well, consider this charity."
+    "Vous n'avez pas d'argent ? Oh.",
+    "Eh bien, on va dire que c'est la maison qui offre."
   ],
   "notEnoughMoney" : [
-    "You don't have enough money?",
-    "Well, I'm here now. Just give me what you can."
+    "Vous n'avez pas assez d'argent ?",
+    "Eh bien, je suis là. Donnez-moi ce que vous pouvez."
   ]
 }
