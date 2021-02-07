@@ -55,10 +55,10 @@
     "Avec tous ces prix qui gonflent, je pense que je vais investir dans des ballons."
   ],
   "bankerEvilJar2": [
-    "The best thing about being an undead investor is all the bone-uses."
+    "Ce qui est bien en étant un investisseur mort-vivant, c'est de pouvoir avoir un bon-os."
   ],
   "bankerGroundFloor1": [
-    "They didn't teach me about this at business skull..."
+    "On ne m'a pas apprit ça à l'a-crâne-démie de commerce"
   ],
   "bankerGroundFloor2": [
     "I saw a duck come in for financial advice yesterday.",
@@ -78,36 +78,36 @@
     "Tout le reste entraîne une perte !"
   ],
   "investor2": [
-    "How do the reels know where to stop? What causes the prices to jump up and down like they do?",
-    "Nothing significant is actually changing in the businesses we're trading... Not on the timescale of seconds!"
+    "How do the reels know where to stop? Qu'est-ce qui fait monter et baisser les prix comme ça ?",
+    "Il n'y a rien qui change de manière significative dans les affaires que nous négocions... Pas à l'échelle de quelques secondes !"
   ],
   "investor3": [
-    "Most of the time these machines provide a nice steady, but low income.",
-    "Then occasionally there are sudden catastrophic falls when everyone panic-sells at the same time!",
-    "I lost almost half my savings at once last time!"
+    "La plupart du temps, ces machines fournissent des recettes stables mais faibles.",
+    "Puis, parfois, il y a une chute des prix catastrophique et soudaine où tout le monde panique et vend au même moment !",
+    "La dernière fois, j'ai perdu presque la moitié de mes économies !"
   ],
   "investor4": [
-    "I always read the headlines before trading.",
-    "It doesn't always help, but in the long run it #{font:bold}does#{font:default} give me a slight edge."
+    "Je lis toujours les gros titres avant de négocier.",
+    "Ça n'aide pas toujours, mais ça me donne un léger avantage sur le long terme."
   ],
 
   "tressaBanker": {
     "part1": [
-      "I can't reveal whether someone called 'Tressa' has been here.",
-      "First, you'll need to answer some security questions.",
-      "The first question: what is the name of Tressa's eldest brother?"
+      "Je ne peux pas révéler si une personne dénomée \"Tressa\" se trouvait ici.",
+      "En premier lieu, vous devez répondre à des questions de sécurité.",
+      "Première question : quel est le nom du frère aîné de Tressa ?"
     ],
     "wrong": [
-      "Sorry, that's the wrong answer.",
-      "Try again when you've remembered."
+      "Désolé, c'est la mauvaise réponse.",
+      "Essayez à nouveau quand vous vous en souviendrez."
     ],
     "part2": [
-      "Good. Now the second question: what is the name of Tressa's youngest brother?"
+      "Bien. Deuxième question : quel est le nom du plus jeune frère de Tressa ?"
     ],
     "part3": [
-      "Thank you for authenticating, Tressa.",
-      "I can reveal that you were just here, taking out a loan in order to redecorate a business property.",
-      "You gave me the telephone number of your guarantor: 555-1105."
+      "Merci de vous être identifiée, Tressa.",
+      "Je peux révéler que vous étiez juste ici, en train de faire un prêt afin de redécorer une propriété commerciale.",
+      "Vous m'avez donné le numéro de votre garante : 555-1105."
     ]
   }
 }
