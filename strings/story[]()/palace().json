@@ -1,226 +1,226 @@
 {
   "exteriorGuardInitial" : [
-    "Il nous a tous enfermÃ©s dehors !"
+    "Il nous a tous enfermés dehors !"
   ],
 
   "exteriorGuard0" : [
-    "Il nous a tous enfermÃ©s dehors !"
+    "Il nous a tous enfermés dehors !"
   ],
 
   "exteriorGuard1" : [
-    "Le prince n'aurait jamais fait Ã§a..."
+    "Le prince n'aurait jamais fait ça..."
   ],
 
   "exteriorGuard2" : [
-    "Je savais que c'Ã©tait une mauvaise idÃ©e que le PrÃ©sident soit au commandes."
+    "Je savais que c'était une mauvaise idée que le Président soit au commandes."
   ],
 
   "cells" : {
-    "prince_rescue": ["ÃŠtes-vous venue me sauver ?", "Ne le faites pas, du moins pas tout de suite. Je suis plus en sÃ©curitÃ© derriÃ¨re ces barreaux !"],
-    "prince_hint": ["Vous aurez besoin de la clÃ© bleue pour arrÃªter le PrÃ©sident.", "Elle est ici, dans la prison, mais les squelettes ont construit un mur pour Ã©loigner les hÃ©ros !"]
+    "prince_rescue": ["Êtes-vous venue me sauver ?", "Ne le faites pas, du moins pas tout de suite. Je suis plus en sécurité derrière ces barreaux !"],
+    "prince_hint": ["Vous aurez besoin de la clé bleue pour arrêter le Président.", "Elle est ici, dans la prison, mais les squelettes ont construit un mur pour éloigner les héros !"]
   },
 
   "cryptLenna" : [
     ["C'est Lance !"],
-    ["#{cmd:glitch}#{cmd:tileGaps:1000,2000,500,3,0.6}#{font:bold}#{wave:3,9,0.1}Rien de tout cela n'Ã©tait censÃ© arriver...#{reset}#{cmd:unglitch}"]
+    ["#{cmd:glitch}#{cmd:tileGaps:1000,2000,500,3,0.6}#{font:bold}#{wave:3,9,0.1}Rien de tout cela n'était censé arriver...#{reset}#{cmd:unglitch}"]
   ],
 
   "hintSkeleton": [
-    "Le PrÃ©sident m'a virÃ© pour avoir Ã©tÃ© un zombie, donc laissez-moi vous aider.",
-    "Vous voyez ces portes lÃ -bas ? Vous allez devoir tuer tous les monstres sur cet Ã©cran pour les ouvrir.",
-    "Cherchez les ombres laissÃ©es par les araignÃ©es."
+    "Le Président m'a viré pour avoir été un zombie, donc laissez-moi vous aider.",
+    "Vous voyez ces portes là-bas ? Vous allez devoir tuer tous les monstres sur cet écran pour les ouvrir.",
+    "Cherchez les ombres laissées par les araignées."
   ],
 
   "chairman" : {
-    "chairman_arrivedAtLast" : "Ah, vous Ãªtes enfin arrivÃ©e.",
-    "chairman_everythingYouAsked" : "J'ai fait tout ce que vous m'aviez demandÃ©...",
+    "chairman_arrivedAtLast" : "Ah, vous êtes enfin arrivée.",
+    "chairman_everythingYouAsked" : "J'ai fait tout ce que vous m'aviez demandé...",
     "chairman_returnOnInvestment" : "Maintenant, je veux avoir mon retour sur investissements !",
 
     "lenna_talkingAbout" : "De quoi parlez-vous ?",
-    "chairman_youreNotHer" : "Vous n'Ãªtes pas... Elle ?",
+    "chairman_youreNotHer" : "Vous n'êtes pas... Elle ?",
     "lenna_who": "Qui ?",
-    "chairman_justAHuman": "Vous n'Ã©tiez qu'une humaine depuis le dÃ©but ! Un faux !",
+    "chairman_justAHuman": "Vous n'étiez qu'une humaine depuis le début ! Un faux !",
     "chairman_thoughtYou": "Je croyais que...",
 
-    "lenna_stopYou" : "Je suis venue pour vous arrÃªter, pas pour rÃ©compenser votre soif de pouvoir tordue !",
-    "chairman_allForYou" : "Quoi ? Mais j'ai fait tout Ã§a pour vous !",
-    "lenna_didItForMe" : "Si vous avez vraiment fait tout Ã§a pour moi, alors...",
-    "lenna_goBackToYourBank" : "Je veux que vous retourniez Ã  votre banque...",
-    "lenna_toCharity" : "Et que vous donniez tout Ã  une association !",
-    "chairman_sunkCapital" : "Non ! J'ai dÃ©jÃ  englouti trop de capital pour engloutir cette capitale !",
+    "lenna_stopYou" : "Je suis venue pour vous arrêter, pas pour récompenser votre soif de pouvoir tordue !",
+    "chairman_allForYou" : "Quoi ? Mais j'ai fait tout ça pour vous !",
+    "lenna_didItForMe" : "Si vous avez vraiment fait tout ça pour moi, alors...",
+    "lenna_goBackToYourBank" : "Je veux que vous retourniez à votre banque...",
+    "lenna_toCharity" : "Et que vous donniez tout à une association !",
+    "chairman_sunkCapital" : "Non ! J'ai déjà englouti trop de capital pour engloutir cette capitale !",
     "chairman_bleedEnoughCash" : "Saignez-vous pour couvrir mes frais, au moins !",
-    "lenna_moreWealthThan" : "Vous avez toujours plus d'argent que n'importe qui sur cette Ã®le !",
+    "lenna_moreWealthThan" : "Vous avez toujours plus d'argent que n'importe qui sur cette île !",
     "lenna_evenDo" : "Que pourriez-vous #{wave:3,9,0.1}faire#{reset} avec encore plus ?",
     "chairman_refusingToPay" : "Vous refusez de payer ?",
     "chairman_breachOfContract" : "C'est une rupture de contrat...",
 
     "chairman_argh" : ["Argh ! Cela me rend...", "Argh !"],
     "companion_powerOfWealth" : "Le Pouvoir de Richesse est en train de le corrompre !",
-    "chairman_you" : "EspÃ¨ce...",
-    "chairman_insolentStartup" : "EspÃ¨ce de start-up insolente !",
+    "chairman_you" : "Espèce...",
+    "chairman_insolentStartup" : "Espèce de start-up insolente !",
     "chairman_liquidateYou": "Je vais vous #{font:bold}liquider#{reset} !",
 
     "lenna_neverFlyPig" : "Quand les poules auront des dents, cochon !",
-    "shadow_boarMe" : "Il a vraiment un caractÃ¨re de cochon !",
+    "shadow_boarMe" : "Il a vraiment un caractère de cochon !",
     "paige_piggyBank" : "C'est une vraie tirelire !",
-    "lenna_quitYourSwine" : "Il est temps que vous arrÃªtiez vos tours de cochon !",
+    "lenna_quitYourSwine" : "Il est temps que vous arrêtiez vos tours de cochon !",
 
     "chairman_tooBigToFail": "#{shake:3,3}#{font:bold}JE SUIS TROP GROS POUR FAIRE FAILLITE !"
   },
 
   "chairmanCompassion" : {
-    "lenna_bankruptcy" : "Je dÃ©clare votre banqueroute !",
-    "chairman_cantDoThat": "Vous... vous ne pouvez pas faire Ã§a !",
-    "lenna_youreAlsoBankrupt" : "Pourquoi pas ? Vous Ãªtes pauvre, d'ailleurs.",
+    "lenna_bankruptcy" : "Je déclare votre banqueroute !",
+    "chairman_cantDoThat": "Vous... vous ne pouvez pas faire ça !",
+    "lenna_youreAlsoBankrupt" : "Pourquoi pas ? Vous êtes pauvre, d'ailleurs.",
     "lenna_morallyBankrupt" : "#{wave:3,9,0.1}Moralement#{reset} pauvre !",
-    "chairman_creditRating" : "Mais... cela va influencer votre indice de solvabilitÃ© pendant des annÃ©es !",
+    "chairman_creditRating" : "Mais... cela va influencer votre indice de solvabilité pendant des années !",
     "lenna_notGoingToMatter" : "Ce n'est pas grave.",
-    "lenna_insolvent" : "Vous Ãªtes insolvable.",
+    "lenna_insolvent" : "Vous êtes insolvable.",
     "chairman_speechless" : "...",
     "lenna_bleedsCash" : "S'il y a une chose dans ce monde qui saigne de l'argent, #{wave:3,9,0.1}c'est votre banque#{reset} !",
-    "lenna_fineLine" : "La Corporation tient Ã  un fil si fin que le moindre choc cause son effondrement total.",
+    "lenna_fineLine" : "La Corporation tient à un fil si fin que le moindre choc cause son effondrement total.",
     "lenna_bailYouOut" : "Et cette fois, le prince ne peut pas vous tirer d'affaire",
-    "lenna_simplyCantPay" : "La vÃ©ritÃ©, c'est que je ne peux tout simplement pas payer.",
+    "lenna_simplyCantPay" : "La vérité, c'est que je ne peux tout simplement pas payer.",
     "lenna_bleedMoney" : "Malheureusement, les humains ne saignent #{wave:3,9,0.1}pas#{reset} de l'argent.",
     "chairman_nooooo" : "#{font:bold}#{wave:3,9,0.1}NOOOOON !"
   },
   "chairmanEnd" : {
-    "paige_cashthartic" : "Wow, c'Ã©tait vraiment cashthartique !",
+    "paige_cashthartic" : "Wow, c'était vraiment cashthartique !",
     "shadow_fungible" : "Tu sais #{font:bold}vraiment#{reset} faire rimer #{wave:3,9,0.1}amusant#{reset} avec #{wave:3,9,0.1}argent#{reset} !",
-    "chicken_buck" : "*CoÃ»te* *coÃ»te*",
+    "chicken_buck" : "*Coûte* *coûte*",
     "lenna_speechless" : "..."
   },
 
   "delvinA" : {
     "delvin_hereAlready" : [
-      "Vous Ãªtes dÃ©jÃ  lÃ  ?",
-      "Vous n'avez mÃªme pas tuÃ© les archanges !",
-      "Enfin, peu importe. Je m'en occuperai moi-mÃªme."
+      "Vous êtes déjà là ?",
+      "Vous n'avez même pas tué les archanges !",
+      "Enfin, peu importe. Je m'en occuperai moi-même."
     ],
     "delvin_notAfraid" : "#{shake:3,3}Je n'ai plus peur de vous."
   },
   "delvinBC" : {
     "delvin_mistake" : [
-      "Je suis prÃªt Ã  mettre fin Ã  tout cela, ${player.name}.",
-      "La question est, l'Ãªtes-vous ?"
+      "Je suis prêt à mettre fin à tout cela, ${player.name}.",
+      "La question est, l'êtes-vous ?"
     ],
-    "lenna_ofCourse" : "Bien sÃ»r !",
+    "lenna_ofCourse" : "Bien sûr !",
     "delvin_onlyOneWay" : [
       "Il n'y a qu'un seul moyen de corriger le glitch.",
-      "L'histoire doit se terminer -- arriver Ã  un vrai #{wave:3,9,0.1}game over#{reset} !",
-      "${world.name} redÃ©marrera, commencera Ã  nouveau...",
-      "Quand la #{font:bold}bataille finale#{reset} sera gagnÃ©e.",
+      "L'histoire doit se terminer -- arriver à un vrai #{wave:3,9,0.1}game over#{reset} !",
+      "${world.name} redémarrera, commencera à nouveau...",
+      "Quand la #{font:bold}bataille finale#{reset} sera gagnée.",
       "Et c'est contre #{shake:3,3}vous#{reset} !"
     ],
-    "delvin_motherOf" : "Vous Ãªtes le boss final ! #{shake:3,3}La MÃ¨re des Archanges !",
+    "delvin_motherOf" : "Vous êtes le boss final ! #{shake:3,3}La Mère des Archanges !",
     "delvin_meantToBe" : "#{wave:3,9,0.1}Je vais vous tuer pour que tout redevienne comme avant !",
 
     "companion_wait" : "Attendez !",
     "shadow_knowsEvil" : [
       "S'il y a une personne qui sait ce qu'est le mal, c'est moi.",
-      "Tu m'as changÃ©e, ${player.name}, de bien des faÃ§ons.",
-      "Depuis que je t'ai rencontrÃ©e, j'ai senti l'obscuritÃ© s'Ã©loigner."
+      "Tu m'as changée, ${player.name}, de bien des façons.",
+      "Depuis que je t'ai rencontrée, j'ai senti l'obscurité s'éloigner."
     ],
     "shadow_notEvil" : "Tu n'es pas mauvaise.",
     "shadow_shade" : "Sans #{wave:3,9,0.1}l'ombre#{reset} d'un doute !",
     "paige_asAnArchangel" : "${player.name}, je ne t'ai jamais connue en tant qu'archange.",
-    "paige_asAHuman" : "Mais j'ai pu te connaÃ®tre en tant qu'humaine !",
+    "paige_asAHuman" : "Mais j'ai pu te connaître en tant qu'humaine !",
     "paige_notEvil" : "Et tu n'es #{font:bold}pas#{reset} mauvaise.",
     "paige_involved" : [
-      "Tu t'es impliquÃ©e dans tout Ã§a parce que tu t'inquiÃ©tais pour tes Ã©lÃ¨ves.",
-      "Et ensuite, tu voulais sauver le Prince Daniel, et tous ceux que Lance aurait dÃ©fendu.",
-      "Pendant tout ce temps, tu n'as pas sacrifiÃ© une seule vie !"
+      "Tu t'es impliquée dans tout ça parce que tu t'inquiétais pour tes élèves.",
+      "Et ensuite, tu voulais sauver le Prince Daniel, et tous ceux que Lance aurait défendu.",
+      "Pendant tout ce temps, tu n'as pas sacrifié une seule vie !"
     ],
-    "paige_compassionate" : "#{shake:3,3}Tu es l'Ãªtre humain la plus #{font:bold}compatissante#{font:default} que j'ai jamais connu !",
+    "paige_compassionate" : "#{shake:3,3}Tu es l'être humain la plus #{font:bold}compatissante#{font:default} que j'ai jamais connu !",
     "lenna_speechless" : "...",
 
-    "lenna_diedManyTimes" : "Delvin, je suis dÃ©jÃ  morte de nombreuses de fois avant d'arriver ici.",
-    "lenna_asItWas" : "Ã€ chaque fois, le glitch revient #{wave:3,9,0.1}comme si de rien n'Ã©tait#{reset}.",
+    "lenna_diedManyTimes" : "Delvin, je suis déjà morte de nombreuses de fois avant d'arriver ici.",
+    "lenna_asItWas" : "À chaque fois, le glitch revient #{wave:3,9,0.1}comme si de rien n'était#{reset}.",
     "lenna_comeBackAgain" : "Si vous me tuez, le glitch ne fera que revenir.",
-    "lenna_persistentTaint" : "C'est une tache tenace de notre monde, et il n'y a qu'une seule faÃ§on de la nettoyer !",
+    "lenna_persistentTaint" : "C'est une tache tenace de notre monde, et il n'y a qu'une seule façon de la nettoyer !",
     "lenna_blowTheDust" : "Je dois juste souffler dans la cartouche...",
     "delvin_shutUpAndDie" : "#{shake:2,0}Non ! Je vais sauver tout le monde ! Ferme-la et meurs !"
   },
   "delvinCompassion" : {
     "lenna_attention" : [
-      "Vous n'Ãªtes pas un hÃ©ros, Delvin !",
-      "Tout cela est arrivÃ© Ã  cause de votre pathÃ©tique besoin de reconnaissance.",
+      "Vous n'êtes pas un héros, Delvin !",
+      "Tout cela est arrivé à cause de votre pathétique besoin de reconnaissance.",
       "Vous vous fichiez de Lance ; vous vouliez le manipuler !",
-      "Vous vous fichiez du danger que 8Fridge reprÃ©sentait pour les autres, mÃªme aprÃ¨s avoir Ã©tÃ© prÃ©venu !",
-      "Et regardez ce que Ã§a vous a fait. Vous n'Ãªtes pas un hÃ©ros, mais #{font:bold}un monstre#{reset} !"
+      "Vous vous fichiez du danger que 8Fridge représentait pour les autres, même après avoir été prévenu !",
+      "Et regardez ce que ça vous a fait. Vous n'êtes pas un héros, mais #{font:bold}un monstre#{reset} !"
     ],
-    "lenna_clearOff" : "Maintenant, rendez-moi la cartouche, et #{wave:3,9,0.1}dÃ©gagez#{reset}!",
+    "lenna_clearOff" : "Maintenant, rendez-moi la cartouche, et #{wave:3,9,0.1}dégagez#{reset}!",
     "delvin_crying" : "..."
   },
-  "delvinPhase2" : ["Vous savez dÃ©jÃ  comment Ã§a doit se terminer, ${player.name}."],
-  "delvinPhase3" : ["#{glitch:true}Vous savez dÃ©jÃ  comment Ã§a doit se terminer, ${player.name}."],
+  "delvinPhase2" : ["Vous savez déjà comment ça doit se terminer, ${player.name}."],
+  "delvinPhase3" : ["#{glitch:true}Vous savez déjà comment ça doit se terminer, ${player.name}."],
   "delvinDeath" : {
     "delvin_surelyLost" : "Si vous ne #{glitch:true}mourrez#{glitch:false} #{glitch:true}p#{glitch:false}as, ${world.name} #{glitch:true}e#{glitch:false}st perdu..#{glitch:true}.",
     "lenna_attention" : [
-      "Vous n'Ãªtes pas un hÃ©ros, Delvin !",
-      "Tout cela est arrivÃ© Ã  cause de votre pathÃ©tique besoin de reconnaissance.",
+      "Vous n'êtes pas un héros, Delvin !",
+      "Tout cela est arrivé à cause de votre pathétique besoin de reconnaissance.",
       "Vous vous fichiez de Lance ; vous vouliez le manipuler !",
-      "Vous vous fichiez du danger que 8Fridge reprÃ©sentait pour les autres, mÃªme aprÃ¨s avoir Ã©tÃ© prÃ©venu !",
-      "Et regardez ce que Ã§a vous a fait. Vous n'Ãªtes pas un hÃ©ros, mais #{font:bold}un monstre#{reset} !"
+      "Vous vous fichiez du danger que 8Fridge représentait pour les autres, même après avoir été prévenu !",
+      "Et regardez ce que ça vous a fait. Vous n'êtes pas un héros, mais #{font:bold}un monstre#{reset} !"
     ],
   },
   "delvinEnd" : {
-    "lenna_eggo" : "Oui, il Ã©tait #{wave:3,9,0.1}fier comme un coq#{reset}."
+    "lenna_eggo" : "Oui, il était #{wave:3,9,0.1}fier comme un coq#{reset}."
   },
 
   "endingPremature" : {
     "shadow" : "Et maintenant ?",
-    "paige" : "Est-ce qu'on a manquÃ© quelque chose ?",
+    "paige" : "Est-ce qu'on a manqué quelque chose ?",
     "lenna" : "Et maintenant ?"
   },
 
   "endingHero" : {
-    "paige_endOfOurStory" : "Alors Ã§a doit Ãªtre la fin de notre histoire.",
-    "paige_justTheBeginning" : "Moi qui croyais que ce n'Ã©tait que le dÃ©but... de nous deux, ${player.name} !",
-    "shadow_goodRun" : "On aura passÃ© un bon moment, au moins.",
-    "shadow_boss" : "On se voit de l'autre cÃ´tÃ©, #{wave:3,9,0.1}boss#{reset}.",
+    "paige_endOfOurStory" : "Alors ça doit être la fin de notre histoire.",
+    "paige_justTheBeginning" : "Moi qui croyais que ce n'était que le début... de nous deux, ${player.name} !",
+    "shadow_goodRun" : "On aura passé un bon moment, au moins.",
+    "shadow_boss" : "On se voit de l'autre côté, #{wave:3,9,0.1}boss#{reset}.",
     "lenna_missYou" : "Tu vas me manquer.",
-    "lenna_butArchangelsLive" : "Mais au moins, mes archanges pourront vivre Ã  nouveau.",
-    "lenna_archangelsLive" : "Au moins, mes archanges pourront vivre Ã  nouveau."
+    "lenna_butArchangelsLive" : "Mais au moins, mes archanges pourront vivre à nouveau.",
+    "lenna_archangelsLive" : "Au moins, mes archanges pourront vivre à nouveau."
   },
 
   "endingCompassion" : {
     "azraflail_dont" : "${player.name}, stop!",
-    "lenna_youCameForMe" : "M-mes enfants... vous Ãªtes revenus pour moi ?",
+    "lenna_youCameForMe" : "M-mes enfants... vous êtes revenus pour moi ?",
     "azraflail_dontBlow" : "Ne souffle pas dans la cartouche !",
     "azraflail_fateThatAwaits" : "Le destin qui nous attend est rempli de souffrance !",
     "tentaluchus_screwFate" : "Ouais, on emmerde le destin !",
-    "shadow_goBack" : "Ã€ vrai dire, je ne veux pas redevenir celle que j'Ã©tais avant, moi non plus.",
+    "shadow_goBack" : "À vrai dire, je ne veux pas redevenir celle que j'étais avant, moi non plus.",
     "paige_anotherWay" : "#{shake:3,0}Il doit y avoir une autre solution !",
-    "lenna_allDie" : "Si je ne fais pas Ã§a, nous allons tous mourir...",
-    "lenna_soClose" : "Argh, nous sommes si prÃ¨s du but !",
-    "lenna_causeOfProblems" : "La cause de tous nos problÃ¨mes est juste ici !",
+    "lenna_allDie" : "Si je ne fais pas ça, nous allons tous mourir...",
+    "lenna_soClose" : "Argh, nous sommes si près du but !",
+    "lenna_causeOfProblems" : "La cause de tous nos problèmes est juste ici !",
     "azraflail_whatHappened" : "Whoa, que vient-il de se produire ?",
-    "lenna_punchedCartridge" : "Je... j'ai donnÃ© un coup de poing dans la cartouche. Ã‡a ressemble Ã  un menu de dÃ©bogage...",
+    "lenna_punchedCartridge" : "Je... j'ai donné un coup de poing dans la cartouche. Ça ressemble à un menu de débogage...",
     "azraflail_somethingYouCanUse" : "Il se peut qu'il y ait quelque chose que tu puisses utiliser !"
   },
 
   "finalEnding" : {
-    "prince" : ["Je dÃ©crÃ¨te...", "...que les pizzas doivent Ãªtre accessibles Ã  chacun, quelque soit le nombre de membres qu'il possÃ¨de."],
+    "prince" : ["Je décrète...", "...que les pizzas doivent être accessibles à chacun, quelque soit le nombre de membres qu'il possède."],
     "everyone" : "#{wave:3,9,0.1}Hourra !",
-    "lenna1" : "On a rÃ©ussi, Tentaluchus!",
+    "lenna1" : "On a réussi, Tentaluchus!",
     "tentaluchus" : "#{wave:3,9,0.1}PIZZAAAAAAAA !",
     "lance" : "...!",
-    "elder" : "${player.name}, j'ai mal jugÃ© les vÃ´tres. Je suis profondÃ©ment dÃ©solÃ© pour cela.",
+    "elder" : "${player.name}, j'ai mal jugé les vôtres. Je suis profondément désolé pour cela.",
     "lenna2" : "Il ne faut pas, j'essayais vraiment de tous vous tuer !",
     "azraflail" : "Il n'y aura plus jamais ni complot ni meurtre sous ma surveillance.",
-    "shadow" : "#{wave:3,9,0.1}L'ombre#{wave:reset} du mal sur cette terre a enfin Ã©tÃ© dissipÃ©e !",
+    "shadow" : "#{wave:3,9,0.1}L'ombre#{wave:reset} du mal sur cette terre a enfin été dissipée !",
     "paige" : [
-      "J'ai entendu que tu allais rÃ©ouvrir ton Ã©cole, ${player.name}!",
+      "J'ai entendu que tu allais réouvrir ton école, ${player.name}!",
       "Et que tu allais aussi inviter des enfants humains...",
-      "Est-ce que tes Ã©lÃ¨ves auront besoin de livres ?"
+      "Est-ce que tes élèves auront besoin de livres ?"
     ],
     "lenna3" : "Oui ! Et je pourrais avoir un coup de main, maintenant que je n'en ai que deux. Qu'en penses-tu ?",
-    "paige2" : "Excellente idÃ©e !",
+    "paige2" : "Excellente idée !",
     "narrator" : [
-      "Avec les glitchs corrigÃ©s, et la faim de pizza des Archanges satisfaite, ${player.name} et le Prince Daniel travaillÃ¨rent ensemble pour reconstruire le Royaume de ${world.name}.",
-      "La cohabitation entre les humains et les Archanges se rÃ©vÃ©la difficile, mais avec Compassion et Courage, ainsi que par l'exemple de ${player.name}, tout le monde rÃ©alisa qu'il n'Ã©tait jamais trop tard pour devenir une meilleure personne.",
-      "Avec la Richesse que les deux espÃ¨ces partageaient, et leur respect sain pour la VÃ©ritÃ©, la paix dura un millier d'annÃ©es."
+      "Avec les glitchs corrigés, et la faim de pizza des Archanges satisfaite, ${player.name} et le Prince Daniel travaillèrent ensemble pour reconstruire le Royaume de ${world.name}.",
+      "La cohabitation entre les humains et les Archanges se révéla difficile, mais avec Compassion et Courage, ainsi que par l'exemple de ${player.name}, tout le monde réalisa qu'il n'était jamais trop tard pour devenir une meilleure personne.",
+      "Avec la Richesse que les deux espèces partageaient, et leur respect sain pour la Vérité, la paix dura un millier d'années."
     ]
   }
 }
