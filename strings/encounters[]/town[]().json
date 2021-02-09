@@ -1,24 +1,24 @@
 {
   "itemGiver" : {
     "new" : [
-      "J'ai trouvÃ© ceci par terre. Vous avez l'air d'en avoir besoin !"
+      "J'ai trouvé ceci par terre. Vous avez l'air d'en avoir besoin !"
     ],
     "old" : [
-      "Alors, est-ce que c'Ã©tait utile ?"
+      "Alors, est-ce que c'était utile ?"
     ]
   },
 
   "potionSeller" : {
     "dialogue" : [
-      "Psst. HÃ©, besoin de potions ?"
+      "Psst. Hé, besoin de potions ?"
     ],
     "potionDescription" : "Une potion avec un effet inconnu."
   },
 
   "tunicSeller" : {
     "dialogue" : [
-      "Vous Ãªtes intÃ©ressÃ©e par des tuniques moitiÃ©-prix ?",
-      "Elles n'ont aucun problÃ¨me. Je dois juste m'en dÃ©barasser rapidement, si vous voyez de ce que je veux dire."
+      "Vous êtes intéressée par des tuniques moitié-prix ?",
+      "Elles n'ont aucun problème. Je dois juste m'en débarasser rapidement, vous voyez ?"
     ],
     "tunicDescription" : "Une tunique avec un effet inconnu."
   },
@@ -26,25 +26,25 @@
   "dialogue" : {
     "human" : [
       ["Ce pauvre Lance ne parle plus depuis que ses parents sont morts."],
-      ["L'Ancien a Ã©levÃ© Lance pour qu'il devienne le prochain grand hÃ©ros !"],
+      ["L'Ancien a élevé Lance pour qu'il devienne le prochain grand héros !"],
       ["Je sais que vivre dans une grotte n'est pas glamour, mais l'Ancien a son propre chez-lui, au moins."],
       ["Nous pouvons tous dormir sur nos deux oreilles : Lance va sauver le monde !"],
-      ["J'ai entendu dire qu'il y avait un Ã©norme monstre en mÃ©tal dans le donjon vers la ville.", "Vous croyez que c'est vrai ?"],
-      ["Quand je mourrai et que je serai un squelette, je voudrais travailler pour le PrÃ©sident.", "J'ai entendu dire que c'Ã©tait une tuerie !"],
-      ["Lance est cool, mais Stiletto est toujours mon hÃ©roÃ¯ne prÃ©fÃ©rÃ©e."],
-      ["Les monstres peuvent Ãªtre dangereux, mais ils sont aussi notre seule source d'argent...", "C'est un mal pour un bien, je suppose ?"],
-      ["Le hÃ©ros nous protÃ¨ge des monstres, et en retour nous aidons tous le hÃ©ros.", "C'est comme Ã§a que les choses ont toujours Ã©tÃ©."],
-      ["Lance est un hÃ©ros, exactement comme son pÃ¨re, et son grand-pÃ¨re avant lui.", "C'est pas bizarre que les hÃ©ros sont les membres d'une seule famille ?"],
-      ["Le pÃ¨re de Lance, Claymore, avait une #{wave:3,9,0.1}Ã©norme#{reset} Ã©pÃ©e.", "Il Ã©tait gÃ©nial !"],
+      ["J'ai entendu dire qu'il y avait un énorme monstre en métal dans le donjon vers la ville.", "Vous croyez que c'est vrai ?"],
+      ["Quand je mourrai et que je serai un squelette, je voudrais travailler pour le Président.", "J'ai entendu dire que c'était une tuerie !"],
+      ["Lance est cool, mais Stiletto est toujours mon héroïne préférée."],
+      ["Les monstres peuvent être dangereux, mais ils sont aussi notre seule source d'argent...", "C'est un mal pour un bien, je suppose ?"],
+      ["Le héros nous protège des monstres, et en retour nous aidons tous le héros.", "C'est comme ça que les choses ont toujours été."],
+      ["Lance est un héros, exactement comme son père, et son grand-père avant lui.", "C'est pas bizarre que les héros sont les membres d'une seule famille ?"],
+      ["Le père de Lance, Claymore, avait une #{wave:3,9,0.1}énorme#{reset} épée.", "Il était génial !"],
       ["J'avais une maison, avant, mais je pouvais pas payer le loyer de plus en plus cher...", "Donc la banque m'a foutu dehors. C'est la vie, hein ?"],
-      ["Les temps sont durs, mais peut-Ãªtre que le hÃ©ros peut tout arranger Ã  nouveau."],
-      ["Les monstres essayent de nous tuer, le hÃ©ros les tue, prend leur argent et le dÃ©pense...", "...Et l'Ã©conomie marche comme Ã§a !"],
-      ["Mon ami me dit qu'un dauphin l'a attaquÃ© en jetant des Ã©toiles !", "Je sais pas, je trouve qu'il y a anguille sous roche."],
-      ["La vie d'un humble villageois et trÃ¨s certainement une vie facile.", "Enfin, si vous ignorez la menace constante des monstres sanguinaires."],
-      ["Le royaume de ${world.name} a connu des temps difficiles rÃ©cemment...", "Mais je suis sÃ»r que Lance peut aider Ã  rendre les choses commes elles l'Ã©taient avant !"],
-      ["Je suis tombÃ© sur un vieux train rouillÃ© la semaine derniÃ¨re.", "${world.name} avait une voie ferrÃ©e ? Que lui est-il arrivÃ© ?"],
-      ["Ma famille a un vieil adage :", "Si tu essayes de montrer de la #{wave:3,9,0.1}compassion#{reset} Ã  quelqu'un en colÃ¨re, ammÃ¨ne-lui un cadeau !"],
-      ["Il y a une vieille lÃ©gende de ${world.name} qui parle de cendres de phÃ©nix magique, qui aurait le pouvoir de transformer #{wave:3,9,0.1}n'importe quel#{reset} oiseau.", "Mais pour Ãªtre honnÃªte, je n'ai pas vu beaucoup d'oiseaux ces dernier jours."]
+      ["Les temps sont durs, mais peut-être que le héros peut tout arranger à nouveau."],
+      ["Les monstres essayent de nous tuer, le héros les tue, prend leur argent et le dépense...", "...Et l'économie marche comme ça !"],
+      ["Mon ami me dit qu'un dauphin l'a attaqué en jetant des étoiles !", "Je sais pas, je trouve qu'il y a anguille sous roche."],
+      ["La vie d'un humble villageois et très certainement une vie facile.", "Enfin, si vous ignorez la menace constante des monstres sanguinaires."],
+      ["Le royaume de ${world.name} a connu des temps difficiles récemment...", "Mais je suis sûr que Lance peut aider à rendre les choses commes elles l'étaient avant !"],
+      ["Je suis tombé sur un vieux train rouillé la semaine dernière.", "${world.name} avait une voie ferrée ? Que lui est-il arrivé ?"],
+      ["Ma famille a un vieil adage :", "Si tu essayes de montrer de la #{wave:3,9,0.1}compassion#{reset} à quelqu'un en colère, ammène-lui un cadeau !"],
+      ["Il y a une vieille légende de ${world.name} qui parle de cendres de phénix magique, qui aurait le pouvoir de transformer #{wave:3,9,0.1}n'importe quel#{reset} oiseau.", "Mais pour être honnête, je n'ai pas vu beaucoup d'oiseaux ces dernier jours."]
     ],
 
     "bear" : [
