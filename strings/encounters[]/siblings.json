@@ -1,54 +1,54 @@
 {
   "introducePotter" : [
-    "H-hello! My name's Potter.",
-    "I c-concoct potions for a living."
+    "B-bonjour ! Je m'appelle Potter.",
+    "Je c-concocte des potions."
   ],
   "introduceTunley" : [
-    "And I'm Tunley, Potter's younger brother.",
-    "I design fashionable tunics! My works are always in high demand among discerning adventurers!"
+    "Et je suis Tunley, le plus jeune frère de Potter.",
+    "Je crée des tuniques à la mode ! Elles sont toujours très demandées par les aventuriers exigeants !"
   ],
   "startQuest" : [
-    "We just moved into this place to open a store, except...",
-    "Our sister, Tressa, is essential to our business plan and she's just wandered off!",
-    "Please help us find her again!"
+    "Nous venons d'emménager ici pour ouvrir une boutique, mais...",
+    "Nous avons absolument besoin de notre s÷ur Tressa pour notre business plan et elle vient juste de partir on ne sait où !",
+    "Aidez-nous à la retrouver, s'il vous plait !"
   ],
   "firstHint" : [
-    "Last I heard, she was helping some shady fellow run a hallucination-based game in a cave.",
-    "Do you know anyone like that?"
+    "Aux dernières nouvelles, elle aidait un type louche à lancer un jeu basé sur des hallucinations dans une grotte.",
+    "Vous connaissez quelqu'un comme ça ?"
   ],
   "thanksForFindingTressa" : [
-    "Thanks for finding our sister! We're hopeless without her business smarts."
+    "Merci de nous avoir aidé à retrouver notre s÷ur ! Nous étions désespérés sans son sens des affaires."
   ],
   "tressaThanks" : [
-    "What do you want ${player.name}?"
+    "Vous voulez quoi ${player.name} ?"
   ],
 
   "tressaDungeon": {
     "intro": [
-      "You're the one my brothers sent to find me, aren't you?",
-      "Well, I've got everything I need to open the store now.",
-      "Do you want to know our secret?",
-      "Potions and tunics work by the same rules, at a fundamental level.",
-      "That's how I'm able to craft tunics from potions.",
-      "Here's a copy of our patent, if you're curious."
+      "Vous êtes celle que mes frères a envoyé pour me retrouver, c'est ça ?",
+      "Bah, j'ai tout ce qu'il faut pour ouvrir la boutique, maintenant.",
+      "Vous voulez connaître notre secret ?",
+      "Les potions et les tuniques obéissent aux mêmes règles, à un niveau fondamental.",
+      "C'est comme ça que je peux fabriquer des tuniques à partir de potions.",
+      "Tenez, une copie de notre brevet, si vous êtes curieuse."
     ],
     "comeWith": [
-      "I'm heading back to the store. Want to come with me?"
+      "Je retourne à la boutique. Vous voulez venir avec moi ?"
     ],
-    "comeWithConfirm": "Return to the Status Effect Store?"
+    "comeWithConfirm": "Retourner à la boutique d'effets de statuts ?"
   },
 
-  "buyPotions" : "What can I d-do for you, ${player.name}?",
-  "buyTunics" : "Come to check out our latest works?",
+  "buyPotions" : "Qu'est-ce que je p-peux faire pour vous, ${player.name} ?",
+  "buyTunics" : "Vous venez voir nos dernières créations ?",
 
   "crafting" : {
     "intro" : [
-      "I can make you a new tunic that has the same effect as one of your potions.",
-      "It costs $100, and I'll need one potion, and a tunic that you don't want any more."
+      "Je peux vous faire une nouvelle tunique qui a le même effet que l'une de vos potions.",
+      "Ça coûte 100$, et j'aurais besoin d'une potion, et d'une tunique que vous ne voulez plus."
     ],
-    "chooseTunic" : "Choose tunic to give up",
-    "choosePotion" : "Choose potion to apply",
-    "confirm" : "This will make a ${0} Tunic. Proceed?",
-    "alreadyHave" : "You already have the tunic this would make."
+    "chooseTunic" : "Choisissez une tunique à abandonner",
+    "choosePotion" : "Choisissez une potion à appliquer",
+    "confirm" : "Cela fera une tunique de ${0}. Continuer ?",
+    "alreadyHave" : "Vous avez déjà la tunique que vous voulez faire."
   }
 }

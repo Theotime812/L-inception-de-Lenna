@@ -1,13 +1,13 @@
 {
   "damageGoods" : [
-    "HÃ© ! N'abÃ®mez pas la marchandise !",
-    "Ne me forcez pas Ã  vous frapper !",
-    "Je ne mets rien dans ces trucs, de toute faÃ§on..."
+    "Hé ! N'abîmez pas la marchandise !",
+    "Ne me forcez pas à vous frapper !",
+    "Je ne mets rien dans ces trucs, de toute façon..."
   ],
 
   "humanDialogue" : [
     "Ne m'en voulez pas si vous ne pouvez rien acheter. C'est juste l'inflation.",
-    "DÃ©pÃªchez-vous de vous dÃ©cider avant que je ne refasse faillite.",
+    "Dépêchez-vous de vous décider avant que je ne refasse faillite.",
     "Vous voulez acheter quelque chose pour que ma famille ne meure pas de faim ?"
   ],
   "bearDialogue" : [
