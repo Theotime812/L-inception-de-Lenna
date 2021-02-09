@@ -1,0 +1,65 @@
+{
+  "itemGiver" : {
+    "new" : [
+      "J'ai trouvé ceci par terre. Vous avez l'air d'en avoir besoin !"
+    ],
+    "old" : [
+      "Alors, est-ce que c'était utile ?"
+    ]
+  },
+
+  "potionSeller" : {
+    "dialogue" : [
+      "Psst. Hé, besoin de potions ?"
+    ],
+    "potionDescription" : "Une potion avec un effet inconnu."
+  },
+
+  "tunicSeller" : {
+    "dialogue" : [
+      "Vous êtes intéressée par des tuniques moitié-prix ?",
+      "Elles n'ont aucun problème. Je dois juste m'en débarasser rapidement, si vous voyez de ce que je veux dire."
+    ],
+    "tunicDescription" : "Une tunique avec un effet inconnu."
+  },
+
+  "dialogue" : {
+    "human" : [
+      ["Ce pauvre Lance ne parle plus depuis que ses parents sont morts."],
+      ["L'Ancien a élevé Lance pour qu'il devienne le prochain grand héros !"],
+      ["Je sais que vivre dans une grotte n'est pas glamour, mais l'Ancien a son propre chez-lui, au moins."],
+      ["Nous pouvons tous dormir sur nos deux oreilles : Lance va sauver le monde !"],
+      ["J'ai entendu dire qu'il y avait un énorme monstre en métal dans le donjon vers la ville.", "Vous croyez que c'est vrai ?"],
+      ["Quand je mourrai et que je serai un squelette, je voudrais travailler pour le Président.", "J'ai entendu dire que c'était une tuerie !"],
+      ["Lance est cool, mais Stiletto est toujours mon héroïne préférée."],
+      ["Les monstres peuvent être dangereux, mais ils sont aussi notre seule source d'argent...", "C'est un mal pour un bien, je suppose ?"],
+      ["Le héros nous protège des monstres, et en retour nous aidons tous le héros.", "C'est comme ça que les choses ont toujours été."],
+      ["Lance est un héros, exactement comme son père, et son grand-père avant lui.", "C'est pas bizarre que les héros sont les membres d'une seule famille ?"],
+      ["Le père de Lance, Claymore, avait une #{wave:3,9,0.1}énorme#{reset} épée.", "Il était génial !"],
+      ["J'avais une maison, avant, mais je pouvais pas payer le loyer de plus en plus cher...", "Donc la banque m'a foutu dehors. C'est la vie, hein ?"],
+      ["Les temps sont durs, mais peut-être que le héros peut tout arranger à nouveau."],
+      ["Les monstres essayent de nous tuer, le héros les tue, prend leur argent et le dépense...", "...Et l'économie marche comme ça !"],
+      ["Mon ami me dit qu'un dauphin l'a attaqué en jetant des étoiles !", "Je sais pas, je trouve qu'il y a anguille sous roche."],
+      ["La vie d'un humble villageois et très certainement une vie facile.", "Enfin, si vous ignorez la menace constante des monstres sanguinaires."],
+      ["Le royaume de ${world.name} a connu des temps difficiles récemment...", "Mais je suis sûr que Lance peut aider à rendre les choses commes elles l'étaient avant !"],
+      ["Je suis tombé sur un vieux train rouillé la semaine dernière.", "${world.name} avait une voie ferrée ? Que lui est-il arrivé ?"],
+      ["Ma famille a un vieil adage :", "Si tu essayes de montrer de la #{wave:3,9,0.1}compassion#{reset} à quelqu'un en colère, ammène-lui un cadeau !"],
+      ["Il y a une vieille légende de ${world.name} qui parle de cendres de phénix magique, qui aurait le pouvoir de transformer #{wave:3,9,0.1}n'importe quel#{reset} oiseau.", "Mais pour être honnête, je n'ai pas vu beaucoup d'oiseaux ces dernier jours."]
+    ],
+
+    "bear" : [
+      ["Not liking shoes, I prefer to go bear-footed."],
+      ["Everyone's opening bank accounts, but I just can't stand the Chairman.", "He's unbearable."],
+      ["I'm a #{font:bold}fur#{reset}vent supporter of the Prince!"],
+      ["What's your name, little one?", "${player.name}? It's nice to meet you, ${player.name}!"],
+      ["Many folk have blind faith in the bank and its Chairman, but...", "I don't trust that pernicious penny pincher!"],
+      ["I saw a tiny rock fall from the sky the other day!", "Where was it? I, uh, can't remember."],
+      ["Have you met Rupert?", "He forges the greatest weapons in the land with his #{wave:3,9,0.1}bear#{reset} hands!"],
+      ["The caves of ${world.name} give me the creeps....", "You can go down one ladder, and then up another, and end up miles away!", "They don't make #{wave:3,9,0.1}sense#{reset}!"],
+      ["The bear community has been circulating some concerning rumours recently...", "Supposedly, a pernicious human girl has been breaking into bear homes to sleep!"],
+      ["Are the rumours true?", "Is there really a human girl breaking into bear's homes just to sleep on their beds?!"],
+      ["#{wave:3,9,0.1}Anyone#{reset} can see the error of their ways, human.", "They just need to be shown enough #{font:bold}compassion#{reset}."],
+      ["Some folks are saying that the ${world.name} bank has a surprisingly low withdraw limit.", "I #{wave:3,9,0.1}wonder#{reset} what would happen if you tried to take too much money out...?"]
+    ]
+  }
+}
