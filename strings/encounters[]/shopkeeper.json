@@ -1,20 +1,20 @@
 {
   "damageGoods" : [
-    "Hey! Don't damage the goods!",
-    "Don't make me hit you!",
-    "Well, I don't actually keep anything in those anyway..."
+    "Hé ! N'abîmez pas la marchandise !",
+    "Ne me forcez pas à vous frapper !",
+    "Je ne mets rien dans ces trucs, de toute façon..."
   ],
 
   "humanDialogue" : [
-    "Don't blame me if you can't afford anything. That's just inflation.",
-    "Hurry up and decide before I go bankrupt again.",
-    "Wanna buy something and save my family from starvation?"
+    "Ne m'en voulez pas si vous ne pouvez rien acheter. C'est juste l'inflation.",
+    "Dépêchez-vous de vous décider avant que je ne refasse faillite.",
+    "Vous voulez acheter quelque chose pour que ma famille ne meure pas de faim ?"
   ],
   "bearDialogue" : [
-    "Welcome to Andres the Bear's Emporium."
+    "Bienvenue au magasin de l'ours Andres."
   ],
 
   "impossible" : [
-    "What is this sorcery? How did you get so much money?"
+    "Quelle est cette sorcellerie ? Comment avez-vous pu avoir autant d'argent ?"
   ]
 }
