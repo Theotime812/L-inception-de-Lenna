@@ -40,7 +40,7 @@
       },
       {
         "type": "text",
-        "text": "Developed by Bytten Studio",
+        "text": "Développé par Bytten Studio",
         "position": [0, 32],
         "origin": "topcenter",
         "transparent": true
@@ -67,7 +67,7 @@
 
       {
         "type": "text",
-        "text": "Back",
+        "text": "Retour",
         "action": "back",
         "selectable": true,
         "selected": true,
