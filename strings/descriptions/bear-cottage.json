@@ -1,16 +1,16 @@
 {
   "bookshelves" : [
     [
-      "It's the tale of Jack and the Beanstalk!"
+      "C'est le conte de Jack et le Haricot magique !"
     ],
     [
-      "It's the tale of the Three Little Pigs!"
+      "C'est le conte des Trois Petits Cochons !"
     ]
   ],
   "book" : [
-    "It's the tale of Tom Thumb!"
+    "C'est l'histoire de Tom Pouce !"
   ],
   "picture" : [
-    "Hey, it's a nice picture of the family having a picnic in the woods."
+    "Hé, c'est une belle photo de la famille en train de faire un pique-nique dans les bois."
   ]
 }

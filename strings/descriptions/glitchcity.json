@@ -1,21 +1,21 @@
 {
   "schoolSign" : [
-    "\u0091 School >"
+    "\u0091 École >"
   ],
   "librarySign" : [
-    "< Library \u0091"
+    "< Bibliothèque \u0091"
   ],
   "caveSign" : [
-    "\u0091 Old fart's cave >"
+    "\u0091 Cave du vieux schnoque >"
   ],
   "palaceSign" : [
-    "< Palace \u0091"
+    "< Palais \u0091"
   ],
   "hotelSign" : [
-    "Glitch City Inn\nCheap rooms!"
+    "Hôtel de Glitch City\nChambres pas chères !"
   ],
   "generatorSign" : [
-    "Glitch City Power Generator\n#{font:bold}DANGER - UNSTABLE CODE#{reset}"
+    "Groupe électrogène de Glitch City\n#{font:bold}DANGER - CODE INSTABLE#{reset}"
   ],
 
   "houses" : {
