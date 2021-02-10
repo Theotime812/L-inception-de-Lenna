@@ -1,7 +1,0 @@
-{
-  "background": "/menus/gameover-background.png",
-  "backgroundOffset": [-16, 0],
-  "music": "game_over",
-
-  "top": 48
-}

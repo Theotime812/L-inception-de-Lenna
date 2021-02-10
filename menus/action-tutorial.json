@@ -33,7 +33,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Action Controls",
+        "text": "Contrôles",
         "font" : "bold",
         "selectable": false,
         "position" : [16, 12],
@@ -41,19 +41,19 @@
       },
       {
         "type" : "text",
-        "text" : "Active Item 1  - ${key.action_x}",
+        "text" : "Objet actif 1  - ${key.action_x}",
         "position" : [8, 10],
         "origin" : "previous"
       },
       {
         "type" : "text",
-        "text" : "Active Item 2  - ${key.action_y}",
+        "text" : "Objet actif 2  - ${key.action_y}",
         "position" : [0, 4],
         "origin" : "previous"
       },
       {
         "type" : "text",
-        "text" : "Active Item 3  - ${key.action_b}",
+        "text" : "Objet actif 4 3  - ${key.action_b}",
         "position" : [0, 4],
         "origin" : "previous"
       }

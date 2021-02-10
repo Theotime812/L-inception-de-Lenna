@@ -31,7 +31,7 @@
     "children": [
       {
         "type": "text",
-        "text": "#{font:bold}Level Select",
+        "text": "#{font:bold}Sélection du niveau",
         "position": [24, 16],
         "origin": "topleft"
       },
@@ -39,7 +39,7 @@
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon0:default",
-          "text": "Level 1"
+          "text": "Niveau 1"
         },
         "overrides" : {
           "position" : [0, 8]
@@ -49,70 +49,70 @@
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon1:default",
-          "text": "Level 2"
+          "text": "Niveau 2"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon2:default",
-          "text": "Level 3"
+          "text": "Niveau 3"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon3:default",
-          "text": "Level 4"
+          "text": "Niveau 4"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon4:default",
-          "text": "Level 5"
+          "text": "Niveau 5"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon5:default",
-          "text": "Level 6"
+          "text": "Niveau 6"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon6:default",
-          "text": "Level 7"
+          "text": "Niveau 7"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon7:default",
-          "text": "Level 8"
+          "text": "Niveau 8"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-palace:default",
-          "text": "Palace"
+          "text": "Palais"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "scene:*-dungeon9:default",
-          "text": "#{glitch:true}Level 9"
+          "text": "#{glitch:true}Niveau 9"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "cancel",
-          "text": "Cancel"
+          "text": "Annuler"
         },
         "overrides": {
           "predicate": "enableCancel"
