@@ -1,22 +1,22 @@
 {
   "bookcase" : [
-    "A bookcase full of dusty, incomprehensible volumes."
+    "Une bibliothèque pleine de volumes poussiéreux et incompréhensibles."
   ],
   "bedroomLetter" : [
-    "It's a letter to Paige from someone called Maxwell.",
-    "He's complaining about a new lab assistant causing trouble."
+    "C'est une lettre pour Paige de quelqu'un nommé Maxwell.",
+    "Il se plaint d'un nouvel assistant de laboratoire causant des problèmes."
   ],
   "diary" : [
-    "It's Paige's diary. She wouldn't want me to touch this."
+    "C'est le journal de Paige. Elle ne voudrait pas que j'y touche."
   ],
   "bedroomSign" : [
-    "Private!"
+    "Privé !"
   ],
   "backBook1" : [
-    "It's a romance novel about a librarian who falls in love with an eldritch abomination!",
-    "Seems unlikely."
+    "C'est un roman à l'eau de rose sur une bibliothécaire tombant amoureuse d'une abomination surnaturelle !",
+    "Improbable."
   ],
   "backBook2" : [
-    "It's a tale of two friends who go on a journey to defeat evil."
+    "C'est l'histoire de deux amis qui partent à l'aventure pour vaincre le mal."
   ]
 }
