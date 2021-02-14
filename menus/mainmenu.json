@@ -60,7 +60,7 @@
         "instance": "option",
         "parameters": {
           "action": "newgame",
-          "text": "Nouvelle partie"
+          "text": "Nouv. partie"
         }
       },
       {
@@ -74,7 +74,7 @@
         "instance": "option",
         "parameters": {
           "action": "artStyle",
-          "text": "Style graphique"
+          "text": "Style"
         }
       },
       {
