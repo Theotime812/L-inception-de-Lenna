@@ -1,10 +1,10 @@
 {
-  "bat" : "Bruce is licking blood from his lips.",
+  "bat" : "Bruce lèche le sang sur ses lèvres.",
   "chicken" : "Henrietta looks clucking mad.",
-  "phoenix" : "Henrietta looks like she's about to fly off the handle!",
-  "pumpkin" : "Gourdon is grinning.",
+  "phoenix" : "Henrietta pète le feu !",
+  "pumpkin" : "Gourdon fait une grimace.",
   
-  "startedFollowing" : "${0} started following you!",
-  "chickenStartedFollowing" : "${0} the chicken started following you!",
-  "foundWhistle" : "Oh! ${0} was carrying something..."
+  "startedFollowing" : "${0} commence à vous suivre !",
+  "chickenStartedFollowing" : "${0} la poule commence à vous suivre !",
+  "foundWhistle" : "Oh ! ${0} tient quelque chose..."
 }
