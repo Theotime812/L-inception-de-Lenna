@@ -12,7 +12,7 @@
     }
   },
 
-  "windowRegion": [224, -32, 128, 256],
+  "windowRegion": [184, -32, 148, 256],
   "windowPadding": 8,
   "drawWindow": true,
   
@@ -36,8 +36,8 @@
 
   "root": {
     "type": "container",
-    "position": [218, 0],
-    "size": [102, 192],
+    "position": [178, 0],
+    "size": [142, 192],
     "children": [
       {
         "type": "text",
