@@ -37,7 +37,7 @@
     "fortitude" : [ "Le Pouvoir de Courage : le symbole du héros élu de chaque génération." ],
     "wealth" : ["Le Pouvoir de Fortune : gardé comme capital par la plus grande compagnie de services financiers du monde, La Corporation SARL."],
     "broken" : ["Cette statue est trop abîmée pour que la plaque soit lisible."],
-    "brokenCrown" : ["Hmm. Quelqu'un a cassé cette statue."],
+    "brokenCrown" : ["Hum. Quelqu'un a cassé cette statue."],
     "truth" : [ "Le Pouvoir de Vérité : le plus puissant des quatre dissipe les illusions jetées par les corrompus et les mauvais." ]
   },
   "deadGuard" : [

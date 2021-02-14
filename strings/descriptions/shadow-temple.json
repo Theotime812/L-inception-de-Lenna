@@ -1,23 +1,23 @@
 {
-  "exterior-sign": "#{font:creepy}Shadow Temple\nEnter at your own peril.",
+  "exterior-sign": "#{font:creepy}Temple de l'Ombre\nEntrez à vos risques et périls.",
   
   "writing" : [
     [
-      "#{font:creepy}One final challenge awaits the Hero of Fortitude."
+      "#{font:creepy}Un dernier défi attend le Héros du Courage."
     ],
     [
-      "#{font:creepy}Overcome the darkness within, or perish by its hands."
+      "#{font:creepy}Vainquez vos ténèbres intérieures, ou périssez de ses mains."
     ],
     [
-      "There's writing here, but it's too eroded to read."
+      "Il y a un message, mais le mur est trop érodé pour pouvoir le lire."
     ]
   ],
   
-  "stained-glass" : "It's a stained glass window showing two men fighting at the end of time.",
+  "stained-glass" : "C'est un vitrail représentant deux hommes se combattant à la fin des temps.",
   
   "power-slot" : {
-    "initial" : "There's a slot for an item here...",
-    "activate-question" : "Insert the Power of Fortitude?",
-    "after" : "You're not thinking of sealing me away again, are you?"
+    "initial" : "Il y a un emplacement pour un objet ici...",
+    "activate-question" : "Insérer le Pouvoir de Courage ?",
+    "after" : "Tu ne vas pas m'enfermer à nouveau, n'est-ce pas ?"
   }
 }
