@@ -1,0 +1,79 @@
+{
+  "exteriorSigns" : [
+    ["Palais de ${world.name}","Entrée sur invitation uniquement."],
+    "Plongée interdite."
+  ],
+  "bookshelves" : [
+    ["Des piles de livres sur les finances de royaumes."],
+    ["Un livre détaille l'histoire du Royaume de ${world.name}.", "Financer une armée pour protéger les citoyens des Archanges rendit la famille royale recouverte de dettes..."],
+    ["Ces étagères sont pleines de factures et de reçus."],
+    ["Des rangées et des rangées de registres comptables... Le nombre est de plus en plus grand... euh, petit au fur et à mesure que vous regardez."],
+    ["Il y a une lettre du Président.", "Il a promis un meilleur salaire aux gardes du palais s'ils travaillent pour lui."],
+    ["Il y a une pile de livres sur le règne d'Edgar et d'Allen."],
+    ["\"Nécromancie pour les débutants\""]
+  ],
+  "notes" : [
+    ["\"Note à moi-même : rembourser le Président...\""],
+    ["Cela ressemble à une liste de courses."]
+  ],
+  "computer" : [
+    ["Il y a des notes pour le calcul du salaire des gardes du palais.", "Le dernier nombre de la colonne est écrit en rouge.", "Le prince n'avait pas les moyens de payer les gardes pour le défendre de son créditeur..."]
+  ],
+  "painting" : [
+    ["C'est un tableau représentant deux hommes se combattant à la fin des temps."],
+    ["C'est une peinture impressionniste. Impressionnant !"],
+    ["Une magnifique ÷vre de pixel art..."],
+    ["Malgré les apparences, il n'y a pas réellement de tableau ici, juste un dessin au marqueur sur le mur."]
+  ],
+  "stainedglass" : [
+    ["C'est un vitrail représentant deux hommes se combattant à la fin des temps."]
+  ],
+  "signpost" : [
+    ["Hors service"],
+    ["La crypte doit être verrouillée tout le temps."],
+    ["^ Pièce Sécurisée"]
+  ],
+  "statue" : {
+    "fortitude" : [ "Le Pouvoir de Courage : le symbole du héros élu de chaque génération." ],
+    "wealth" : ["Le Pouvoir de Fortune : gardé comme capital par la plus grande compagnie de services financiers du monde, La Corporation SARL."],
+    "broken" : ["Cette statue est trop abîmée pour que la plaque soit lisible."],
+    "brokenCrown" : ["Hum. Quelqu'un a cassé cette statue."],
+    "truth" : [ "Le Pouvoir de Vérité : le plus puissant des quatre dissipe les illusions jetées par les corrompus et les mauvais." ]
+  },
+  "deadGuard" : [
+    "Il ne bouge plus."
+  ],
+  "deadPrince" : [
+    "Ce n'était pas censé arriver..."
+  ],
+  "deadLance" : [
+    "Ce n'était pas censé arriver..."
+  ],
+  "twinsSign" : [
+    "\"Jumeaux Monarques Edgar et Allen - aussi dévoués à la protection de toute vie qu'ils ne l'étaient l'un à l'autre.\""
+  ],
+  "lanceGrave" : [
+    "\"RIP Lance le Héros\""
+  ],
+  "princeGrave" : [
+    "\"Ci-gît le Prince Daniel\""
+  ],
+  "edgarGrave" : [
+    "\"Roi Edgar, manque cruellement à son frère adoré\""
+  ],
+  "allenGrave" : [
+    "\"Roi Allen, r'pose en paix\""
+  ],
+  "otherGraves" : [
+    ["\"Ci-gît le corps de la Princesse Beach.\nElle avait de belles côtes.\""],
+    ["\"Pierre tombale volontairement laissée vierge.\""],
+    ["\"RIP Reine Rime\nNoyée à l'aquagym.\""],
+    ["\"King Les\nThe Les said, the better.\""],
+    ["\"King George\nDied when he over-engorged.\""],
+    ["\"Queen Josephine\nGot stuck in a mining machine.\""]
+  ],
+
+  "chairmanFood" : [
+    "La nourriture est encore chaude. Le Président ne doit pas être loin."
+  ]
+}

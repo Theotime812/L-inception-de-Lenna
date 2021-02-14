@@ -1,0 +1,16 @@
+{
+  "bookshelves" : [
+    [
+      "C'est le conte de Jack et le Haricot magique !"
+    ],
+    [
+      "C'est le conte des Trois Petits Cochons !"
+    ]
+  ],
+  "book" : [
+    "C'est l'histoire de Tom Pouce !"
+  ],
+  "picture" : [
+    "Hé, c'est une belle photo de la famille en train de faire un pique-nique dans les bois."
+  ]
+}
