@@ -115,7 +115,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "fullscreen",
-          "text": "Plein √©cran",
+          "text": "Plein Ècran",
           "value": {"$":"fullscreen"}
         }
       },
@@ -131,7 +131,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "camera",
-          "text": "Mouvement de la cam√©ra",
+          "text": "Mouvements camÈra",
           "value" : {"$":"camera"}
         }
       },
@@ -139,7 +139,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "screenshake",
-          "text": "Tremblements de l'√©cran",
+          "text": "Tremblements",
           "value" : {"$":"screenshake"}
         }
       },
@@ -147,7 +147,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "gendbg",
-          "text": "Effets de g√©n√©ration",
+          "text": "Effets de gÈnÈration",
           "value": {"$":"gendbg"}
         }
       },
@@ -171,7 +171,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "storyTimer",
-          "text": "Chronom√®tre du mode histoire",
+          "text": "Chrono mode histoire",
           "value": {"$":"storyTimer"}
         }
       },
@@ -179,7 +179,7 @@
         "instance": "stateOption",
         "parameters": {
           "action": "privacyMode",
-          "text": "Mode de confidentialit√©",
+          "text": "Mode confidentialitÈ",
           "value": {"$":"privacyMode"}
         }
       },
