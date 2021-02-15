@@ -52,7 +52,7 @@
           "instance": "option",
           "parameters": {
             "action": "loadgame",
-            "text": "Continue"
+            "text": "Continuer"
           }
         }
       },
@@ -60,7 +60,7 @@
         "instance": "option",
         "parameters": {
           "action": "newgame",
-          "text": "New Game"
+          "text": "Nouvelle partie"
         }
       },
       {
@@ -74,21 +74,21 @@
         "instance": "option",
         "parameters": {
           "action": "artStyle",
-          "text": "Art Style"
+          "text": "Style graphique"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "about",
-          "text": "About"
+          "text": "À propos"
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "quit",
-          "text": "Quit"
+          "text": "Quitter"
         }
       }
     ]

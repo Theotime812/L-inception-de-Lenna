@@ -33,7 +33,7 @@
     "children": [
       {
         "type": "text",
-        "text": "System Controls",
+        "text": "Contrôles système",
         "font" : "bold",
         "selectable": false,
         "position" : [16, 12],
@@ -41,7 +41,7 @@
       },
       {
         "type" : "text",
-        "text" : "Map            - ${key.map}",
+        "text" : "Carte          - ${key.map}",
         "position" : [8, 10],
         "origin" : "previous"
       },

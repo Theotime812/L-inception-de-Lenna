@@ -2,7 +2,7 @@
   "background": "/menus/telephonedialer-background.png",
   "backgroundOffset": [-16, 0],
   "drawWindow": false,
-  "title": "Telephone Dialer",
+  "title": "Clavier téléphonique",
 
   "keyboard": "/menus/telephonekeys.json",
 
@@ -170,7 +170,7 @@
       {
         "instance": "option",
         "parameters": {
-          "text": " \u008c Call ",
+          "text": " \u008c Appel",
           "action": "ok"
         },
         "overrides": {
@@ -181,7 +181,7 @@
       {
         "instance": "option",
         "parameters": {
-          "text": " Back   ",
+          "text": " Retour ",
           "action": "back"
         }
       }

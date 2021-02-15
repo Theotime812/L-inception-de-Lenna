@@ -87,7 +87,7 @@
       },
       {
         "type": "text",
-        "text": "${key.text_confirm} - OK        ${key.text_cancel} - Cancel",
+        "text": "${key.text_confirm} - Valider   ${key.text_cancel} - Annuler",
         "font": "tiny",
         "centered": true,
         "selectable": false,

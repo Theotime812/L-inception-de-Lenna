@@ -83,7 +83,7 @@
         "var": "_",
         "body": {
           "type": "text",
-          "text": "View Leaderboard",
+          "text": "Meilleurs scores",
           "font": "tiny",
           "action": "leaderboard",
           "actionTypes": ["confirm", "left-release", "right-release"],

@@ -33,7 +33,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Movement Controls",
+        "text": "Contrôles de déplacement",
         "font" : "bold",
         "selectable": false,
         "position" : [16, 12],
@@ -41,25 +41,25 @@
       },
       {
         "type" : "text",
-        "text" : "Up    - Press ${key.UP}",
+        "text" : "Haut   - Touche ${key.UP}",
         "position" : [8, 10],
         "origin" : "previous"
       },
       {
         "type" : "text",
-        "text" : "Down  - Press ${key.DOWN}",
+        "text" : "Bas    - Touche ${key.DOWN}",
         "position" : [0, 4],
         "origin" : "previous"
       },
       {
         "type" : "text",
-        "text" : "Left  - Press ${key.LEFT}",
+        "text" : "Gauche - Touche ${key.LEFT}",
         "position" : [0, 4],
         "origin" : "previous"
       },
       {
         "type" : "text",
-        "text" : "Right - Press ${key.RIGHT}",
+        "text" : "Droite - Touche ${key.RIGHT}",
         "position" : [0, 4],
         "origin" : "previous"
       }
