@@ -81,12 +81,12 @@
     "headraniel" : {
       "paige" : [
         ["laughing", "Quel combat qui #{wave:3,9,0.1}décoiffe#{reset} !"],
-        ["laughing", "Et tout ce qui lui est passé par la #{wave:3,9,0.1}tête#{reset} !"]],
+        ["laughing", "Quand je pense à tout ce qui lui est passé par la #{wave:3,9,0.1}tête#{reset} !"]],
       "shadow" : [["evilgrin", "Tu sais #{wave:3,9,0.1}lancer#{reset} une fête, ${player.name} !"]]
     },
     "sandolphin" : {
       "paige" : [["laughing", "C'était intense ! Je suis en #{wave:3,9,0.1}nage#{reset} !"]],
-      "shadow" : [["evilgrin", "I think we found our true #{wave:3,9,0.1}porpoise#{reset}, ${player.name}!"]]
+      "shadow" : [["evilgrin", "Tu l'as rendu muet comme une #{wave:3,9,0.1}carpe#{reset}, ${player.name} !"]]
     },
     "tentaluchus" : {
       "paige" : [
