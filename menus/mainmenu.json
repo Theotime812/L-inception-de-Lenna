@@ -29,7 +29,7 @@
       "action": {"$":"action"},
       "selectable": true,
       "selectionIndicator": [">", -16, 0],
-      "position": [0, 4],
+      "position": {"$":"position"},
       "origin": "previous"
     }
   },
@@ -52,7 +52,8 @@
           "instance": "option",
           "parameters": {
             "action": "loadgame",
-            "text": "Continuer"
+            "text": "Continuer",
+            "position": [0,4]
           }
         }
       },
@@ -60,35 +61,40 @@
         "instance": "option",
         "parameters": {
           "action": "newgame",
-          "text": "Nouvelle partie"
+          "text": "Nouvelle\npartie",
+          "position": [0,4]
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "options",
-          "text": "Options"
+          "text": "Options",
+          "position": [0,20]
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "artStyle",
-          "text": "Style graphique"
+          "text": "Style\ngraphique",
+          "position": [0,4]
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "about",
-          "text": "À propos"
+          "text": "À propos",
+          "position": [0,20]
         }
       },
       {
         "instance": "option",
         "parameters": {
           "action": "quit",
-          "text": "Quitter"
+          "text": "Quitter",
+          "position": [0,4]
         }
       }
     ]
