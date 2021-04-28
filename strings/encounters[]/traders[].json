@@ -1,21 +1,21 @@
 {
   "intro": [
     [
-      "I'm so thirsty I can't move.",
-      "Can you bring me a bottle of fresh water?"
+      "J'ai tellement soif que je ne peux pas bouger.",
+      "Est-ce que vous pourriez m'apporter une bouteille d'eau fraîche ?"
     ],
     [
-      "My desk is so disorganized!",
-      "I can't find anything I'm looking for!",
-      "Help me out will you?"
+      "Mon bureau est tellement désordonné !",
+      "Je n'arrive jamais à trouver ce que je cherche !",
+      "Vous pouvez m'aider ?"
     ],
     [
-      "Creepy Jack, legitimate small business owner, at your \"service\".",
-      "Well, I would be if I had the necessary materials.",
-      "Bring me a pen and I will reward you handsomely, kid."
+      "Jack le Louche, propriétaire légitime d'une petite entreprise, à votre \"service\".",
+      "Ou du moins, je le serais si j'avais les fournitures nécessaire.",
+      "Apporte-moi un stylo et je te récompenserai généreusement, gamine."
     ],
     [
-      "Psst... Hey.",
+      "Psst... Hé.",
       "My investment business is in dire straits. I need some property quick or I'll lose everything.",
       "If you help me out, I'll let you have this briefcase and #{font:bold}all#{font:default} its contents."
     ],

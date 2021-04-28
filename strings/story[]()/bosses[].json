@@ -58,7 +58,7 @@
     ],
 
     "CRIME_FILE" : [
-      "Je combat pour la justice !",
+      "Je combats pour la justice !",
       "Je ne suis pas opposé à la justice. Laissez-moi vous aider.",
       "Vous feriez ça ?"
     ]
@@ -91,8 +91,8 @@
     "tentaluchus" : {
       "paige" : [
         ["blushing", "C'est vrai, j'aime les tentacules."],
-        ["smiling", "C'est une blague, on se #{wave:3,9,0.1}calamar#{reset} !"]],
-      "paige-lenna" : [["laughing", "Haha, you're #{wave:3,9,0.1}kraken#{reset} me up!"]],
+        ["smiling", "Mais non, je rigole !"]],
+      "paige-lenna" : [["laughing", "Haha, on se #{wave:3,9,0.1}calamar#{reset} !"]],
       "shadow" : [["evilgrin", "Je n'arrive pas à croire que ce soit déjà fini. C'était#{wave:3,9,0.1}explosif !"]]
     },
     "hatasiah" : {

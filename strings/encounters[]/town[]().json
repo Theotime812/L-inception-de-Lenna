@@ -49,17 +49,17 @@
 
     "bear" : [
       ["Not liking shoes, I prefer to go bear-footed."],
-      ["Everyone's opening bank accounts, but I just can't stand the Chairman.", "He's unbearable."],
+      ["Tout le monde ouvre des comptes en banque, mais je ne peux pas supporter le Président.", "C'est un ours mal léché."],
       ["I'm a #{font:bold}fur#{reset}vent supporter of the Prince!"],
       ["What's your name, little one?", "${player.name}? It's nice to meet you, ${player.name}!"],
       ["Many folk have blind faith in the bank and its Chairman, but...", "I don't trust that pernicious penny pincher!"],
-      ["I saw a tiny rock fall from the sky the other day!", "Where was it? I, uh, can't remember."],
+      ["J'ai vu une minuscule pierre tomber du ciel, l'autre jour !", "Où elle était ? Elle... euh... je ne m'en souviens pas."],
       ["Have you met Rupert?", "He forges the greatest weapons in the land with his #{wave:3,9,0.1}bear#{reset} hands!"],
-      ["The caves of ${world.name} give me the creeps....", "You can go down one ladder, and then up another, and end up miles away!", "They don't make #{wave:3,9,0.1}sense#{reset}!"],
+      ["Les cavernes de ${world.name} me font froid dans le dos...", "On peut descendre par une échelle, remonter par une autre, et se retrouver des kilomètres plus loin !", "Elles n'ont aucun #{wave:3,9,0.1}sens#{reset} !"],
       ["The bear community has been circulating some concerning rumours recently...", "Supposedly, a pernicious human girl has been breaking into bear homes to sleep!"],
-      ["Are the rumours true?", "Is there really a human girl breaking into bear's homes just to sleep on their beds?!"],
-      ["#{wave:3,9,0.1}Anyone#{reset} can see the error of their ways, human.", "They just need to be shown enough #{font:bold}compassion#{reset}."],
-      ["Some folks are saying that the ${world.name} bank has a surprisingly low withdraw limit.", "I #{wave:3,9,0.1}wonder#{reset} what would happen if you tried to take too much money out...?"]
+      ["Est-ce que les rumeurs sont vraies ?", "Est-ce qu'une fille humaine rentre vraiment chez des ours uniquement pour dormir dans leur lit ?!"],
+      ["#{wave:3,9,0.1}N'importe qui#{reset} peut voir ses torts, humaine.", "On doit juste leur montrer assez de #{font:bold}compassion#{reset}."],
+      ["Certains disent que la banque de ${world.name} a un plafond de retrait surprenamment bas.", "Je me demande se qu'il se passerait si quelqu'un essayait de retirer trop d'argent...?"]
     ]
   }
 }
