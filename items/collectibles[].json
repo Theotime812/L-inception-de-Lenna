@@ -3,8 +3,8 @@
     "collectible": [
       {
         "id": "METEOR",
-        "name": "Meteor",
-        "description": "It came from outer space. If you gather a bunch of these, maybe you can make something!",
+        "name": "Météorite",
+        "description": "Elle vient de l'espace. Si vous en récupérez un certain nombre, vous pourrez peut-être en faire quelque chose !",
         "argumentKind": "collectible",
         "charge": -1,
         "important": true,
@@ -19,13 +19,13 @@
         "pickUpSound": "pickup_generic",
         "config": {
           "collectibleKind": "METEOR",
-          "collectionName": "Meteors",
+          "collectionName": "Météorites",
         }
       },
       {
         "id": "LIBRARY_BOOK",
-        "name": "Library Book",
-        "description": "Now you have ${collectibles.count+1.LIBRARY_BOOK} of them!",
+        "name": "Livre de la bibliothèque",
+        "description": "Ça vous en fait ${collectibles.count+1.LIBRARY_BOOK} !",
         "argumentKind": "collectible",
         "charge": 0,
         "important": true,
@@ -41,13 +41,13 @@
         "pickUpSound": "pickup_generic",
         "config": {
           "collectibleKind": "LIBRARY_BOOK",
-          "collectionName": "Library Books"
+          "collectionName": "Livres de la bibliothèque"
         }
       },
       {
         "id": "MARSHMALLOW",
         "name": "Marshmallow",
-        "description": "It's a soft round lump of sugar, egg and gelatin!",
+        "description": "C'est un morceau mou et rond de sucre, d'÷uf et de gélatine !",
         "argumentKind": "collectible",
         "charge": 1,
         "important": true,
@@ -69,8 +69,8 @@
       },
       {
         "id": "VENTRICLE",
-        "name": "Archangel Ventricle",
-        "description": "It's a quarter of a heart! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "name": "Ventricule d'Archange",
+        "description": "C'est un quart de c÷ur ! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
         "argumentKind": "collectible",
         "charge": 1,
         "important": true,
@@ -90,8 +90,8 @@
       },
       {
         "id": "ATRIUM",
-        "name": "Archangel Atrium",
-        "description": "It's a quarter of a heart! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "name": "Atrium d'Archange",
+        "description": "C'est un quart de c÷ur ! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
         "argumentKind": "collectible",
         "charge": 1,
         "important": true,
@@ -111,8 +111,8 @@
       },
       {
         "id": "SCHOOL_LIBRARY_BOOK",
-        "name": "Missing Library Book",
-        "description": "This book hasn't been properly checked out from the library.",
+        "name": "Livre manquant de la bibliothèque",
+        "description": "L'emprunt de ce livre n'a pas été correctement enregistré.",
         "argumentKind": "collectible",
         "charge": 0,
         "important": true,
@@ -128,7 +128,7 @@
         "pickUpSound": "pickup_generic",
         "config": {
           "collectibleKind": "LIBRARY_BOOK",
-          "collectionName": "Library Books"
+          "collectionName": "Livres de la bibliothèque"
         }
       }
     ]
