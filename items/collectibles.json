@@ -70,7 +70,7 @@
       {
         "id": "VENTRICLE",
         "name": "Ventricule d'Archange",
-        "description": "C'est un quart de c÷ur ! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "description": "C'est un quart de c÷ur ! Vous avez ${collectibles.count+1.VENTRICLE}/4 éléments requis pour un c÷ur supplémentaire !",
         "argumentKind": "collectible",
         "charge": 1,
         "important": true,
@@ -91,7 +91,7 @@
       {
         "id": "ATRIUM",
         "name": "Atrium d'Archange",
-        "description": "C'est un quart de c÷ur ! Now you have ${collectibles.count+1.VENTRICLE} of 4 parts needed for an extra heart!",
+        "description": "C'est un quart de c÷ur ! Vous avez ${collectibles.count+1.VENTRICLE}/4 éléments requis pour un c÷ur supplémentaire !",
         "argumentKind": "collectible",
         "charge": 1,
         "important": true,

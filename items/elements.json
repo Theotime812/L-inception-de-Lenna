@@ -3,7 +3,7 @@
     "element": [
       {
         "id": "ELEMENT0",
-        "name": "Memory #0",
+        "name": "Souvenir n°0",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -22,7 +22,7 @@
       },
       {
         "id": "ELEMENT1",
-        "name": "Memory #1",
+        "name": "Souvenir n°1",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -41,7 +41,7 @@
       },
       {
         "id": "ELEMENT2",
-        "name": "Memory #2",
+        "name": "Souvenir n°2",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -60,7 +60,7 @@
       },
       {
         "id": "ELEMENT3",
-        "name": "Memory #3",
+        "name": "Souvenir n°3",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -79,7 +79,7 @@
       },
       {
         "id": "ELEMENT4",
-        "name": "Memory #4",
+        "name": "Souvenir n°4",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -98,7 +98,7 @@
       },
       {
         "id": "ELEMENT5",
-        "name": "Memory #5",
+        "name": "Souvenir n°5",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -117,7 +117,7 @@
       },
       {
         "id": "ELEMENT6",
-        "name": "Memory #6",
+        "name": "Souvenir n°6",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
@@ -136,7 +136,7 @@
       },
       {
         "id": "ELEMENT7",
-        "name": "Memory #7",
+        "name": "Souvenir n°7",
         "important": true,
         "dropsFromSky": false,
         "tutorial": "inventory",
