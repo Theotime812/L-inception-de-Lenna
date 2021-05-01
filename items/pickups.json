@@ -3,7 +3,7 @@
     "pickups": [
       {
         "id": "HEART",
-        "name": "Heart",
+        "name": "C÷eur",
         "charge": 1,
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
         "sprite": {
@@ -16,7 +16,7 @@
       },
       {
         "id": "COIN",
-        "name": "Coin",
+        "name": "Pièce",
         "charge": -1,
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
         "sprite": {
@@ -32,10 +32,10 @@
       },
       {
         "id": "MONEY10",
-        "name": "$10",
+        "name": "10$",
         "charge": -1,
         "important": true,
-        "description": "Not bad!",
+        "description": "Pas mal !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
         "sprite": {
           "size": [0.5, 1.0],
@@ -50,10 +50,10 @@
       },
       {
         "id": "MONEY20",
-        "name": "$20",
+        "name": "20$",
         "charge": -1,
         "important": true,
-        "description": "Nice!",
+        "description": "Sympa !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
         "sprite": {
           "size": [0.5, 1.0],
@@ -68,10 +68,10 @@
       },
       {
         "id": "MONEY50",
-        "name": "$50",
+        "name": "50$",
         "charge": -1,
         "important": true,
-        "description": "Way to go!",
+        "description": "Super !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
         "sprite": {
           "size": [0.5, 1.0],
@@ -86,10 +86,10 @@
       },
       {
         "id": "MONEY100",
-        "name": "$100",
+        "name": "100$",
         "charge": -1,
         "important": true,
-        "description": "Hooray!",
+        "description": "Hourra !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "MONEY"],
         "sprite": {
           "size": [0.5, 1.0],
@@ -104,9 +104,9 @@
       },
       {
         "id": "HEART_CONTAINER",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "This heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Ce c÷ur augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -120,9 +120,9 @@
       },
       {
         "id": "HEART_CONTAINER0",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "This heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Ce c÷ur augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -136,9 +136,9 @@
       },
       {
         "id": "HEART_CONTAINER1",
-        "name": "Archangel Heart",
+        "name": "C÷eur d'archange",
         "charge": 1,
-        "description": "This monster heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Le c÷ur de ce monstre augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -152,9 +152,9 @@
       },
       {
         "id": "HEART_CONTAINER2",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Eating this heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Manger ce c÷ur augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -168,9 +168,9 @@
       },
       {
         "id": "HEART_CONTAINER3",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Taking this monster's heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Prendre le c÷ur de ce monstre augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -184,9 +184,9 @@
       },
       {
         "id": "HEART_CONTAINER4",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Eating the monster's heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Manger ce c÷ur augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -200,9 +200,9 @@
       },
       {
         "id": "HEART_CONTAINER5",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Eating the monster's beating heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Manger le c÷ur battant de ce monstre augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -216,9 +216,9 @@
       },
       {
         "id": "HEART_CONTAINER6",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Consuming the monster's still-beating heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Consommer le c÷ur encore battant de ce monstre augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -232,9 +232,9 @@
       },
       {
         "id": "HEART_CONTAINER7",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "Devouring the angel's warm, #{glitch:true}pulsing#{glitch:false} heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Dévorer le c÷ur chaud et #{glitch:true}battant#{glitch:false} de l'ange augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -248,9 +248,9 @@
       },
       {
         "id": "DELVIN_HEART",
-        "name": "Delvin's Heart",
+        "name": "C÷ur de Delvin",
         "charge": 1,
-        "description": "Eating Delvin's corrupted heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Manger le c÷ur corrompu de Delvin augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -264,9 +264,9 @@
       },
       {
         "id": "VENTRICLE_HEART",
-        "name": "Archangel Heart",
+        "name": "C÷ur d'archange",
         "charge": 1,
-        "description": "The patchwork heart permanently increases your #{font:bold}fortitude#{font:reset}!",
+        "description": "Ce c÷ur reconstitué augmente définitivement votre #{font:bold}santé#{font:reset} !",
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART_CONTAINER"],
         "important": true,
         "sprite": {
@@ -280,8 +280,8 @@
       },
       {
         "id": "CHARCOAL_HEART",
-        "name": "Chairman's Heart",
-        "description": "Eating the chairman's rotten heart permanently increases your #{font:bold}disdain#{font:reset}.",
+        "name": "C÷ur du Président",
+        "description": "Manger le c÷ur pourri du président augmente définitivement votre #{font:bold}dédain#{font:reset}.",
         "important": true,
         "charge": 1,
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
@@ -297,7 +297,7 @@
       {
         "id": "PIZZA",
         "name": "Pizza",
-        "description": "Eating this pizza has fully restored your health!",
+        "description": "Cette pizza a entièrement restauré votre santé !",
         "important": true,
         "charge": 1,
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],
@@ -315,8 +315,8 @@
       },
       {
         "id": "SWORD_PIZZA",
-        "name": "Stone",
-        "description": "It was a #{glitch:true}stone!",
+        "name": "Pierre",
+        "description": "C'était une #{glitch:true}pierre !",
         "important": true,
         "charge": 0,
         "script": ["net.bytten.inceptus.logic.item.ItemLogic", "HEART"],

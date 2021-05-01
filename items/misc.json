@@ -5,7 +5,7 @@
       "name": "Potion",
       "category": "potion",
       "important": true,
-      "description": "Drink it to find out what it does!",
+      "description": "Buvez-la pour connaître son effet !",
       "dropsFromSky": true,
       "argumentKind": "consumable",
       "defaultArgument": 1,
@@ -22,11 +22,11 @@
     },
     {
       "id": "TUNIC",
-      "name": "Tunic",
+      "name": "Tunique",
       "category": "tunic",
       "tutorial": "tunics_potions",
       "important": true,
-      "description": "Wear it to find out what it does!",
+      "description": "Portez-la pour découvrir son effet !",
       "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ALT_TUNIC"],
       "sprite": {
         "size": [0.5, 1.0],
@@ -39,11 +39,11 @@
     },
     {
       "id": "DEFAULT_TUNIC",
-      "name": "${player.name}'s Tunic",
+      "name": "Tunique de ${player.name}",
       "category": "tunic",
       "tutorial": "tunics_potions",
       "important": true,
-      "description": "Wear it to find out what it does!",
+      "description": "Portez-la pour découvrir son effet !",
       "script": ["net.bytten.inceptus.logic.item.ItemLogic", "ALT_TUNIC"],
       "sprite": {
         "size": [0.5, 1.0],
@@ -56,8 +56,8 @@
     },
     {
       "id": "PHOENIX_ASH",
-      "name": "Phoenix Ash",
-      "description": "You're not sure, but you think it might affect certain animals.",
+      "name": "Cendre de phénix",
+      "description": "Vous n'êtes pas sûr, mais vous pensez qu'elle peut avoir une influence sur certains animaux.",
       "category": "companion",
       "charge": 1,
       "important": true,
