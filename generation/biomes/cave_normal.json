@@ -1,6 +1,6 @@
 {
   "base": "default",
-  "name": "Cave",
+  "name": "Caverne",
   "music": "cave",
   "coverScreenEdges": true,
   "cave": true,

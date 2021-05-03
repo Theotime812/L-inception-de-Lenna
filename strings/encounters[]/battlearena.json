@@ -4,10 +4,10 @@
     "Envie de participer à un test bêta d'un jeu que je suis en train de développer ?",
     "Il se base sur un truc qu'un inconnu m'a montré l'autre jour, avec des potions et des tuniques...",
     "Le jeu s'appelle #{wave:4,9,0.2}#{font:bold}Hallucinatory Battle Arena#{reset}!",
-    "Entrez dans la grotte pour y jouer ! Survivez pendant 9 vagues et gagnez une récompense spéciale !"
+    "Entrez dans la caverne pour y jouer ! Survivez pendant 9 vagues et gagnez une récompense spéciale !"
   ],
   "duringQuest": [
-    "Entrez dans la grotte pour commencer à jouer.",
+    "Entrez dans la caverne pour commencer à jouer.",
     "Survivez pendant 9 vagues pour une récompense spéciale !"
   ],
   "questComplete1": [
@@ -19,13 +19,13 @@
   ],
   "questComplete3": [
     "Avec cette tunique, vous pouvez jouer à Hallucinatory Battle Arena n'importe quand.",
-    "Elle fonctionne partout, mais cette grotte est un excellent endroit pour l'utiliser.",
+    "Elle fonctionne partout, mais cette caverne est un excellent endroit pour l'utiliser.",
     "Vous ne vous êtes arrêtée qu'au début. Après 9 manches, les ennemis deviennent de plus en plus forts !"
   ],
   "afterQuest": [
     "Envie de rejouer ?",
     "Mettez simplement cette Tunique Hallucinogène que je vous ai donnée !",
-    "Elle fonctionne partout, mais cette grotte est un excellent endroit pour l'utiliser."
+    "Elle fonctionne partout, mais cette caverne est un excellent endroit pour l'utiliser."
   ],
   "tressaNumber": [
     "Oh, vous cherchez quelqu'un qui travaille avec des potions et des tuniques ?",
