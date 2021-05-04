@@ -2,7 +2,7 @@
   "background": "/menus/telephonedialer-background.png",
   "backgroundOffset": [-16, 0],
   "drawWindow": false,
-  "title": "Clavier tÃ©lÃ©phonique",
+  "title": "Clavier téléphonique",
 
   "keyboard": "/menus/telephonekeys.json",
 

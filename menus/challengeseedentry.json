@@ -2,7 +2,7 @@
   "inherit": "/menus/textentry.json",
 
   "lengthLimit": 20,
-  
+
   "transition" : {
     "type" : "slide",
     "direction" : "n",
@@ -11,7 +11,7 @@
 
   "templates" : {
     "title" : {
-      "text" : "Seed du dÃ©fi"
+      "text" : "Seed du défi"
     }
   }
 }

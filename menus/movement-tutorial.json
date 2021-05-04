@@ -22,10 +22,10 @@
     "direction" : "s",
     "duration" : 0.1
   },
-  
+
   "templates": {
   },
-  
+
   "root": {
     "type": "container",
     "position": [48, 48],
@@ -33,7 +33,7 @@
     "children": [
       {
         "type": "text",
-        "text": "ContrÃ´les de dÃ©placement",
+        "text": "Contrôles de déplacement",
         "font" : "bold",
         "selectable": false,
         "position" : [16, 12],
